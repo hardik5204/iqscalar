@@ -1,6 +1,32 @@
-# Getting Started with Create React App
+# IQScalar - Professional IQ Testing Platform
+
+🧠 **Discover your cognitive potential with scientifically-designed IQ tests**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## 🌟 Features
+
+- **Professional IQ Testing**: Scientifically validated cognitive assessments
+- **Practice Mode**: Sharpen your skills with practice questions
+- **Daily Quizzes**: Keep your mind sharp with daily challenges
+- **Instant Results**: Get detailed insights into your intellectual strengths
+- **Certificate Generation**: Download professional IQ certificates
+- **User Authentication**: Secure account management with Clerk
+- **Dark/Light Theme**: Modern UI with theme switching
+- **Responsive Design**: Optimized for all devices
+
+## 🚀 Live Demo
+
+**Production:** [https://iqscalar-jmumz2h3r-hardikbhardwaj56-8181s-projects.vercel.app](https://iqscalar-jmumz2h3r-hardikbhardwaj56-8181s-projects.vercel.app)
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React 19, Tailwind CSS
+- **Authentication**: Clerk
+- **Charts**: Chart.js
+- **PDF Generation**: jsPDF
+- **Deployment**: Vercel
+- **Version Control**: Git/GitHub
 
 ## Available Scripts
 
