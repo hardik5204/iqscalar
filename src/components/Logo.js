@@ -36,7 +36,7 @@ const Logo = ({ className = "w-8 h-8", showText = true, size = "default" }) => {
       {/* Logo Image Container */}
       <div className={`${getSizeClasses()} relative flex-shrink-0`}>
         <img 
-          src="/logo-iq.png" 
+          src={`${process.env.PUBLIC_URL}/logo-iq.png`}
           alt="IQScalar Logo" 
           className="w-full h-full object-contain rounded-lg shadow-sm"
         />
