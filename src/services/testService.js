@@ -1,4 +1,5 @@
 // Test Service for managing IQ test questions and generating non-repetitive tests
+import iqQuestions from '../data/iqQuestions.js';
 
 class TestService {
   constructor() {
@@ -7,12 +8,10 @@ class TestService {
     this.loadQuestions();
   }
 
-  async loadQuestions() {
+  loadQuestions() {
     try {
-      const response = await fetch('/IQ_Test_Questions.json');
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const data = await response.json();
-      const normalized = this.normalizeIQFormat(data);
+      // Use bundled questions instead of fetching external JSON
+      const normalized = this.normalizeIQFormat({ iq_questions: iqQuestions });
       if (normalized && normalized.length > 0) {
         this.questions = normalized;
         // Deduplicate by id just in case
@@ -22,14 +21,14 @@ class TestService {
           seen.add(q.id);
           return true;
         });
-        console.log(`Loaded ${this.questions.length} questions from /IQ_Test_Questions.json`);
+        console.log(`Loaded ${this.questions.length} questions from bundled data`);
         return;
       }
     } catch (error) {
-      console.warn('Failed to load /IQ_Test_Questions.json:', error);
+      console.warn('Failed to load bundled questions:', error);
     }
 
-    // Fallback to minimal built-in if the main file fails
+    // Fallback to minimal built-in if the bundled data fails
     console.error('Falling back to built-in questions');
     this.questions = this.getFallbackQuestions();
   }

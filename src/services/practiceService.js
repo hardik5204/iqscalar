@@ -1,4 +1,5 @@
 import userService from './userService';
+import practiceQuestions from '../data/practiceQuestions.js';
 
 class PracticeService {
   constructor() {
@@ -6,16 +7,12 @@ class PracticeService {
     this.userPracticeHistory = new Map();
   }
 
-  // Load practice questions from JSON file
-  async loadPracticeQuestions() {
+  // Load practice questions from bundled data
+  loadPracticeQuestions() {
     try {
-      const response = await fetch('/Practice_Questions.json');
-      if (!response.ok) {
-        throw new Error('Failed to load practice questions');
-      }
-      const data = await response.json();
-      this.practiceQuestions = this.normalizePracticeFormat(data.practice_questions);
-      console.log(`Loaded ${this.practiceQuestions.length} practice questions`);
+      // Use bundled questions instead of fetching external JSON
+      this.practiceQuestions = this.normalizePracticeFormat(practiceQuestions);
+      console.log(`Loaded ${this.practiceQuestions.length} practice questions from bundled data`);
       return this.practiceQuestions;
     } catch (error) {
       console.error('Error loading practice questions:', error);
