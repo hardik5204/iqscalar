@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/iqscalar/static/css/main.50a4c695.css",
-    "main.js": "/iqscalar/static/js/main.0885ee28.js",
+    "main.js": "/iqscalar/static/js/main.06c37abf.js",
     "static/js/239.4c2a5490.chunk.js": "/iqscalar/static/js/239.4c2a5490.chunk.js",
     "static/js/977.cd3658da.chunk.js": "/iqscalar/static/js/977.cd3658da.chunk.js",
     "static/js/455.4f63f58a.chunk.js": "/iqscalar/static/js/455.4f63f58a.chunk.js",
     "static/js/453.62bc22b0.chunk.js": "/iqscalar/static/js/453.62bc22b0.chunk.js",
     "index.html": "/iqscalar/index.html",
     "main.50a4c695.css.map": "/iqscalar/static/css/main.50a4c695.css.map",
-    "main.0885ee28.js.map": "/iqscalar/static/js/main.0885ee28.js.map",
+    "main.06c37abf.js.map": "/iqscalar/static/js/main.06c37abf.js.map",
     "239.4c2a5490.chunk.js.map": "/iqscalar/static/js/239.4c2a5490.chunk.js.map",
     "977.cd3658da.chunk.js.map": "/iqscalar/static/js/977.cd3658da.chunk.js.map",
     "455.4f63f58a.chunk.js.map": "/iqscalar/static/js/455.4f63f58a.chunk.js.map",
@@ -16,6 +16,6 @@
   },
   "entrypoints": [
     "static/css/main.50a4c695.css",
-    "static/js/main.0885ee28.js"
+    "static/js/main.06c37abf.js"
   ]
 }
