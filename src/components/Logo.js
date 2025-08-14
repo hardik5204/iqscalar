@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
+import logoImage from '../assets/logo-iq.png';
 
 const Logo = ({ className = "w-8 h-8", showText = true, size = "default" }) => {
+  const [imageError, setImageError] = useState(false);
   const getSizeClasses = () => {
     switch (size) {
       case "small":
@@ -35,11 +37,20 @@ const Logo = ({ className = "w-8 h-8", showText = true, size = "default" }) => {
     <div className={`flex items-center ${showText ? 'space-x-2' : ''} ${className}`}>
       {/* Logo Image Container */}
       <div className={`${getSizeClasses()} relative flex-shrink-0`}>
-        <img 
-          src={`${process.env.PUBLIC_URL}/logo-iq.png`}
-          alt="IQScalar Logo" 
-          className="w-full h-full object-contain rounded-lg shadow-sm"
-        />
+        {!imageError ? (
+          <img 
+            src={logoImage}
+            alt="IQScalar Logo" 
+            className="w-full h-full object-contain rounded-lg shadow-sm"
+            onError={() => setImageError(true)}
+            onLoad={() => console.log('Logo loaded successfully')}
+          />
+        ) : (
+          // Fallback CSS-based logo
+          <div className={`${getSizeClasses()} bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg shadow-sm flex items-center justify-center text-white font-bold`}>
+            <span className="text-xs">IQ</span>
+          </div>
+        )}
         {/* Premium glow effect */}
         <div className="absolute inset-0 bg-gradient-to-r from-blue-400/20 to-purple-400/20 rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
       </div>
