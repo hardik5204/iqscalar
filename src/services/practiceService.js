@@ -1,5 +1,5 @@
 import userService from './userService';
-import practiceQuestions from '../data/practiceQuestions.js';
+import practiceQuestions from '../data/fullPracticeQuestions.js';
 
 class PracticeService {
   constructor() {

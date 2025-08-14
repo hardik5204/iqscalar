@@ -1,5 +1,5 @@
 // Test Service for managing IQ test questions and generating non-repetitive tests
-import iqQuestions from '../data/iqQuestions.js';
+import iqQuestions from '../data/fullIqQuestions.js';
 
 class TestService {
   constructor() {
