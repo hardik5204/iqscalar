@@ -386,8 +386,7 @@ function AppContent() {
                   { name: "Login", id: "login" },
                   { name: "My Account", id: "account" },
                   { name: "Terms of Service", id: "terms" },
-                  { name: "Help Center", id: "contact" },
-                  { name: "Download Certificate", id: "certificate" }
+                  { name: "Help Center", id: "contact" }
                 ].map((link, index) => (
                   <li key={index}>
                     <button 
