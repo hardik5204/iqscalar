@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useAuth, useUser } from '@clerk/clerk-react';
-import { apiService } from '../services/apiService';
+import apiService from '../services/apiService';
 
 const AuthLogger = () => {
   const { isSignedIn, isLoaded } = useAuth();

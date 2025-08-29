@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useUser } from '@clerk/clerk-react';
-import { apiService } from '../services/apiService';
+import apiService from '../services/apiService';
 
 const AuthDashboard = () => {
   const { user } = useUser();

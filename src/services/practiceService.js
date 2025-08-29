@@ -430,6 +430,56 @@ class PracticeService {
         correctIndex: 2,
         explanation: "This is the sequence of triangular numbers. Each number is the sum of consecutive integers starting from 1.",
         source: "fallback"
+      },
+      {
+        id: "fallback_practice_4",
+        category: "Spatial Reasoning",
+        question: "If you fold a piece of paper in half three times, how many layers will you have?",
+        options: ["4 layers", "6 layers", "8 layers", "12 layers"],
+        answerText: "8 layers",
+        correctIndex: 2,
+        explanation: "Each fold doubles the number of layers: 1→2→4→8 layers.",
+        source: "fallback"
+      },
+      {
+        id: "fallback_practice_5",
+        category: "Memory Enhancement",
+        question: "What is the most effective way to remember a list of 10 items?",
+        options: ["Repeat them over and over", "Create a story connecting them", "Write them down once", "Ignore them and hope for the best"],
+        answerText: "Create a story connecting them",
+        correctIndex: 1,
+        explanation: "Creating associations and stories helps encode information more deeply in memory.",
+        source: "fallback"
+      },
+      {
+        id: "fallback_practice_6",
+        category: "Verbal-Logical Reasoning",
+        question: "All mammals have fur. Whales are mammals. Therefore, whales have fur.",
+        options: ["True", "False", "Cannot be determined", "Sometimes true"],
+        answerText: "False",
+        correctIndex: 1,
+        explanation: "This is a logical fallacy. While the premises are generally true, whales are a special case of mammals that don't have fur.",
+        source: "fallback"
+      },
+      {
+        id: "fallback_practice_7",
+        category: "Numerical & Abstract Reasoning",
+        question: "If a train travels 120 km in 2 hours, what is its speed in km/h?",
+        options: ["40 km/h", "60 km/h", "80 km/h", "120 km/h"],
+        answerText: "60 km/h",
+        correctIndex: 1,
+        explanation: "Speed = Distance ÷ Time = 120 km ÷ 2 hours = 60 km/h.",
+        source: "fallback"
+      },
+      {
+        id: "fallback_practice_8",
+        category: "Pattern Recognition",
+        question: "Complete the letter sequence: A, D, G, J, ?",
+        options: ["K", "L", "M", "N"],
+        answerText: "M",
+        correctIndex: 2,
+        explanation: "The pattern skips 2 letters: A (skip B,C) D (skip E,F) G (skip H,I) J (skip K,L) M.",
+        source: "fallback"
       }
     ];
   }
