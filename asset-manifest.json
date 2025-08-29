@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/iqscalar/static/css/main.8dee373e.css",
-    "main.js": "/iqscalar/static/js/main.93fa441e.js",
+    "main.css": "/iqscalar/static/css/main.97711d99.css",
+    "main.js": "/iqscalar/static/js/main.c26de831.js",
     "static/js/239.4c2a5490.chunk.js": "/iqscalar/static/js/239.4c2a5490.chunk.js",
     "static/js/977.cd3658da.chunk.js": "/iqscalar/static/js/977.cd3658da.chunk.js",
     "static/js/455.4f63f58a.chunk.js": "/iqscalar/static/js/455.4f63f58a.chunk.js",
     "static/js/453.62bc22b0.chunk.js": "/iqscalar/static/js/453.62bc22b0.chunk.js",
     "static/media/logo-iq.png": "/iqscalar/static/media/logo-iq.1591a0daa95fd4fb021d.png",
     "index.html": "/iqscalar/index.html",
-    "main.8dee373e.css.map": "/iqscalar/static/css/main.8dee373e.css.map",
-    "main.93fa441e.js.map": "/iqscalar/static/js/main.93fa441e.js.map",
+    "main.97711d99.css.map": "/iqscalar/static/css/main.97711d99.css.map",
+    "main.c26de831.js.map": "/iqscalar/static/js/main.c26de831.js.map",
     "239.4c2a5490.chunk.js.map": "/iqscalar/static/js/239.4c2a5490.chunk.js.map",
     "977.cd3658da.chunk.js.map": "/iqscalar/static/js/977.cd3658da.chunk.js.map",
     "455.4f63f58a.chunk.js.map": "/iqscalar/static/js/455.4f63f58a.chunk.js.map",
     "453.62bc22b0.chunk.js.map": "/iqscalar/static/js/453.62bc22b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dee373e.css",
-    "static/js/main.93fa441e.js"
+    "static/css/main.97711d99.css",
+    "static/js/main.c26de831.js"
   ]
 }
