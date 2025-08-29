@@ -32,20 +32,6 @@ export const practiceQuestions = [
   },
   {
     id: 3,
-    category: "Spatial Reasoning",
-    question_text: "If you have 5 different colored balls, how many different ways can you arrange them in a line?",
-    options: {
-      "A": "25",
-      "B": "60",
-      "C": "120",
-      "D": "240",
-      "E": "360"
-    },
-    answer: "C",
-    explanation: "This is a permutation of 5 distinct items: 5! = 5×4×3×2×1 = 120."
-  },
-  {
-    id: 4,
     category: "Verbal-Logical Reasoning",
     question_text: "Complete the analogy: BOOK is to READING as FORK is to _______?",
     options: {
@@ -59,7 +45,7 @@ export const practiceQuestions = [
     explanation: "A book is used for reading, a fork is used for eating."
   },
   {
-    id: 5,
+    id: 4,
     category: "Numerical & Abstract Reasoning",
     question_text: "If 3 workers can complete a task in 6 hours, how long would it take 9 workers to complete the same task?",
     options: {
@@ -73,7 +59,7 @@ export const practiceQuestions = [
     explanation: "This is an inverse proportion. If 3 workers take 6 hours, then 9 workers (3 times more) will take 1/3 of the time: 6 ÷ 3 = 2 hours."
   },
   {
-    id: 6,
+    id: 5,
     category: "Verbal-Logical Reasoning",
     question_text: "Which word doesn't belong: Apple, Orange, Banana, Carrot",
     options: {
@@ -86,7 +72,7 @@ export const practiceQuestions = [
     explanation: "Carrot is a vegetable, while the others are fruits."
   },
   {
-    id: 7,
+    id: 6,
     category: "Numerical & Abstract Reasoning",
     question_text: "What is the missing number in the sequence: 3, 6, 9, 12, ?",
     options: {
@@ -100,21 +86,7 @@ export const practiceQuestions = [
     explanation: "The sequence increases by 3 each time: 3+3=6, 6+3=9, 9+3=12, 12+3=15."
   },
   {
-    id: 8,
-    category: "Spatial Reasoning",
-    question_text: "How many faces does a cube have?",
-    options: {
-      "A": "4",
-      "B": "6",
-      "C": "8",
-      "D": "12",
-      "E": "24"
-    },
-    answer: "B",
-    explanation: "A cube has 6 faces: top, bottom, front, back, left, and right."
-  },
-  {
-    id: 9,
+    id: 7,
     category: "Verbal-Logical Reasoning",
     question_text: "If all roses are flowers and some flowers are red, which statement is definitely true?",
     options: {
@@ -128,7 +100,7 @@ export const practiceQuestions = [
     explanation: "None of the statements are definitely true. The premises don't establish any necessary connection between roses and red color."
   },
   {
-    id: 10,
+    id: 8,
     category: "Numerical & Abstract Reasoning",
     question_text: "What is 25% of 80?",
     options: {

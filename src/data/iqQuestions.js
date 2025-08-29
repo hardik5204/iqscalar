@@ -74,20 +74,6 @@ export const iqQuestions = [
   },
   {
     id: 6,
-    category: "Spatial & Visual Reasoning",
-    question_text: "Which of the options below completes a 3x3 matrix where the third column is a superposition of the first two? Row 1: (Vertical line) + (Horizontal line) = (Cross). Row 2: (Diagonal \\) + (Diagonal /) = (X). Row 3: (Upward triangle with a dot) + (Upward triangle with a circle) = ?",
-    options: {
-      "A": "A triangle pointing up with a cross inside.",
-      "B": "A triangle pointing down with a dot and a circle inside.",
-      "C": "A triangle pointing up with a dot and a circle inside.",
-      "D": "A triangle pointing down with a cross inside.",
-      "E": "A circle with a triangle inside."
-    },
-    answer: "C",
-    explanation: "In each row, the third figure is a superposition of the first two figures. For Row 3, this means combining a dot and a small circle inside the base shape (an upward triangle)."
-  },
-  {
-    id: 7,
     category: "Numerical & Abstract Reasoning",
     question_text: "In a sequence where each term is the sum of the previous two terms, if the 5th term is 13 and the 7th term is 34, what is the 6th term?",
     options: {
@@ -101,7 +87,7 @@ export const iqQuestions = [
     explanation: "Let the sequence be a, b, c, d, 13, f, 34. Since each term is the sum of the previous two: f = 13 + d and 34 = f + 13. So f = 34 - 13 = 21."
   },
   {
-    id: 8,
+    id: 7,
     category: "Verbal-Logical Reasoning",
     question_text: "All philosophers are thinkers. Some thinkers are writers. Some writers are poets. Which of the following must be true?",
     options: {
@@ -115,7 +101,7 @@ export const iqQuestions = [
     explanation: "None of the statements must be true. The premises only establish overlapping sets but don't guarantee any of the conclusions in options A-D."
   },
   {
-    id: 9,
+    id: 8,
     category: "Numerical & Abstract Reasoning",
     question_text: "If 3 workers can complete a task in 8 days, how many days would it take 6 workers to complete the same task?",
     options: {
@@ -129,7 +115,7 @@ export const iqQuestions = [
     explanation: "This is an inverse proportion problem. If 3 workers take 8 days, then 6 workers (double the workers) will take half the time: 8 ÷ 2 = 4 days."
   },
   {
-    id: 10,
+    id: 9,
     category: "Verbal-Logical Reasoning",
     question_text: "Which word best completes the analogy: EPHEMERAL is to PERMANENT as TRANSIENT is to _______?",
     options: {
@@ -143,21 +129,7 @@ export const iqQuestions = [
     explanation: "Ephemeral means short-lived, and permanent is its opposite. Transient also means short-lived, so its opposite would be enduring (long-lasting)."
   },
   {
-    id: 11,
-    category: "Spatial & Visual Reasoning",
-    question_text: "If you fold a piece of paper in half three times and then make one cut, what is the maximum number of pieces you can create?",
-    options: {
-      "A": "4 pieces",
-      "B": "6 pieces",
-      "C": "8 pieces",
-      "D": "10 pieces",
-      "E": "12 pieces"
-    },
-    answer: "C",
-    explanation: "Each fold doubles the number of layers. After 3 folds, you have 2³ = 8 layers. A single cut through all layers can create up to 8 pieces."
-  },
-  {
-    id: 12,
+    id: 10,
     category: "Numerical & Abstract Reasoning",
     question_text: "What is the next number in the sequence: 2, 6, 12, 20, 30, ?",
     options: {
@@ -171,7 +143,7 @@ export const iqQuestions = [
     explanation: "The differences between consecutive terms are: 4, 6, 8, 10, 12. The next difference should be 12, so 30 + 12 = 42."
   },
   {
-    id: 13,
+    id: 11,
     category: "Verbal-Logical Reasoning",
     question_text: "If all roses are flowers and some flowers are red, which statement is definitely true?",
     options: {
@@ -185,7 +157,7 @@ export const iqQuestions = [
     explanation: "None of the statements are definitely true. The premises don't establish any necessary connection between roses and red color."
   },
   {
-    id: 14,
+    id: 12,
     category: "Numerical & Abstract Reasoning",
     question_text: "A clock shows 3:15. What is the angle between the hour and minute hands?",
     options: {
@@ -197,20 +169,6 @@ export const iqQuestions = [
     },
     answer: "A",
     explanation: "At 3:00, the hour hand is at 90°. In 15 minutes, it moves 15 × 0.5° = 7.5°. The minute hand is at 90°. The angle between them is 7.5°."
-  },
-  {
-    id: 15,
-    category: "Spatial & Visual Reasoning",
-    question_text: "How many different triangles can be formed by connecting any three vertices of a regular hexagon?",
-    options: {
-      "A": "15",
-      "B": "20",
-      "C": "25",
-      "D": "30",
-      "E": "35"
-    },
-    answer: "B",
-    explanation: "A hexagon has 6 vertices. The number of ways to choose 3 vertices is C(6,3) = 6!/(3!×3!) = 20. Each combination forms a unique triangle."
   }
 ];
 

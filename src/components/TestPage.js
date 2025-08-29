@@ -160,9 +160,8 @@ const TestPage = ({ onComplete, questions: providedQuestions, category, isPracti
       case 'Logical Reasoning':
       case 'Verbal-Logical Reasoning':
         return '🧠';
-      case 'spatial_reasoning':
-      case 'Series':
-        return '🔷';
+      case 'Pattern Recognition':
+        return '🧩';
       default:
         return '❓';
     }
@@ -177,8 +176,7 @@ const TestPage = ({ onComplete, questions: providedQuestions, category, isPracti
       case 'Logical Reasoning':
       case 'Verbal-Logical Reasoning':
         return 'from-purple-500 to-pink-500';
-      case 'spatial_reasoning':
-      case 'Series':
+      case 'Pattern Recognition':
         return 'from-green-500 to-emerald-500';
       default:
         return 'from-gray-500 to-gray-600';

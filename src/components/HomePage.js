@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useTheme } from '../contexts/ThemeContext';
 import DailyQuizButton from './DailyQuizButton';
 
-const AnimatedHero = ({ onStartTest }) => {
+const AnimatedHero = ({ onStartTest, onNavigate }) => {
   const { isDarkMode } = useTheme();
   const [isVisible, setIsVisible] = useState(false);
 
@@ -80,6 +80,12 @@ const AnimatedHero = ({ onStartTest }) => {
             Start Free Test Now
           </button>
           <button 
+            onClick={() => onNavigate && onNavigate('learning')}
+            className="btn-premium bg-gradient-to-r from-green-500 to-emerald-600 text-white font-premium font-bold py-3 px-8 rounded-full text-lg shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+          >
+            📚 Start Learning
+          </button>
+          <button 
             onClick={() => document.getElementById('features-section').scrollIntoView({ behavior: 'smooth' })}
             className="btn-premium bg-white/20 backdrop-blur-sm text-[#3498db] border-2 border-[#3498db] font-premium font-bold py-3 px-8 rounded-full text-lg hover:bg-[#3498db] hover:text-white transition-all duration-300 transform hover:scale-105"
           >
@@ -91,7 +97,7 @@ const AnimatedHero = ({ onStartTest }) => {
   );
 };
 
-const HomePage = ({ onStartTest }) => {
+const HomePage = ({ onStartTest, onNavigate }) => {
   const { isDarkMode } = useTheme();
   const [statsValues, setStatsValues] = useState({ tests: 0, accuracy: 0, experience: 0, rating: 0 });
   const [hasAnimated, setHasAnimated] = useState(false);
@@ -152,6 +158,13 @@ const HomePage = ({ onStartTest }) => {
       gradientOverlay: "from-pink-600/30 to-rose-600/40"
     },
     {
+      icon: "📚",
+      title: "Interactive Learning",
+      description: "Master cognitive skills with our comprehensive learning center featuring topic-wise notes, strategies, and practice sessions.",
+      bgColor: "from-green-400 to-emerald-500",
+      gradientOverlay: "from-green-600/30 to-emerald-600/40"
+    },
+    {
       icon: "🔍",
       title: "Detailed Analysis",
       description: "Get comprehensive insights into your cognitive strengths, weaknesses, and personalized recommendations for improvement.",
@@ -175,7 +188,7 @@ const HomePage = ({ onStartTest }) => {
   ];
 
   const facts = [
-    { icon: "🎵", value: "Musical Minds", description: "People who play musical instruments tend to have higher IQ scores and better spatial-temporal reasoning.", bgColor: "from-pink-400 to-rose-500", gradientOverlay: "from-pink-600/30 to-rose-600/40" },
+    { icon: "🎵", value: "Musical Minds", description: "People who play musical instruments tend to have higher IQ scores and better cognitive abilities.", bgColor: "from-pink-400 to-rose-500", gradientOverlay: "from-pink-600/30 to-rose-600/40" },
     { icon: "😂", value: "Humor & IQ", description: "Studies show that people with higher IQ scores are better at understanding and creating humor.", bgColor: "from-blue-400 to-cyan-500", gradientOverlay: "from-blue-600/30 to-cyan-600/40" },
     { icon: "🌙", value: "Night Owls", description: "Research suggests that people with higher IQs tend to stay up later and be more active at night.", bgColor: "from-purple-400 to-violet-500", gradientOverlay: "from-purple-600/30 to-violet-600/40" },
     { icon: "🐱", value: "Cat People", description: "Cat owners tend to score higher on intelligence tests compared to dog owners, according to studies.", bgColor: "from-indigo-400 to-blue-500", gradientOverlay: "from-indigo-600/30 to-blue-600/40" }
@@ -190,7 +203,7 @@ const HomePage = ({ onStartTest }) => {
   return (
     <div>
       <DailyQuizButton />
-      <AnimatedHero onStartTest={onStartTest} />
+      <AnimatedHero onStartTest={onStartTest} onNavigate={onNavigate} />
       
       {/* Premium Features Section */}
       <section id="features-section" className={`py-32 relative overflow-hidden transition-colors duration-300 ${
@@ -220,7 +233,7 @@ const HomePage = ({ onStartTest }) => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-10 max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 max-w-7xl mx-auto">
             {features.map((feature, index) => (
               <div 
                 key={index}
@@ -258,6 +271,16 @@ const HomePage = ({ onStartTest }) => {
                   <div className="font-premium text-white/90 group-hover:text-white font-medium text-base leading-relaxed transition-colors duration-500 text-center max-w-sm mx-auto">
                     {feature.description}
                   </div>
+                  
+                  {/* Learning button for Interactive Learning feature */}
+                  {feature.title === "Interactive Learning" && (
+                    <button
+                      onClick={() => onNavigate && onNavigate('learning')}
+                      className="mt-6 px-6 py-2 bg-white/20 backdrop-blur-sm text-white border-2 border-white/30 rounded-full font-premium font-semibold hover:bg-white/30 hover:border-white/50 transition-all duration-300 transform hover:scale-105"
+                    >
+                      Start Learning
+                    </button>
+                  )}
                   
                   {/* Premium glow line */}
                   <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-white/30 group-hover:bg-white/60 transition-all duration-500 rounded-b-3xl"></div>

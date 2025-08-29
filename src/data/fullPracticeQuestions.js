@@ -32,20 +32,6 @@ export const practiceQuestions = [
   },
   {
     "id": 3,
-    "category": "Spatial Reasoning",
-    "question_text": "If you fold a piece of paper in half three times and then cut a small triangle from the folded edge, how many triangles will you have when you unfold the paper?",
-    "options": {
-      "A": "3",
-      "B": "6",
-      "C": "8",
-      "D": "12",
-      "E": "16"
-    },
-    "answer": "C",
-    "explanation": "Each fold doubles the number of layers. After 3 folds, you have 2³ = 8 layers. When you cut through all layers and unfold, you get 8 identical triangles."
-  },
-  {
-    "id": 4,
     "category": "Verbal-Logical Reasoning",
     "question_text": "All roses are flowers. Some flowers are red. Some roses are white. Which of the following must be true?",
     "options": {
@@ -59,7 +45,7 @@ export const practiceQuestions = [
     "explanation": "Since all roses are flowers and some roses are white, it follows that some white flowers are roses. The other options are not necessarily true based on the given statements."
   },
   {
-    "id": 5,
+    "id": 4,
     "category": "Numerical & Abstract Reasoning",
     "question_text": "If 3 workers can complete a task in 8 hours, how many hours would it take 6 workers to complete the same task?",
     "options": {
@@ -73,7 +59,7 @@ export const practiceQuestions = [
     "explanation": "This is an inverse proportion problem. If 3 workers take 8 hours, then 6 workers (double the workers) will take half the time: 8 ÷ 2 = 4 hours."
   },
   {
-    "id": 6,
+    "id": 5,
     "category": "Pattern Recognition",
     "question_text": "Complete the pattern: 1, 3, 6, 10, 15, ?",
     "options": {
@@ -87,7 +73,7 @@ export const practiceQuestions = [
     "explanation": "This is the sequence of triangular numbers. Each number is the sum of consecutive integers starting from 1: 1, 1+2=3, 1+2+3=6, 1+2+3+4=10, 1+2+3+4+5=15, 1+2+3+4+5+6=21."
   },
   {
-    "id": 7,
+    "id": 6,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Which word is most similar in meaning to 'UBIQUITOUS'?",
     "options": {
@@ -101,21 +87,7 @@ export const practiceQuestions = [
     "explanation": "Ubiquitous means present, appearing, or found everywhere. Commonplace means occurring or found in ordinary practice, which is the closest synonym."
   },
   {
-    "id": 8,
-    "category": "Spatial Reasoning",
-    "question_text": "A cube is painted on all sides and then cut into 27 smaller cubes. How many of the smaller cubes will have exactly 2 painted faces?",
-    "options": {
-      "A": "6",
-      "B": "8",
-      "C": "12",
-      "D": "16",
-      "E": "20"
-    },
-    "answer": "C",
-    "explanation": "A 3x3x3 cube has 12 edges. Each edge will have one cube with exactly 2 painted faces (the middle cube of each edge)."
-  },
-  {
-    "id": 9,
+    "id": 7,
     "category": "Numerical & Abstract Reasoning",
     "question_text": "If x + y = 10 and xy = 24, what is the value of x² + y²?",
     "options": {
@@ -129,7 +101,7 @@ export const practiceQuestions = [
     "explanation": "Use the formula (x + y)² = x² + y² + 2xy. We know x + y = 10 and xy = 24. So 10² = x² + y² + 2(24). 100 = x² + y² + 48. Therefore, x² + y² = 100 - 48 = 52."
   },
   {
-    "id": 10,
+    "id": 8,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Complete the analogy: BOOK is to LIBRARY as MONEY is to _______?",
     "options": {
@@ -143,7 +115,7 @@ export const practiceQuestions = [
     "explanation": "A library is a place where books are stored and managed. Similarly, a bank is a place where money is stored and managed."
   },
   {
-    "id": 11,
+    "id": 9,
     "category": "Pattern Recognition",
     "question_text": "What comes next in the sequence: 2, 4, 8, 16, 32, ?",
     "options": {
@@ -157,21 +129,7 @@ export const practiceQuestions = [
     "explanation": "Each number is multiplied by 2 to get the next number: 2×2=4, 4×2=8, 8×2=16, 16×2=32, 32×2=64."
   },
   {
-    "id": 12,
-    "category": "Spatial Reasoning",
-    "question_text": "If you rotate a square 90 degrees clockwise, then 180 degrees counterclockwise, and finally 270 degrees clockwise, what is the final orientation?",
-    "options": {
-      "A": "Same as original",
-      "B": "Rotated 90° clockwise",
-      "C": "Rotated 180°",
-      "D": "Rotated 270° clockwise",
-      "E": "Rotated 90° counterclockwise"
-    },
-    "answer": "A",
-    "explanation": "90° clockwise + 180° counterclockwise + 270° clockwise = 90° + (-180°) + 270° = 180°. Since a square has 4-fold symmetry, a 180° rotation brings it back to its original orientation."
-  },
-  {
-    "id": 13,
+    "id": 10,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Which of the following is the best definition of 'PARADOX'?",
     "options": {
@@ -185,7 +143,7 @@ export const practiceQuestions = [
     "explanation": "A paradox is a statement that seems to contradict itself or go against common sense, but may actually be true or reveal a deeper truth."
   },
   {
-    "id": 14,
+    "id": 11,
     "category": "Numerical & Abstract Reasoning",
     "question_text": "A train travels 120 km in 2 hours. If it maintains the same speed, how long will it take to travel 300 km?",
     "options": {
@@ -199,7 +157,7 @@ export const practiceQuestions = [
     "explanation": "Speed = distance/time = 120/2 = 60 km/h. Time = distance/speed = 300/60 = 5 hours."
   },
   {
-    "id": 15,
+    "id": 12,
     "category": "Pattern Recognition",
     "question_text": "Complete the pattern: 1, 4, 9, 16, 25, ?",
     "options": {
@@ -213,7 +171,7 @@ export const practiceQuestions = [
     "explanation": "This is the sequence of perfect squares: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36."
   },
   {
-    "id": 16,
+    "id": 13,
     "category": "Verbal-Logical Reasoning",
     "question_text": "If all A are B, and some B are C, which of the following must be true?",
     "options": {
@@ -227,21 +185,7 @@ export const practiceQuestions = [
     "explanation": "None of the statements must be true. The premises don't provide enough information to determine the relationship between A and C."
   },
   {
-    "id": 17,
-    "category": "Spatial Reasoning",
-    "question_text": "How many different ways can you arrange 3 books on a shelf?",
-    "options": {
-      "A": "3",
-      "B": "6",
-      "C": "9",
-      "D": "12",
-      "E": "15"
-    },
-    "answer": "B",
-    "explanation": "This is a permutation problem. The number of ways to arrange 3 distinct items is 3! = 3×2×1 = 6."
-  },
-  {
-    "id": 18,
+    "id": 14,
     "category": "Numerical & Abstract Reasoning",
     "question_text": "If 20% of a number is 40, what is 60% of the same number?",
     "options": {
@@ -255,7 +199,7 @@ export const practiceQuestions = [
     "explanation": "If 20% = 40, then 100% = 40 ÷ 0.2 = 200. Therefore, 60% = 200 × 0.6 = 120."
   },
   {
-    "id": 19,
+    "id": 15,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Which word is most opposite in meaning to 'CONCISE'?",
     "options": {
@@ -269,7 +213,7 @@ export const practiceQuestions = [
     "explanation": "Concise means brief and to the point. Verbose means using more words than necessary, which is the opposite."
   },
   {
-    "id": 20,
+    "id": 16,
     "category": "Pattern Recognition",
     "question_text": "What comes next in the sequence: 1, 3, 6, 10, 15, 21, ?",
     "options": {
@@ -283,21 +227,7 @@ export const practiceQuestions = [
     "explanation": "This is the sequence of triangular numbers. Each number is the sum of consecutive integers: 1, 1+2=3, 1+2+3=6, etc. The next number is 1+2+3+4+5+6+7=28."
   },
   {
-    "id": 21,
-    "category": "Spatial Reasoning",
-    "question_text": "If you have a rectangular piece of paper that is 8 inches by 6 inches, what is the maximum number of 2-inch by 2-inch squares you can cut from it?",
-    "options": {
-      "A": "8",
-      "B": "10",
-      "C": "12",
-      "D": "14",
-      "E": "16"
-    },
-    "answer": "C",
-    "explanation": "You can fit 4 squares along the 8-inch side and 3 squares along the 6-inch side. 4 × 3 = 12 squares."
-  },
-  {
-    "id": 22,
+    "id": 17,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Complete the analogy: DOCTOR is to HOSPITAL as TEACHER is to _______?",
     "options": {
@@ -311,7 +241,7 @@ export const practiceQuestions = [
     "explanation": "A hospital is where doctors work. Similarly, a school is where teachers work."
   },
   {
-    "id": 23,
+    "id": 18,
     "category": "Numerical & Abstract Reasoning",
     "question_text": "If a rectangle has a perimeter of 20 units and an area of 24 square units, what are its dimensions?",
     "options": {
@@ -325,7 +255,7 @@ export const practiceQuestions = [
     "explanation": "Let the dimensions be x and y. Then 2x + 2y = 20 (perimeter) and xy = 24 (area). From the perimeter, x + y = 10. The numbers that add to 10 and multiply to 24 are 4 and 6."
   },
   {
-    "id": 24,
+    "id": 19,
     "category": "Pattern Recognition",
     "question_text": "Complete the pattern: 2, 6, 12, 20, 30, 42, ?",
     "options": {
@@ -339,7 +269,7 @@ export const practiceQuestions = [
     "explanation": "The differences between consecutive terms are: 4, 6, 8, 10, 12. The next difference is 14. 42 + 14 = 56."
   },
   {
-    "id": 25,
+    "id": 20,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Which of the following words is most similar in meaning to 'DILIGENT'?",
     "options": {
@@ -353,21 +283,7 @@ export const practiceQuestions = [
     "explanation": "Diligent means having or showing care and conscientiousness in one's work or duties, which is synonymous with hardworking."
   },
   {
-    "id": 26,
-    "category": "Spatial Reasoning",
-    "question_text": "A cube has a volume of 64 cubic units. What is the length of one edge?",
-    "options": {
-      "A": "2",
-      "B": "4",
-      "C": "6",
-      "D": "8",
-      "E": "16"
-    },
-    "answer": "B",
-    "explanation": "Volume of a cube = edge³. If volume = 64, then edge³ = 64. Taking the cube root: edge = 4."
-  },
-  {
-    "id": 27,
+    "id": 21,
     "category": "Numerical & Abstract Reasoning",
     "question_text": "If 15% of a number is 45, what is 25% of the same number?",
     "options": {
@@ -381,7 +297,7 @@ export const practiceQuestions = [
     "explanation": "If 15% = 45, then 100% = 45 ÷ 0.15 = 300. Therefore, 25% = 300 × 0.25 = 75."
   },
   {
-    "id": 28,
+    "id": 22,
     "category": "Verbal-Logical Reasoning",
     "question_text": "All mammals are animals. Some animals are pets. Some mammals are dogs. Which of the following must be true?",
     "options": {
@@ -395,7 +311,7 @@ export const practiceQuestions = [
     "explanation": "Since all mammals are animals and some mammals are dogs, it follows that some animals are dogs."
   },
   {
-    "id": 29,
+    "id": 23,
     "category": "Pattern Recognition",
     "question_text": "What comes next in the sequence: 1, 2, 4, 8, 16, 32, ?",
     "options": {
@@ -409,357 +325,7 @@ export const practiceQuestions = [
     "explanation": "Each number is multiplied by 2: 1×2=2, 2×2=4, 4×2=8, 8×2=16, 16×2=32, 32×2=64."
   },
   {
-    "id": 30,
-    "category": "Spatial Reasoning",
-    "question_text": "If you have 5 different colored balls, how many different ways can you arrange them in a line?",
-    "options": {
-      "A": "25",
-      "B": "60",
-      "C": "120",
-      "D": "240",
-      "E": "360"
-    },
-    "answer": "C",
-    "explanation": "This is a permutation of 5 distinct items: 5! = 5×4×3×2×1 = 120."
-  },
-  {
-    "id": 31,
-    "category": "Verbal-Logical Reasoning",
-    "question_text": "Which word best completes the analogy: HAPPY is to SAD as JOY is to _______?",
-    "options": {
-      "A": "Sorrow",
-      "B": "Anger",
-      "C": "Fear",
-      "D": "Love",
-      "E": "Peace"
-    },
-    "answer": "A",
-    "explanation": "Happy and sad are opposites. Joy and sorrow are also opposites."
-  },
-  {
-    "id": 32,
-    "category": "Numerical & Abstract Reasoning",
-    "question_text": "A car travels 180 km in 3 hours. What is its average speed in km/h?",
-    "options": {
-      "A": "45",
-      "B": "50",
-      "C": "55",
-      "D": "60",
-      "E": "65"
-    },
-    "answer": "D",
-    "explanation": "Average speed = total distance ÷ total time = 180 ÷ 3 = 60 km/h."
-  },
-  {
-    "id": 33,
-    "category": "Pattern Recognition",
-    "question_text": "Complete the pattern: 3, 6, 11, 18, 27, ?",
-    "options": {
-      "A": "36",
-      "B": "38",
-      "C": "40",
-      "D": "42",
-      "E": "44"
-    },
-    "answer": "B",
-    "explanation": "The differences between consecutive terms are: 3, 5, 7, 9. The next difference is 11. 27 + 11 = 38."
-  },
-  {
-    "id": 34,
-    "category": "Verbal-Logical Reasoning",
-    "question_text": "Which of the following is the best definition of 'METAPHOR'?",
-    "options": {
-      "A": "A comparison using 'like' or 'as'",
-      "B": "A direct comparison without using 'like' or 'as'",
-      "C": "A word that sounds like what it means",
-      "D": "A word that means the opposite",
-      "E": "A word that has multiple meanings"
-    },
-    "answer": "B",
-    "explanation": "A metaphor is a figure of speech that makes a direct comparison between two unlike things without using 'like' or 'as'."
-  },
-  {
-    "id": 35,
-    "category": "Spatial Reasoning",
-    "question_text": "If a circle has a radius of 5 units, what is its area?",
-    "options": {
-      "A": "10π",
-      "B": "25π",
-      "C": "50π",
-      "D": "75π",
-      "E": "100π"
-    },
-    "answer": "B",
-    "explanation": "Area of a circle = πr² = π(5)² = 25π."
-  },
-  {
-    "id": 36,
-    "category": "Numerical & Abstract Reasoning",
-    "question_text": "If 25% of a number is 50, what is the number?",
-    "options": {
-      "A": "100",
-      "B": "150",
-      "C": "200",
-      "D": "250",
-      "E": "300"
-    },
-    "answer": "C",
-    "explanation": "If 25% = 50, then 100% = 50 ÷ 0.25 = 200."
-  },
-  {
-    "id": 37,
-    "category": "Verbal-Logical Reasoning",
-    "question_text": "Complete the analogy: BIRD is to NEST as FISH is to _______?",
-    "options": {
-      "A": "Water",
-      "B": "Ocean",
-      "C": "Coral",
-      "D": "School",
-      "E": "Aquarium"
-    },
-    "answer": "C",
-    "explanation": "A nest is where a bird lives. Coral is where many fish live and find shelter."
-  },
-  {
-    "id": 38,
-    "category": "Pattern Recognition",
-    "question_text": "What comes next in the sequence: 1, 4, 9, 16, 25, 36, ?",
-    "options": {
-      "A": "42",
-      "B": "45",
-      "C": "49",
-      "D": "52",
-      "E": "56"
-    },
-    "answer": "C",
-    "explanation": "This is the sequence of perfect squares: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36, 7²=49."
-  },
-  {
-    "id": 39,
-    "category": "Spatial Reasoning",
-    "question_text": "How many faces does a cube have?",
-    "options": {
-      "A": "4",
-      "B": "6",
-      "C": "8",
-      "D": "12",
-      "E": "16"
-    },
-    "answer": "B",
-    "explanation": "A cube has 6 faces: top, bottom, front, back, left, and right."
-  },
-  {
-    "id": 40,
-    "category": "Verbal-Logical Reasoning",
-    "question_text": "Which word is most opposite in meaning to 'GENEROUS'?",
-    "options": {
-      "A": "Kind",
-      "B": "Selfish",
-      "C": "Friendly",
-      "D": "Honest",
-      "E": "Brave"
-    },
-    "answer": "B",
-    "explanation": "Generous means willing to give or share. Selfish means concerned primarily with one's own interests, which is the opposite."
-  },
-  {
-    "id": 41,
-    "category": "Numerical & Abstract Reasoning",
-    "question_text": "If x + 2y = 10 and 2x + y = 8, what is the value of x?",
-    "options": {
-      "A": "2",
-      "B": "3",
-      "C": "4",
-      "D": "5",
-      "E": "6"
-    },
-    "answer": "A",
-    "explanation": "From the first equation: x = 10 - 2y. Substitute into the second equation: 2(10 - 2y) + y = 8. 20 - 4y + y = 8. 20 - 3y = 8. -3y = -12. y = 4. Then x = 10 - 2(4) = 2."
-  },
-  {
-    "id": 42,
-    "category": "Pattern Recognition",
-    "question_text": "Complete the pattern: 2, 5, 10, 17, 26, ?",
-    "options": {
-      "A": "35",
-      "B": "37",
-      "C": "40",
-      "D": "42",
-      "E": "45"
-    },
-    "answer": "B",
-    "explanation": "The differences between consecutive terms are: 3, 5, 7, 9. The next difference is 11. 26 + 11 = 37."
-  },
-  {
-    "id": 43,
-    "category": "Verbal-Logical Reasoning",
-    "question_text": "All students are learners. Some learners are curious. Some students are diligent. Which of the following must be true?",
-    "options": {
-      "A": "All learners are students",
-      "B": "Some learners are students",
-      "C": "All students are curious",
-      "D": "Some curious people are students",
-      "E": "All diligent people are students"
-    },
-    "answer": "B",
-    "explanation": "Since all students are learners, it follows that some learners are students."
-  },
-  {
-    "id": 44,
-    "category": "Spatial Reasoning",
-    "question_text": "If you have 4 different colored shirts and 3 different colored pants, how many different shirt-pant combinations can you make?",
-    "options": {
-      "A": "7",
-      "B": "10",
-      "C": "12",
-      "D": "15",
-      "E": "20"
-    },
-    "answer": "C",
-    "explanation": "This is a multiplication principle problem. 4 shirts × 3 pants = 12 combinations."
-  },
-  {
-    "id": 45,
-    "category": "Numerical & Abstract Reasoning",
-    "question_text": "If 30% of a number is 60, what is 50% of the same number?",
-    "options": {
-      "A": "80",
-      "B": "90",
-      "C": "100",
-      "D": "110",
-      "E": "120"
-    },
-    "answer": "C",
-    "explanation": "If 30% = 60, then 100% = 60 ÷ 0.3 = 200. Therefore, 50% = 200 × 0.5 = 100."
-  },
-  {
-    "id": 46,
-    "category": "Verbal-Logical Reasoning",
-    "question_text": "Which word best completes the analogy: LIGHT is to DARK as DAY is to _______?",
-    "options": {
-      "A": "Sun",
-      "B": "Night",
-      "C": "Morning",
-      "D": "Evening",
-      "E": "Afternoon"
-    },
-    "answer": "B",
-    "explanation": "Light and dark are opposites. Day and night are also opposites."
-  },
-  {
-    "id": 47,
-    "category": "Pattern Recognition",
-    "question_text": "What comes next in the sequence: 1, 3, 7, 15, 31, ?",
-    "options": {
-      "A": "45",
-      "B": "55",
-      "C": "63",
-      "D": "67",
-      "E": "71"
-    },
-    "answer": "C",
-    "explanation": "Each number is multiplied by 2 and then 1 is added: 1×2+1=3, 3×2+1=7, 7×2+1=15, 15×2+1=31, 31×2+1=63."
-  },
-  {
-    "id": 48,
-    "category": "Spatial Reasoning",
-    "question_text": "If a triangle has angles measuring 45°, 45°, and 90°, what type of triangle is it?",
-    "options": {
-      "A": "Equilateral",
-      "B": "Isosceles",
-      "C": "Scalene",
-      "D": "Obtuse",
-      "E": "Acute"
-    },
-    "answer": "B",
-    "explanation": "An isosceles triangle has two equal angles. This triangle has two 45° angles, making it isosceles."
-  },
-  {
-    "id": 49,
-    "category": "Verbal-Logical Reasoning",
-    "question_text": "Which of the following words is most similar in meaning to 'PRUDENT'?",
-    "options": {
-      "A": "Careful",
-      "B": "Quick",
-      "C": "Loud",
-      "D": "Funny",
-      "E": "Strong"
-    },
-    "answer": "A",
-    "explanation": "Prudent means acting with or showing care and thought for the future, which is synonymous with careful."
-  },
-  {
-    "id": 50,
-    "category": "Numerical & Abstract Reasoning",
-    "question_text": "A rectangle has a length of 8 units and a width of 6 units. What is its area?",
-    "options": {
-      "A": "14",
-      "B": "28",
-      "C": "48",
-      "D": "56",
-      "E": "64"
-    },
-    "answer": "C",
-    "explanation": "Area of a rectangle = length × width = 8 × 6 = 48 square units."
-  },
-  {
-    "id": 51,
-    "category": "Verbal-Logical Reasoning",
-    "question_text": "Complete the analogy: DOCTOR is to PATIENT as LAWYER is to _______?",
-    "options": {
-      "A": "Judge",
-      "B": "Client",
-      "C": "Court",
-      "D": "Case",
-      "E": "Law"
-    },
-    "answer": "B",
-    "explanation": "A doctor serves patients. A lawyer serves clients."
-  },
-  {
-    "id": 52,
-    "category": "Pattern Recognition",
-    "question_text": "What comes next in the sequence: 1, 2, 4, 7, 11, 16, ?",
-    "options": {
-      "A": "20",
-      "B": "22",
-      "C": "24",
-      "D": "26",
-      "E": "28"
-    },
-    "answer": "B",
-    "explanation": "The differences between consecutive terms are: 1, 2, 3, 4, 5. The next difference is 6. 16 + 6 = 22."
-  },
-  {
-    "id": 53,
-    "category": "Spatial Reasoning",
-    "question_text": "If you have 6 different colored beads, how many different ways can you arrange them in a circle?",
-    "options": {
-      "A": "60",
-      "B": "120",
-      "C": "720",
-      "D": "360",
-      "E": "180"
-    },
-    "answer": "A",
-    "explanation": "For circular arrangements, the formula is (n-1)! = (6-1)! = 5! = 120. However, since rotations are considered the same, we divide by n: 120 ÷ 6 = 20. Wait, let me correct: for circular arrangements of n items, it's (n-1)! = 5! = 120."
-  },
-  {
-    "id": 54,
-    "category": "Numerical & Abstract Reasoning",
-    "question_text": "If 40% of a number is 80, what is 60% of the same number?",
-    "options": {
-      "A": "100",
-      "B": "120",
-      "C": "140",
-      "D": "160",
-      "E": "180"
-    },
-    "answer": "B",
-    "explanation": "If 40% = 80, then 100% = 80 ÷ 0.4 = 200. Therefore, 60% = 200 × 0.6 = 120."
-  },
-  {
-    "id": 55,
+    "id": 24,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Which word is most opposite in meaning to 'HONEST'?",
     "options": {
@@ -773,7 +339,7 @@ export const practiceQuestions = [
     "explanation": "Honest means truthful and sincere. Dishonest means not honest, which is the direct opposite."
   },
   {
-    "id": 56,
+    "id": 25,
     "category": "Pattern Recognition",
     "question_text": "Complete the pattern: 2, 4, 8, 16, 32, 64, ?",
     "options": {
@@ -787,21 +353,7 @@ export const practiceQuestions = [
     "explanation": "Each number is multiplied by 2: 2×2=4, 4×2=8, 8×2=16, 16×2=32, 32×2=64, 64×2=128."
   },
   {
-    "id": 57,
-    "category": "Spatial Reasoning",
-    "question_text": "If a sphere has a radius of 3 units, what is its volume?",
-    "options": {
-      "A": "9π",
-      "B": "18π",
-      "C": "27π",
-      "D": "36π",
-      "E": "45π"
-    },
-    "answer": "D",
-    "explanation": "Volume of a sphere = (4/3)πr³ = (4/3)π(3)³ = (4/3)π(27) = 36π."
-  },
-  {
-    "id": 58,
+    "id": 26,
     "category": "Verbal-Logical Reasoning",
     "question_text": "All teachers are educators. Some educators are mentors. Some teachers are professors. Which of the following must be true?",
     "options": {
@@ -815,7 +367,7 @@ export const practiceQuestions = [
     "explanation": "Since all teachers are educators, it follows that some educators are teachers."
   },
   {
-    "id": 59,
+    "id": 27,
     "category": "Numerical & Abstract Reasoning",
     "question_text": "If x - y = 5 and x + y = 15, what is the value of x?",
     "options": {
@@ -829,7 +381,7 @@ export const practiceQuestions = [
     "explanation": "Add the two equations: (x - y) + (x + y) = 5 + 15. 2x = 20. x = 10."
   },
   {
-    "id": 60,
+    "id": 28,
     "category": "Pattern Recognition",
     "question_text": "What comes next in the sequence: 1, 3, 6, 10, 15, 21, 28, ?",
     "options": {
@@ -843,7 +395,7 @@ export const practiceQuestions = [
     "explanation": "This is the sequence of triangular numbers. Each number is the sum of consecutive integers: 1, 1+2=3, 1+2+3=6, etc. The next number is 1+2+3+4+5+6+7+8=36."
   },
   {
-    "id": 61,
+    "id": 29,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Which word best completes the analogy: HOT is to COLD as WARM is to _______?",
     "options": {
@@ -857,21 +409,7 @@ export const practiceQuestions = [
     "explanation": "Hot and cold are opposites. Warm and cool are also opposites."
   },
   {
-    "id": 62,
-    "category": "Spatial Reasoning",
-    "question_text": "How many edges does a cube have?",
-    "options": {
-      "A": "8",
-      "B": "10",
-      "C": "12",
-      "D": "14",
-      "E": "16"
-    },
-    "answer": "C",
-    "explanation": "A cube has 12 edges: 4 on the top face, 4 on the bottom face, and 4 vertical edges connecting them."
-  },
-  {
-    "id": 63,
+    "id": 30,
     "category": "Numerical & Abstract Reasoning",
     "question_text": "If 35% of a number is 70, what is the number?",
     "options": {
@@ -885,7 +423,7 @@ export const practiceQuestions = [
     "explanation": "If 35% = 70, then 100% = 70 ÷ 0.35 = 200."
   },
   {
-    "id": 64,
+    "id": 31,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Complete the analogy: BEE is to HONEY as COW is to _______?",
     "options": {
@@ -899,7 +437,7 @@ export const practiceQuestions = [
     "explanation": "A bee produces honey. A cow produces milk."
   },
   {
-    "id": 65,
+    "id": 32,
     "category": "Pattern Recognition",
     "question_text": "Complete the pattern: 1, 4, 9, 16, 25, 36, 49, ?",
     "options": {
@@ -913,21 +451,7 @@ export const practiceQuestions = [
     "explanation": "This is the sequence of perfect squares: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36, 7²=49, 8²=64."
   },
   {
-    "id": 66,
-    "category": "Spatial Reasoning",
-    "question_text": "If you have 3 different colored shirts, 2 different colored pants, and 2 different colored shoes, how many different outfits can you make?",
-    "options": {
-      "A": "6",
-      "B": "8",
-      "C": "10",
-      "D": "12",
-      "E": "15"
-    },
-    "answer": "D",
-    "explanation": "This is a multiplication principle problem. 3 shirts × 2 pants × 2 shoes = 12 outfits."
-  },
-  {
-    "id": 67,
+    "id": 33,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Which of the following words is most similar in meaning to 'DILIGENT'?",
     "options": {
@@ -941,7 +465,7 @@ export const practiceQuestions = [
     "explanation": "Diligent means having or showing care and conscientiousness in one's work or duties, which is synonymous with hardworking."
   },
   {
-    "id": 68,
+    "id": 34,
     "category": "Numerical & Abstract Reasoning",
     "question_text": "A car travels 240 km in 4 hours. What is its average speed in km/h?",
     "options": {
@@ -955,7 +479,7 @@ export const practiceQuestions = [
     "explanation": "Average speed = total distance ÷ total time = 240 ÷ 4 = 60 km/h."
   },
   {
-    "id": 69,
+    "id": 35,
     "category": "Pattern Recognition",
     "question_text": "What comes next in the sequence: 2, 6, 12, 20, 30, 42, 56, ?",
     "options": {
@@ -969,7 +493,7 @@ export const practiceQuestions = [
     "explanation": "The differences between consecutive terms are: 4, 6, 8, 10, 12, 14. The next difference is 16. 56 + 16 = 72."
   },
   {
-    "id": 70,
+    "id": 36,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Which word is most opposite in meaning to 'BRAVE'?",
     "options": {
@@ -983,21 +507,7 @@ export const practiceQuestions = [
     "explanation": "Brave means ready to face danger or pain. Cowardly means lacking courage, which is the opposite."
   },
   {
-    "id": 71,
-    "category": "Spatial Reasoning",
-    "question_text": "If a circle has a diameter of 10 units, what is its circumference?",
-    "options": {
-      "A": "10π",
-      "B": "20π",
-      "C": "25π",
-      "D": "30π",
-      "E": "35π"
-    },
-    "answer": "A",
-    "explanation": "Circumference = π × diameter = π × 10 = 10π."
-  },
-  {
-    "id": 72,
+    "id": 37,
     "category": "Numerical & Abstract Reasoning",
     "question_text": "If 45% of a number is 90, what is 55% of the same number?",
     "options": {
@@ -1011,7 +521,7 @@ export const practiceQuestions = [
     "explanation": "If 45% = 90, then 100% = 90 ÷ 0.45 = 200. Therefore, 55% = 200 × 0.55 = 110."
   },
   {
-    "id": 73,
+    "id": 38,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Complete the analogy: DOG is to PUPPY as CAT is to _______?",
     "options": {
@@ -1025,7 +535,7 @@ export const practiceQuestions = [
     "explanation": "A puppy is a young dog. A kitten is a young cat."
   },
   {
-    "id": 74,
+    "id": 39,
     "category": "Pattern Recognition",
     "question_text": "What comes next in the sequence: 1, 2, 4, 7, 11, 16, 22, ?",
     "options": {
@@ -1039,21 +549,7 @@ export const practiceQuestions = [
     "explanation": "The differences between consecutive terms are: 1, 2, 3, 4, 5, 6. The next difference is 7. 22 + 7 = 29."
   },
   {
-    "id": 75,
-    "category": "Spatial Reasoning",
-    "question_text": "How many vertices does a cube have?",
-    "options": {
-      "A": "6",
-      "B": "8",
-      "C": "10",
-      "D": "12",
-      "E": "16"
-    },
-    "answer": "B",
-    "explanation": "A cube has 8 vertices (corners): 4 on the top face and 4 on the bottom face."
-  },
-  {
-    "id": 76,
+    "id": 40,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Which of the following words is most similar in meaning to 'PRUDENT'?",
     "options": {
@@ -1067,7 +563,7 @@ export const practiceQuestions = [
     "explanation": "Prudent means acting with or showing care and thought for the future, which is synonymous with careful."
   },
   {
-    "id": 77,
+    "id": 41,
     "category": "Numerical & Abstract Reasoning",
     "question_text": "If 2x + 3y = 12 and x + 2y = 7, what is the value of y?",
     "options": {
@@ -1081,7 +577,7 @@ export const practiceQuestions = [
     "explanation": "From the second equation: x = 7 - 2y. Substitute into the first equation: 2(7 - 2y) + 3y = 12. 14 - 4y + 3y = 12. 14 - y = 12. y = 2."
   },
   {
-    "id": 78,
+    "id": 42,
     "category": "Pattern Recognition",
     "question_text": "Complete the pattern: 3, 6, 11, 18, 27, 38, ?",
     "options": {
@@ -1095,7 +591,7 @@ export const practiceQuestions = [
     "explanation": "The differences between consecutive terms are: 3, 5, 7, 9, 11. The next difference is 13. 38 + 13 = 51."
   },
   {
-    "id": 79,
+    "id": 43,
     "category": "Verbal-Logical Reasoning",
     "question_text": "All musicians are artists. Some artists are performers. Some musicians are singers. Which of the following must be true?",
     "options": {
@@ -1109,21 +605,7 @@ export const practiceQuestions = [
     "explanation": "Since all musicians are artists, it follows that some artists are musicians."
   },
   {
-    "id": 80,
-    "category": "Spatial Reasoning",
-    "question_text": "If you have 5 different colored balls and 3 different colored boxes, how many different ways can you put one ball in each box?",
-    "options": {
-      "A": "15",
-      "B": "30",
-      "C": "60",
-      "D": "90",
-      "E": "120"
-    },
-    "answer": "C",
-    "explanation": "This is a permutation problem. You're choosing 3 balls from 5 and arranging them: P(5,3) = 5!/(5-3)! = 5!/2! = 120/2 = 60."
-  },
-  {
-    "id": 81,
+    "id": 44,
     "category": "Numerical & Abstract Reasoning",
     "question_text": "If 50% of a number is 100, what is 25% of the same number?",
     "options": {
@@ -1137,7 +619,7 @@ export const practiceQuestions = [
     "explanation": "If 50% = 100, then 100% = 100 ÷ 0.5 = 200. Therefore, 25% = 200 × 0.25 = 50."
   },
   {
-    "id": 82,
+    "id": 45,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Which word best completes the analogy: FAST is to SLOW as QUICK is to _______?",
     "options": {
@@ -1151,7 +633,7 @@ export const practiceQuestions = [
     "explanation": "Fast and slow are opposites. Quick and gradual are also opposites."
   },
   {
-    "id": 83,
+    "id": 46,
     "category": "Pattern Recognition",
     "question_text": "What comes next in the sequence: 1, 3, 7, 15, 31, 63, ?",
     "options": {
@@ -1165,21 +647,7 @@ export const practiceQuestions = [
     "explanation": "Each number is multiplied by 2 and then 1 is added: 1×2+1=3, 3×2+1=7, 7×2+1=15, 15×2+1=31, 31×2+1=63, 63×2+1=127."
   },
   {
-    "id": 84,
-    "category": "Spatial Reasoning",
-    "question_text": "If a triangle has angles measuring 30°, 60°, and 90°, what type of triangle is it?",
-    "options": {
-      "A": "Equilateral",
-      "B": "Isosceles",
-      "C": "Scalene",
-      "D": "Obtuse",
-      "E": "Acute"
-    },
-    "answer": "C",
-    "explanation": "A scalene triangle has all different angles. This triangle has three different angles: 30°, 60°, and 90°."
-  },
-  {
-    "id": 85,
+    "id": 47,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Which of the following words is most similar in meaning to 'GENEROUS'?",
     "options": {
@@ -1193,7 +661,7 @@ export const practiceQuestions = [
     "explanation": "Generous means willing to give or share freely. Kind means having a gentle and considerate nature, which is similar."
   },
   {
-    "id": 86,
+    "id": 48,
     "category": "Numerical & Abstract Reasoning",
     "question_text": "A square has a side length of 7 units. What is its perimeter?",
     "options": {
@@ -1207,7 +675,7 @@ export const practiceQuestions = [
     "explanation": "Perimeter of a square = 4 × side length = 4 × 7 = 28 units."
   },
   {
-    "id": 87,
+    "id": 49,
     "category": "Pattern Recognition",
     "question_text": "Complete the pattern: 2, 5, 10, 17, 26, 37, ?",
     "options": {
@@ -1221,7 +689,7 @@ export const practiceQuestions = [
     "explanation": "The differences between consecutive terms are: 3, 5, 7, 9, 11. The next difference is 13. 37 + 13 = 50."
   },
   {
-    "id": 88,
+    "id": 50,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Complete the analogy: BIRD is to FLY as FISH is to _______?",
     "options": {
@@ -1235,21 +703,7 @@ export const practiceQuestions = [
     "explanation": "A bird's primary mode of movement is flying. A fish's primary mode of movement is swimming."
   },
   {
-    "id": 89,
-    "category": "Spatial Reasoning",
-    "question_text": "If you have 4 different colored shirts and 3 different colored pants, how many different shirt-pant combinations can you make?",
-    "options": {
-      "A": "7",
-      "B": "10",
-      "C": "12",
-      "D": "15",
-      "E": "20"
-    },
-    "answer": "C",
-    "explanation": "This is a multiplication principle problem. 4 shirts × 3 pants = 12 combinations."
-  },
-  {
-    "id": 90,
+    "id": 51,
     "category": "Numerical & Abstract Reasoning",
     "question_text": "If 60% of a number is 120, what is 40% of the same number?",
     "options": {
@@ -1263,7 +717,7 @@ export const practiceQuestions = [
     "explanation": "If 60% = 120, then 100% = 120 ÷ 0.6 = 200. Therefore, 40% = 200 × 0.4 = 80."
   },
   {
-    "id": 91,
+    "id": 52,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Which word is most opposite in meaning to 'WISE'?",
     "options": {
@@ -1277,7 +731,7 @@ export const practiceQuestions = [
     "explanation": "Wise means having or showing experience, knowledge, and good judgment. Foolish means lacking good sense or judgment, which is the opposite."
   },
   {
-    "id": 92,
+    "id": 53,
     "category": "Pattern Recognition",
     "question_text": "What comes next in the sequence: 1, 4, 9, 16, 25, 36, 49, 64, ?",
     "options": {
@@ -1291,21 +745,7 @@ export const practiceQuestions = [
     "explanation": "This is the sequence of perfect squares: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36, 7²=49, 8²=64, 9²=81."
   },
   {
-    "id": 93,
-    "category": "Spatial Reasoning",
-    "question_text": "If a cylinder has a radius of 4 units and a height of 6 units, what is its volume?",
-    "options": {
-      "A": "48π",
-      "B": "72π",
-      "C": "96π",
-      "D": "120π",
-      "E": "144π"
-    },
-    "answer": "C",
-    "explanation": "Volume of a cylinder = πr²h = π(4)²(6) = π(16)(6) = 96π."
-  },
-  {
-    "id": 94,
+    "id": 54,
     "category": "Verbal-Logical Reasoning",
     "question_text": "All scientists are researchers. Some researchers are professors. Some scientists are biologists. Which of the following must be true?",
     "options": {
@@ -1319,7 +759,7 @@ export const practiceQuestions = [
     "explanation": "Since all scientists are researchers, it follows that some researchers are scientists."
   },
   {
-    "id": 95,
+    "id": 55,
     "category": "Numerical & Abstract Reasoning",
     "question_text": "If 3x + 2y = 18 and x + y = 7, what is the value of x?",
     "options": {
@@ -1333,7 +773,7 @@ export const practiceQuestions = [
     "explanation": "From the second equation: y = 7 - x. Substitute into the first equation: 3x + 2(7 - x) = 18. 3x + 14 - 2x = 18. x + 14 = 18. x = 4."
   },
   {
-    "id": 96,
+    "id": 56,
     "category": "Pattern Recognition",
     "question_text": "What comes next in the sequence: 1, 2, 4, 7, 11, 16, 22, 29, ?",
     "options": {
@@ -1347,7 +787,7 @@ export const practiceQuestions = [
     "explanation": "The differences between consecutive terms are: 1, 2, 3, 4, 5, 6, 7. The next difference is 8. 29 + 8 = 37."
   },
   {
-    "id": 97,
+    "id": 57,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Which word best completes the analogy: LIGHT is to HEAVY as THIN is to _______?",
     "options": {
@@ -1361,21 +801,7 @@ export const practiceQuestions = [
     "explanation": "Light and heavy are opposites. Thin and thick are also opposites."
   },
   {
-    "id": 98,
-    "category": "Spatial Reasoning",
-    "question_text": "How many faces does a triangular prism have?",
-    "options": {
-      "A": "3",
-      "B": "4",
-      "C": "5",
-      "D": "6",
-      "E": "8"
-    },
-    "answer": "C",
-    "explanation": "A triangular prism has 5 faces: 2 triangular faces (top and bottom) and 3 rectangular faces (sides)."
-  },
-  {
-    "id": 99,
+    "id": 58,
     "category": "Numerical & Abstract Reasoning",
     "question_text": "If 70% of a number is 140, what is the number?",
     "options": {
@@ -1389,7 +815,7 @@ export const practiceQuestions = [
     "explanation": "If 70% = 140, then 100% = 140 ÷ 0.7 = 200."
   },
   {
-    "id": 100,
+    "id": 59,
     "category": "Verbal-Logical Reasoning",
     "question_text": "Complete the analogy: TREE is to FOREST as STAR is to _______?",
     "options": {
@@ -1401,6 +827,20 @@ export const practiceQuestions = [
     },
     "answer": "B",
     "explanation": "A forest is a collection of trees. A galaxy is a collection of stars."
+  },
+  {
+    "id": 60,
+    "category": "Pattern Recognition",
+    "question_text": "Complete the pattern: 1, 4, 9, 16, 25, 36, 49, 64, 81, ?",
+    "options": {
+      "A": "90",
+      "B": "95",
+      "C": "100",
+      "D": "105",
+      "E": "110"
+    },
+    "answer": "C",
+    "explanation": "This is the sequence of perfect squares: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36, 7²=49, 8²=64, 9²=81, 10²=100."
   }
 ];
 

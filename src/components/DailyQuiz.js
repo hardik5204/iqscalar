@@ -70,8 +70,6 @@ const DailyQuiz = () => {
       case 'Numerical & Abstract Reasoning':
       case 'Quantitative Aptitude':
         return '🔢';
-      case 'Spatial Reasoning':
-        return '🔷';
       case 'Pattern Recognition':
         return '🧩';
       default:

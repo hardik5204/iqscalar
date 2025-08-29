@@ -8,10 +8,12 @@ import TestPage from "./components/TestPage";
 import ResultsPage from "./components/ResultsPage";
 import AboutPage from "./components/AboutPage";
 import PracticePage from "./components/PracticePage";
+import LearningPage from "./components/LearningPage";
 import ContactPage from "./components/ContactPage";
 import AccountPage from "./components/AccountPage";
 import Logo from "./components/Logo";
 import ThemeToggle from "./components/ThemeToggle";
+import AuthLogger from "./components/AuthLogger";
 import "./index.css";
 
 function AppContent() {
@@ -72,7 +74,7 @@ function AppContent() {
   let content;
   switch (page) {
     case "home":
-      content = <HomePage onStartTest={handleStartTest} />;
+      content = <HomePage onStartTest={handleStartTest} onNavigate={handleGoToPage} />;
       break;
     case "about":
       content = <AboutPage />;
@@ -100,6 +102,9 @@ function AppContent() {
       break;
     case "practice":
       content = <PracticePage onStartPractice={handleStartPractice} />;
+      break;
+    case "learning":
+      content = <LearningPage />;
       break;
     case "practice-test":
       content = (
@@ -134,11 +139,11 @@ function AppContent() {
   const navigationItems = [
     { name: "Home", id: "home" },
     { name: "About", id: "about" },
+    { name: "Learning", id: "learning" },
+    { name: "Practice", id: "practice" },
     { name: "Contact", id: "contact" },
     { name: "Pricing", id: "pricing" },
-    { name: "Practice", id: "practice" },
-    { name: "My Account", id: "account" },
-    { name: "Download Certificate", id: "certificate" }
+    { name: "My Account", id: "account" }
   ];
 
   return (
@@ -152,7 +157,7 @@ function AppContent() {
         <div className="container mx-auto px-4 md:px-8 flex justify-between items-center h-20">
           {/* Logo */}
           <div
-            className="cursor-pointer group flex-shrink-0"
+            className="cursor-pointer group flex-shrink-0 z-10"
             onClick={() => handleGoToPage("home")}
           >
             <div className="group-hover:scale-110 transition-transform duration-300">
@@ -161,11 +166,11 @@ function AppContent() {
           </div>
           
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8 flex-1 justify-center">
+          <div className="hidden md:flex space-x-6 flex-1 justify-center max-w-2xl mx-8">
             {navigationItems.map((navItem) => (
               <button
                 key={navItem.id}
-                className={`font-premium font-medium text-sm transition-all duration-300 relative group ${
+                className={`font-premium font-medium text-sm transition-all duration-300 relative group whitespace-nowrap ${
                   page === navItem.id 
                     ? 'text-[#3498db] scale-110' 
                     : 'text-[#34495e] dark:text-gray-200 hover:text-[#3498db] hover:scale-105'
@@ -181,12 +186,12 @@ function AppContent() {
           </div>
 
           {/* Dark Mode Toggle & Login Button & Mobile Menu */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-3 flex-shrink-0">
             {/* Dark Mode Toggle */}
             <ThemeToggle />
 
             {isSignedIn && user ? (
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center space-x-2">
                 <div className="flex items-center space-x-2">
                   {user.imageUrl && (
                     <img 
@@ -200,16 +205,16 @@ function AppContent() {
                   </span>
                 </div>
                 <button
-                  className="font-premium font-semibold text-sm px-4 py-2 rounded-full transition-all duration-300 text-red-600 hover:text-white hover:bg-red-600 border border-red-600"
+                  className="font-premium font-semibold text-sm px-3 py-2 rounded-full transition-all duration-300 text-red-600 hover:text-white hover:bg-red-600 border border-red-600"
                   onClick={handleLogout}
                 >
                   Logout
                 </button>
               </div>
             ) : (
-              <div className="flex items-center space-x-3 hidden md:flex">
+              <div className="flex items-center space-x-2 hidden md:flex">
                 <button
-                  className={`font-premium font-semibold text-sm px-4 py-2 rounded-full transition-all duration-300 ${
+                  className={`font-premium font-semibold text-sm px-3 py-2 rounded-full transition-all duration-300 ${
                     page === "signup" 
                       ? 'bg-gradient-to-r from-[#8e44ad] to-[#e74c3c] text-white shadow-lg' 
                       : 'text-[#8e44ad] hover:text-white hover:bg-gradient-to-r hover:from-[#8e44ad] hover:to-[#e74c3c] border-2 border-[#8e44ad]'
@@ -219,7 +224,7 @@ function AppContent() {
                   {page === "signup" ? "Active" : "Sign Up"}
                 </button>
                 <button
-                  className={`font-premium font-semibold text-sm px-6 py-3 rounded-full transition-all duration-300 ${
+                  className={`font-premium font-semibold text-sm px-4 py-2 rounded-full transition-all duration-300 ${
                     page === "login" 
                       ? 'bg-gradient-to-r from-[#3498db] to-[#8e44ad] text-white shadow-lg' 
                       : 'text-[#3498db] hover:text-white hover:bg-gradient-to-r hover:from-[#3498db] hover:to-[#8e44ad] border-2 border-[#3498db]'
@@ -428,6 +433,7 @@ function AppContent() {
 function App() {
   return (
     <ClerkProvider publishableKey="pk_test_bWFnbmV0aWMtamFndWFyLTI0LmNsZXJrLmFjY291bnRzLmRldiQ">
+      <AuthLogger />
       <AppContent />
     </ClerkProvider>
   );

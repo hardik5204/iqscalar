@@ -47,7 +47,7 @@ export const iqQuestions = [
   {
     "id": 4,
     "category": "Verbal-Logical Reasoning",
-    "question_text": "Complete the analogy: PALAVER is to ORATE as…",
+    "question_text": "Complete the analogy: PALAVER is to ORATE as\u2026",
     "options": {
       "A": "Enigma is to Conundrum",
       "B": "Cabal is to Conspire",
@@ -102,47 +102,6 @@ export const iqQuestions = [
   },
   {
     "id": 8,
-    "category": "Spatial Reasoning",
-    "question_text": "Imagine a standard 6-sided die. If you place it on a table, you can see 5 of its faces by moving around it (the top face and the four side faces). The sum of the dots on these 5 visible faces is 19. What number is on the face touching the table?",
-    "options": {
-      "A": "1",
-      "B": "2",
-      "C": "3",
-      "D": "4",
-      "E": "5"
-    },
-    "answer": "B",
-    "explanation": "The sum of all faces on a standard die is 21 (1+2+3+4+5+6). If the sum of the 5 visible faces is 19, the face on the bottom must be 21 - 19 = 2."
-  },
-  {
-    "id": 9,
-    "category": "Spatial Reasoning",
-    "question_text": "A cube is painted red on all of its faces. It is then cut into 125 smaller, identical cubes. How many of these smaller cubes have exactly two faces painted red?",
-    "options": {
-      "A": "36",
-      "B": "48",
-      "C": "54",
-      "D": "60",
-      "E": "27"
-    },
-    "answer": "A",
-    "explanation": "A 125-cube block is a 5x5x5 arrangement. Cubes with two painted faces are on the edges, excluding the corners. A cube has 12 edges. Each edge on a 5x5x5 cube has 3 such cubes (5 total minus the 2 corners). Total = 12 edges * 3 cubes/edge = 36."
-  },
-  {
-    "id": 10,
-    "category": "Spatial Reasoning",
-    "question_text": "A flat piece of paper is shaped like a cross, with one square in the middle, and one square attached to each of its four sides (top, bottom, left, right). If this net is folded into a cube, which face is opposite the left face?",
-    "options": {
-      "A": "The top face",
-      "B": "The bottom face",
-      "C": "The right face",
-      "D": "The middle face"
-    },
-    "answer": "C",
-    "explanation": "When folding a standard cross-shaped net, the squares that are separated by the central square become opposite faces. The left and right faces will fold to be opposite each other, as will the top and bottom faces."
-  },
-  {
-    "id": 11,
     "category": "Quantitative Aptitude",
     "question_text": "A can do a piece of work in 15 days and B in 20 days. If they work on it together for 4 days, what fraction of the work is left?",
     "options": {
@@ -155,7 +114,7 @@ export const iqQuestions = [
     "explanation": "A's 1-day work = 1/15. B's 1-day work = 1/20. Their combined 1-day work = 1/15 + 1/20 = 7/60. In 4 days, they complete 4 * (7/60) = 7/15 of the work. Work left = 1 - 7/15 = 8/15."
   },
   {
-    "id": 12,
+    "id": 9,
     "category": "Logical Reasoning",
     "question_text": "Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
     "options": {
@@ -168,7 +127,7 @@ export const iqQuestions = [
     "explanation": "'The only son of my mother' is Suresh himself. So, the boy in the photograph is the son of Suresh. Therefore, Suresh is the boy's father."
   },
   {
-    "id": 13,
+    "id": 10,
     "category": "Series",
     "question_text": "Find the next term in the series: 7, 8, 11, 16, 23, ?",
     "options": {
@@ -181,7 +140,7 @@ export const iqQuestions = [
     "explanation": "The difference between consecutive terms increases by 2 each time: +1, +3, +5, +7. The next difference will be +9. So, 23 + 9 = 32."
   },
   {
-    "id": 14,
+    "id": 11,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Curd, Butter, Cheese, Oil, Cream",
     "options": {
@@ -194,7 +153,7 @@ export const iqQuestions = [
     "explanation": "All except Oil are dairy products, made from milk."
   },
   {
-    "id": 15,
+    "id": 12,
     "category": "Quantitative Aptitude",
     "question_text": "A train 125 m long passes a man, running at 5 km/hr in the same direction in which the train is going, in 10 seconds. The speed of the train is:",
     "options": {
@@ -207,7 +166,7 @@ export const iqQuestions = [
     "explanation": "Relative speed = (Length of train) / (Time taken) = 125/10 m/s = 12.5 m/s. To convert to km/hr, multiply by 18/5: 12.5 * (18/5) = 45 km/hr. Let the speed of the train be x. Relative speed = (x - 5) km/hr. So, x - 5 = 45 => x = 50 km/hr."
   },
   {
-    "id": 16,
+    "id": 13,
     "category": "Logical Reasoning",
     "question_text": "If 'F' is coded as 6, 'MAT' is coded as 34, then how will 'CAR' be coded?",
     "options": {
@@ -220,7 +179,7 @@ export const iqQuestions = [
     "explanation": "The code is the sum of the alphabetical positions of the letters. F=6. MAT = 13 (M) + 1 (A) + 20 (T) = 34. CAR = 3 (C) + 1 (A) + 18 (R) = 22."
   },
   {
-    "id": 17,
+    "id": 14,
     "category": "Series",
     "question_text": "What comes next in the alphabetical series: AZ, CX, FU, ?",
     "options": {
@@ -233,7 +192,7 @@ export const iqQuestions = [
     "explanation": "The first letters are A(+2)C(+3)F(+4)J. The second letters are Z(-2)X(-3)U(-4)Q. So the next term is JQ."
   },
   {
-    "id": 18,
+    "id": 15,
     "category": "Odd One Out",
     "question_text": "Which of the following pairs is the odd one out?",
     "options": {
@@ -246,7 +205,7 @@ export const iqQuestions = [
     "explanation": "In options A, B, and C, the second word is the common name for the young one of the first. A larva is a developmental stage for an insect, not the common name for its young (like nymph)."
   },
   {
-    "id": 19,
+    "id": 16,
     "category": "Quantitative Aptitude",
     "question_text": "A vendor bought toffees at 6 for a rupee. How many for a rupee must he sell to gain 20%?",
     "options": {
@@ -259,7 +218,7 @@ export const iqQuestions = [
     "explanation": "Cost Price (CP) of 6 toffees = Re. 1. So CP of 1 toffee = Re. 1/6. To gain 20%, the Selling Price (SP) should be 120% of CP. SP of 1 toffee = 1.20 * (1/6) = Re. 1/5. This means he must sell 5 toffees for a rupee."
   },
   {
-    "id": 20,
+    "id": 17,
     "category": "Logical Reasoning",
     "question_text": "A man walks 5 km toward the south and then turns to the right. After walking 3 km he turns to the left and walks 5 km. Now in which direction is he from the starting place?",
     "options": {
@@ -272,7 +231,7 @@ export const iqQuestions = [
     "explanation": "He walks 5 km South, then 3 km West (right turn), then 5 km South again (left turn). His final position is south and west of his starting point."
   },
   {
-    "id": 21,
+    "id": 18,
     "category": "Series",
     "question_text": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
     "options": {
@@ -285,7 +244,7 @@ export const iqQuestions = [
     "explanation": "This is a simple geometric progression where each term is half of the previous term."
   },
   {
-    "id": 22,
+    "id": 19,
     "category": "Odd One Out",
     "question_text": "Find the odd number in the series: 3, 5, 11, 14, 17, 21.",
     "options": {
@@ -298,7 +257,7 @@ export const iqQuestions = [
     "explanation": "All the numbers except 14 are odd numbers."
   },
   {
-    "id": 23,
+    "id": 20,
     "category": "Quantitative Aptitude",
     "question_text": "What is the average of the first 50 natural numbers?",
     "options": {
@@ -311,7 +270,7 @@ export const iqQuestions = [
     "explanation": "The sum of the first n natural numbers is n(n+1)/2. The average is [n(n+1)/2] / n = (n+1)/2. So, for n=50, the average is (50+1)/2 = 25.5."
   },
   {
-    "id": 24,
+    "id": 21,
     "category": "Logical Reasoning",
     "question_text": "Statement: All dogs are loyal. Conclusion: I. All loyal beings are dogs. II. Some dogs are not loyal.",
     "options": {
@@ -324,7 +283,7 @@ export const iqQuestions = [
     "explanation": "The statement is a universal affirmative. 'All loyal beings are dogs' is an invalid conversion. 'Some dogs are not loyal' contradicts the given statement. Thus, neither follows."
   },
   {
-    "id": 25,
+    "id": 22,
     "category": "Series",
     "question_text": "Find the missing term: F2, __, D8, C16, B32",
     "options": {
@@ -337,7 +296,7 @@ export const iqQuestions = [
     "explanation": "The letters are in reverse alphabetical order (F, E, D, C, B). The numbers are multiplied by 2 each time (2, 4, 8, 16, 32)."
   },
   {
-    "id": 26,
+    "id": 23,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Triangle, Circle, Square, Rectangle.",
     "options": {
@@ -350,7 +309,7 @@ export const iqQuestions = [
     "explanation": "All except the circle are polygons, made of straight line segments. The circle is a curve."
   },
   {
-    "id": 27,
+    "id": 24,
     "category": "Quantitative Aptitude",
     "question_text": "The ratio of two numbers is 3:4 and their sum is 420. The greater of the two numbers is:",
     "options": {
@@ -363,7 +322,7 @@ export const iqQuestions = [
     "explanation": "Let the numbers be 3x and 4x. Their sum is 3x + 4x = 7x. Given 7x = 420, so x = 60. The greater number is 4x = 4 * 60 = 240."
   },
   {
-    "id": 28,
+    "id": 25,
     "category": "Logical Reasoning",
     "question_text": "Complete the analogy: Doctor is to Hospital as Lawyer is to ?",
     "options": {
@@ -376,7 +335,7 @@ export const iqQuestions = [
     "explanation": "A doctor's primary place of work is a hospital. A lawyer's primary place of work is a court."
   },
   {
-    "id": 29,
+    "id": 26,
     "category": "Series",
     "question_text": "Find the next number in the series: 1, 4, 9, 16, 25, ?",
     "options": {
@@ -389,7 +348,7 @@ export const iqQuestions = [
     "explanation": "The series consists of the squares of consecutive natural numbers: 1^2, 2^2, 3^2, 4^2, 5^2. The next term is 6^2 = 36."
   },
   {
-    "id": 30,
+    "id": 27,
     "category": "Odd One Out",
     "question_text": "Choose the word which is different from the rest: Kiwi, Eagle, Emu, Ostrich.",
     "options": {
@@ -402,7 +361,7 @@ export const iqQuestions = [
     "explanation": "The Eagle can fly, whereas the Kiwi, Emu, and Ostrich are all flightless birds."
   },
   {
-    "id": 31,
+    "id": 28,
     "category": "Quantitative Aptitude",
     "question_text": "If a car travels at 60 km/h, it reaches its destination on time. If it travels at 40 km/h, it is 2 hours late. What is the distance to the destination?",
     "options": {
@@ -415,7 +374,7 @@ export const iqQuestions = [
     "explanation": "Let the distance be D and the correct time be T. T = D/60. Also, T + 2 = D/40. Substitute T: (D/60) + 2 = D/40. Solving for D, we get 2 = D/40 - D/60 = (3D - 2D)/120 = D/120. So, D = 240 km."
   },
   {
-    "id": 32,
+    "id": 29,
     "category": "Logical Reasoning",
     "question_text": "In a certain code, 'ROAD' is written as 'URDG'. How is 'SWAN' written in that code?",
     "options": {
@@ -428,7 +387,7 @@ export const iqQuestions = [
     "explanation": "Each letter is moved three places forward in the alphabet. R+3=U, O+3=R, A+3=D, D+3=G. Similarly, S+3=V, W+3=Z, A+3=D, N+3=Q."
   },
   {
-    "id": 33,
+    "id": 30,
     "category": "Series",
     "question_text": "Find the next term in the series: 4, 7, 12, 19, 28, ?",
     "options": {
@@ -441,7 +400,7 @@ export const iqQuestions = [
     "explanation": "The pattern is adding consecutive odd numbers: 4+3=7, 7+5=12, 12+7=19, 19+9=28. The next number to add is 11. 28+11 = 39."
   },
   {
-    "id": 34,
+    "id": 31,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Yen, Lira, Dollar, Ounce.",
     "options": {
@@ -454,7 +413,7 @@ export const iqQuestions = [
     "explanation": "Yen, Lira, and Dollar are all forms of currency. Ounce is a unit of weight."
   },
   {
-    "id": 35,
+    "id": 32,
     "category": "Quantitative Aptitude",
     "question_text": "The simple interest on a sum of money is 1/9 of the principal, and the number of years is equal to the rate percent per annum. The rate per annum is:",
     "options": {
@@ -467,7 +426,7 @@ export const iqQuestions = [
     "explanation": "Let Principal=P, Rate=R%, Time=T years. Given T=R. Simple Interest (SI) = (P*R*T)/100. Given SI = P/9. So, P/9 = (P*R*R)/100. R^2 = 100/9. R = 10/3."
   },
   {
-    "id": 36,
+    "id": 33,
     "category": "Logical Reasoning",
     "question_text": "A is B's sister. C is B's mother. D is C's father. E is D's mother. Then, how is A related to D?",
     "options": {
@@ -480,7 +439,7 @@ export const iqQuestions = [
     "explanation": "A is the sister of B, and C is B's mother, so C is also A's mother. D is C's father, which makes D the maternal grandfather of A. Therefore, A is the granddaughter of D."
   },
   {
-    "id": 37,
+    "id": 34,
     "category": "Series",
     "question_text": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
     "options": {
@@ -493,7 +452,7 @@ export const iqQuestions = [
     "explanation": "This is an alternating subtraction series. First, 2 is subtracted, then 4, then 2, then 4, and so on. 36-2=34, 34-4=30, 30-2=28, 28-4=24. Next, subtract 2: 24-2=22."
   },
   {
-    "id": 38,
+    "id": 35,
     "category": "Odd One Out",
     "question_text": "Which number does not belong in the following series: 2, 5, 10, 17, 26, 37, 50, 64?",
     "options": {
@@ -506,7 +465,7 @@ export const iqQuestions = [
     "explanation": "The pattern is n^2 + 1. 1^2+1=2, 2^2+1=5, 3^2+1=10, 4^2+1=17, 5^2+1=26, 6^2+1=37, 7^2+1=50. The next term should be 8^2+1 = 65, but it is 64."
   },
   {
-    "id": 39,
+    "id": 36,
     "category": "Quantitative Aptitude",
     "question_text": "A shopkeeper sells an article for Rs. 240, making a profit of 20%. What was his cost price?",
     "options": {
@@ -519,7 +478,7 @@ export const iqQuestions = [
     "explanation": "Selling Price (SP) = Cost Price (CP) * (1 + Profit%/100). So, 240 = CP * (1 + 20/100) = CP * 1.2. CP = 240 / 1.2 = 200."
   },
   {
-    "id": 40,
+    "id": 37,
     "category": "Logical Reasoning",
     "question_text": "If 'pen' is 'table', 'table' is 'fan', 'fan' is 'chair', and 'chair' is 'roof', then on which of the following will a person sit?",
     "options": {
@@ -532,7 +491,7 @@ export const iqQuestions = [
     "explanation": "A person sits on a 'chair'. In this coded language, 'chair' is 'roof'. So, the person will sit on the 'roof'."
   },
   {
-    "id": 41,
+    "id": 38,
     "category": "Series",
     "question_text": "Find the next term in the series: ELFA, GLHA, ILJA, _____, MLNA",
     "options": {
@@ -545,7 +504,7 @@ export const iqQuestions = [
     "explanation": "The first letters are in sequence skipping one letter (E,G,I,K,M). The second letters are all L. The third letters are in sequence skipping one letter (F,H,J,L,N). The fourth letters are all A. So, KLLA."
   },
   {
-    "id": 42,
+    "id": 39,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Run, Walk, Swim, Think.",
     "options": {
@@ -558,7 +517,7 @@ export const iqQuestions = [
     "explanation": "Run, Walk, and Swim are all physical activities. Thinking is a mental activity."
   },
   {
-    "id": 43,
+    "id": 40,
     "category": "Quantitative Aptitude",
     "question_text": "The average age of a class of 30 students is 15 years. If the teacher's age is included, the average increases by 1 year. What is the teacher's age?",
     "options": {
@@ -571,7 +530,7 @@ export const iqQuestions = [
     "explanation": "Total age of students = 30 * 15 = 450. When the teacher is included, there are 31 people and the new average is 16. New total age = 31 * 16 = 496. Teacher's age = 496 - 450 = 46 years."
   },
   {
-    "id": 44,
+    "id": 41,
     "category": "Logical Reasoning",
     "question_text": "Which word does NOT belong with the others? Parsley, Basil, Dill, Mayonnaise.",
     "options": {
@@ -584,7 +543,7 @@ export const iqQuestions = [
     "explanation": "Parsley, Basil, and Dill are all herbs. Mayonnaise is a sauce or condiment."
   },
   {
-    "id": 45,
+    "id": 42,
     "category": "Series",
     "question_text": "Find the next number in the series: 1.5, 2.3, 3.1, 3.9, ...",
     "options": {
@@ -597,7 +556,7 @@ export const iqQuestions = [
     "explanation": "The pattern is to add 0.8 to each number. 3.9 + 0.8 = 4.7."
   },
   {
-    "id": 46,
+    "id": 43,
     "category": "Odd One Out",
     "question_text": "Which one is different from the others? Inch, Foot, Yard, Meter.",
     "options": {
@@ -610,7 +569,7 @@ export const iqQuestions = [
     "explanation": "Inch, Foot, and Yard are units of length in the Imperial system. Meter is a unit of length in the Metric system."
   },
   {
-    "id": 47,
+    "id": 44,
     "category": "Quantitative Aptitude",
     "question_text": "A batsman scored 110 runs which included 3 boundaries and 8 sixes. What percent of his total score did he make by running between the wickets?",
     "options": {
@@ -623,7 +582,7 @@ export const iqQuestions = [
     "explanation": "Runs from boundaries = 3 * 4 = 12. Runs from sixes = 8 * 6 = 48. Total from boundaries and sixes = 12 + 48 = 60. Runs from running = 110 - 60 = 50. Percentage = (50/110) * 100 = 45.45%."
   },
   {
-    "id": 48,
+    "id": 45,
     "category": "Logical Reasoning",
     "question_text": "Statements: Some actors are singers. All the singers are dancers. Conclusions: 1. Some actors are dancers. 2. No singer is an actor.",
     "options": {
@@ -636,7 +595,7 @@ export const iqQuestions = [
     "explanation": "Since some actors are singers, and all singers are dancers, it directly follows that some actors must be dancers. Conclusion 2 is incorrect because the first statement explicitly says some actors are singers."
   },
   {
-    "id": 49,
+    "id": 46,
     "category": "Series",
     "question_text": "Find the missing number: 8, 27, 64, ?, 216.",
     "options": {
@@ -649,7 +608,7 @@ export const iqQuestions = [
     "explanation": "The series consists of cubes of consecutive numbers starting from 2. 2^3=8, 3^3=27, 4^3=64. The missing term is 5^3=125. The next is 6^3=216."
   },
   {
-    "id": 50,
+    "id": 47,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Guitar, Violin, Cello, Flute.",
     "options": {
@@ -662,7 +621,7 @@ export const iqQuestions = [
     "explanation": "Guitar, Violin, and Cello are all string instruments. A Flute is a wind instrument."
   },
   {
-    "id": 51,
+    "id": 48,
     "category": "Quantitative Aptitude",
     "question_text": "Two numbers are in the ratio 1:2. If 7 is added to both, their ratio changes to 3:5. The greater number is:",
     "options": {
@@ -675,7 +634,7 @@ export const iqQuestions = [
     "explanation": "Let the numbers be x and 2x. (x+7)/(2x+7) = 3/5. 5(x+7) = 3(2x+7). 5x + 35 = 6x + 21. x = 14. The greater number is 2x = 2*14 = 28."
   },
   {
-    "id": 52,
+    "id": 49,
     "category": "Logical Reasoning",
     "question_text": "Complete the analogy: Book is to Reading as Fork is to:",
     "options": {
@@ -688,7 +647,7 @@ export const iqQuestions = [
     "explanation": "A book is an object used for the action of reading. A fork is an object used for the action of eating."
   },
   {
-    "id": 53,
+    "id": 50,
     "category": "Series",
     "question_text": "Find the next term in the series: A, C, F, J, O, ?",
     "options": {
@@ -701,7 +660,7 @@ export const iqQuestions = [
     "explanation": "The number of letters skipped between consecutive terms increases by one. A (+1 letter) C (+2 letters) F (+3 letters) J (+4 letters) O (+5 letters) U."
   },
   {
-    "id": 54,
+    "id": 51,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Moscow, Paris, New York, London.",
     "options": {
@@ -714,7 +673,7 @@ export const iqQuestions = [
     "explanation": "Moscow, Paris, and London are all capital cities of their respective countries (Russia, France, UK). New York is a major city but not the capital of the USA."
   },
   {
-    "id": 55,
+    "id": 52,
     "category": "Quantitative Aptitude",
     "question_text": "A fruit seller had some apples. He sells 40% apples and still has 420 apples. Originally, he had:",
     "options": {
@@ -727,7 +686,7 @@ export const iqQuestions = [
     "explanation": "If he sells 40%, he has 100% - 40% = 60% of the apples left. So, 60% of the total apples is 420. Let the total be x. 0.60 * x = 420. x = 420 / 0.6 = 700."
   },
   {
-    "id": 56,
+    "id": 53,
     "category": "Logical Reasoning",
     "question_text": "If 'water' is called 'food', 'food' is called 'tree', 'tree' is called 'sky', and 'sky' is called 'wall', on which of the following does a fruit grow?",
     "options": {
@@ -740,7 +699,7 @@ export const iqQuestions = [
     "explanation": "A fruit grows on a 'tree'. In this coded language, 'tree' is called 'sky'. So, the fruit grows on the 'sky'."
   },
   {
-    "id": 57,
+    "id": 54,
     "category": "Series",
     "question_text": "Find the next number in the series: 53, 53, 40, 40, 27, 27, ...",
     "options": {
@@ -753,7 +712,7 @@ export const iqQuestions = [
     "explanation": "The series repeats each number once and then decreases by 13. 53, 53. Then 53-13=40. 40, 40. Then 40-13=27. 27, 27. The next number will be 27-13=14."
   },
   {
-    "id": 58,
+    "id": 55,
     "category": "Odd One Out",
     "question_text": "Choose the pair that is different from the others: Painter:Brush, Carpenter:Saw, Writer:Pen, Doctor:Hospital.",
     "options": {
@@ -766,7 +725,7 @@ export const iqQuestions = [
     "explanation": "The first three pairs show a professional and their primary tool. The last pair shows a professional and their place of work."
   },
   {
-    "id": 59,
+    "id": 56,
     "category": "Quantitative Aptitude",
     "question_text": "A tank can be filled by a tap in 20 minutes and by another tap in 60 minutes. Both the taps are kept open for 10 minutes and then the first tap is shut off. After this, how many minutes are required to fill the remaining part of the tank?",
     "options": {
@@ -779,7 +738,7 @@ export const iqQuestions = [
     "explanation": "Part filled by first tap in 1 min = 1/20. Part filled by second tap in 1 min = 1/60. Part filled by both in 1 min = 1/20 + 1/60 = 4/60 = 1/15. In 10 mins, they fill 10 * (1/15) = 2/3 of the tank. Remaining part = 1 - 2/3 = 1/3. The second tap fills at a rate of 1/60 per minute. Time to fill 1/3 of the tank = (1/3) / (1/60) = 20 minutes."
   },
   {
-    "id": 60,
+    "id": 57,
     "category": "Logical Reasoning",
     "question_text": "If Monday falls on the 1st of January, what will be the day on the 1st of February of the same year (assuming it's not a leap year)?",
     "options": {
@@ -792,7 +751,7 @@ export const iqQuestions = [
     "explanation": "January has 31 days. The number of odd days in January is 31 mod 7 = 3. So, the 1st of February will be Monday + 3 days = Thursday."
   },
   {
-    "id": 61,
+    "id": 58,
     "category": "Logical Reasoning",
     "question_text": "Odometer is to mileage as compass is to:",
     "options": {
@@ -805,7 +764,7 @@ export const iqQuestions = [
     "explanation": "An odometer is an instrument used to measure mileage. A compass is an instrument used to determine direction."
   },
   {
-    "id": 62,
+    "id": 59,
     "category": "Series",
     "question_text": "Find the next number in the series: 2, 10, 30, 68, ?",
     "options": {
@@ -818,7 +777,7 @@ export const iqQuestions = [
     "explanation": "The pattern is n^3 + n. 1^3+1=2; 2^3+2=10; 3^3+3=30; 4^3+4=68; 5^3+5=130."
   },
   {
-    "id": 63,
+    "id": 60,
     "category": "Quantitative Aptitude",
     "question_text": "A person crosses a 600-meter long street in 5 minutes. What is his speed in km per hour?",
     "options": {
@@ -831,7 +790,7 @@ export const iqQuestions = [
     "explanation": "Speed = Distance / Time. Speed = 600 meters / 5 minutes = 120 meters/minute. To convert to km/hr: (120 m/min) * (60 min/hr) / (1000 m/km) = 7.2 km/hr."
   },
   {
-    "id": 64,
+    "id": 61,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Deck, Stern, Bow, Mast.",
     "options": {
@@ -844,7 +803,7 @@ export const iqQuestions = [
     "explanation": "Deck, Stern, and Bow are all parts of the main body (hull) of a ship. A mast is a vertical pole that supports sails, which is structurally distinct from the hull."
   },
   {
-    "id": 65,
+    "id": 62,
     "category": "Logical Reasoning",
     "question_text": "If 'HEALTH' is written as 'GSKZDG', then how will 'NORTH' be written in that code?",
     "options": {
@@ -857,7 +816,7 @@ export const iqQuestions = [
     "explanation": "Each letter in the word is moved one step backward to obtain the corresponding letter of the code. H-1=G, E-1=D (in reverse, Z->A, so it's a simple shift down). Let me recheck. H->G (-1), E->S (no), A->K (no). The pattern is a substitution cipher. H is the 8th letter, G is the 7th. Z is 26th, A is 1st. The letters are reversed from the alphabet. H's reverse is S, E's is V, etc. So this is not the logic. Let's re-try HEALTH -> GSKZDG. H(8) -> G(7) = -1. E(5) -> S(19) = no. It's a simple reverse substitution. Reverse of H is S, E is V, A is Z, L is O, T is G, H is S. So HEALTH -> SVZOGS. Also no. Let's try the original logic again. Each letter is moved one step backward. H-1=G, E-1=D, A-1=Z, L-1=K, T-1=S, H-1=G. Wait, the example is wrong. HEALTH -> G... S... K... Z... D... G. No. Let's assume the question meant a simple substitution. H->G, E->S, A->K, L->Z, T->D, H->G. It's not a consistent cipher. Let's go back to the most probable logic: one step backward. 'HEALTH' -> 'G D Z K S G'. The example in the question prompt is flawed. I'll correct the example. 'HEALTH' written as 'G DZKSG'. Then 'NORTH' -> N-1=M, O-1=N, R-1=Q, T-1=S, H-1=G. So 'MNQSG'. This isn't in the options. Let's try a different simple cipher. Reverse alphabet: H->S, E->V, A->Z, L->O, T->G, H->S. Not it. The initial given code GSKZDG is the key. H(8) -> G(7). E(5) -> S(19). A(1) -> K(11). L(12) -> Z(26). T(20) -> D(4). G(7). The relationship is not obvious. I will rewrite the question to be solvable. Let's use the one-step-backward cipher. 'HEALTH' -> 'G DZKSG'. 'NORTH' -> 'M N Q S G'. I will create options to match this. This makes the question valid. Let's try to find the logic in the original GSKZDG. Maybe it's a keyword cipher? No. Okay, I'll create a new, clear question. If 'SYSTEM' is 'SYSMET', then 'NEARER' is 'A) AENRER B) RREAEN C)AENRER D)AERRNE'. The logic is first 3 letters reversed, last 3 letters reversed. SYS -> SYS, TEM -> MET. NEARER -> NEA -> AEN, RER -> RER. Answer: AENRER. This is a good medium question."
   },
   {
-    "id": 65,
+    "id": 63,
     "category": "Logical Reasoning",
     "question_text": "In a certain code, 'SYSTEM' is written as 'SYSMET'. How is 'NEARER' written in that code?",
     "options": {
@@ -870,20 +829,20 @@ export const iqQuestions = [
     "explanation": "The word is divided into two halves. The letters of each half are reversed. SYSTEM -> SYS / TEM -> SYS / MET -> SYSMET. Similarly, NEARER -> NEA / RER -> AEN / RER -> AENRER."
   },
   {
-    "id": 66,
+    "id": 64,
     "category": "Quantitative Aptitude",
-    "question_text": "By selling an article for ₹960, a man incurs a loss of 4%. What was the cost price?",
+    "question_text": "By selling an article for \u20b9960, a man incurs a loss of 4%. What was the cost price?",
     "options": {
-      "A": "₹1000",
-      "B": "₹921.60",
-      "C": "₹998.40",
-      "D": "₹1040"
+      "A": "\u20b91000",
+      "B": "\u20b9921.60",
+      "C": "\u20b9998.40",
+      "D": "\u20b91040"
     },
     "answer": "A",
     "explanation": "Selling Price = Cost Price * (1 - Loss%/100). 960 = CP * (1 - 4/100) = CP * 0.96. CP = 960 / 0.96 = 1000."
   },
   {
-    "id": 67,
+    "id": 65,
     "category": "Series",
     "question_text": "Find the next term in the series: 3, 4, 7, 8, 11, 12, ?",
     "options": {
@@ -896,7 +855,7 @@ export const iqQuestions = [
     "explanation": "The series alternates between adding 1 and adding 3. 3+1=4, 4+3=7, 7+1=8, 8+3=11, 11+1=12, 12+3=15."
   },
   {
-    "id": 68,
+    "id": 66,
     "category": "Logical Reasoning",
     "question_text": "Ravi's mother is the only daughter of Monika's father. How is Monika's husband related to Ravi?",
     "options": {
@@ -909,7 +868,7 @@ export const iqQuestions = [
     "explanation": "The only daughter of Monika's father is Monika herself. So, Ravi's mother is Monika. Therefore, Monika's husband is Ravi's father."
   },
   {
-    "id": 69,
+    "id": 67,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Copper, Zinc, Brass, Aluminum.",
     "options": {
@@ -922,33 +881,33 @@ export const iqQuestions = [
     "explanation": "Copper, Zinc, and Aluminum are elements. Brass is an alloy (a mixture of copper and zinc)."
   },
   {
-    "id": 70,
+    "id": 68,
     "category": "Quantitative Aptitude",
-    "question_text": "The salaries of A and B are in the ratio 2:3. If the salary of each is increased by ₹4000, the new ratio becomes 40:57. What is B's present salary?",
+    "question_text": "The salaries of A and B are in the ratio 2:3. If the salary of each is increased by \u20b94000, the new ratio becomes 40:57. What is B's present salary?",
     "options": {
-      "A": "₹17,000",
-      "B": "₹25,500",
-      "C": "₹34,000",
-      "D": "₹38,000"
+      "A": "\u20b917,000",
+      "B": "\u20b925,500",
+      "C": "\u20b934,000",
+      "D": "\u20b938,000"
     },
     "answer": "C",
-    "explanation": "Let original salaries be 2k and 3k. (2k+4000)/(3k+4000) = 40/57 ⇒ 114k + 228000 = 120k + 160000 ⇒ k = 34000/3. B's original salary = 3k = 34000; present salary = 38000. Therefore, the correct option is D (₹38,000)."
+    "explanation": "Let original salaries be 2k and 3k. (2k+4000)/(3k+4000) = 40/57 \u21d2 114k + 228000 = 120k + 160000 \u21d2 k = 34000/3. B's original salary = 3k = 34000; present salary = 38000. Therefore, the correct option is D (\u20b938,000)."
+  },
+  {
+    "id": 69,
+    "category": "Quantitative Aptitude",
+    "question_text": "The salaries of A and B are in the ratio 2:3. If the salary of each is increased by \u20b94,000, the new ratio becomes 40:57. What is B's salary now?",
+    "options": {
+      "A": "\u20b922,667",
+      "B": "\u20b934,000",
+      "C": "\u20b938,000",
+      "D": "\u20b942,000"
+    },
+    "answer": "C",
+    "explanation": "Let original salaries be 2x and 3x. After increase, they are (2x+4000) and (3x+4000). The ratio is (2x+4000)/(3x+4000) = 40/57. Cross-multiply: 57(2x+4000) = 40(3x+4000) => 114x + 228000 = 120x + 160000 => 6x = 68000 => x = 34000/3. B's original salary was 3x = 3*(34000/3) = \u20b934,000. B's salary now is 34000 + 4000 = \u20b938,000."
   },
   {
     "id": 70,
-    "category": "Quantitative Aptitude",
-    "question_text": "The salaries of A and B are in the ratio 2:3. If the salary of each is increased by ₹4,000, the new ratio becomes 40:57. What is B's salary now?",
-    "options": {
-      "A": "₹22,667",
-      "B": "₹34,000",
-      "C": "₹38,000",
-      "D": "₹42,000"
-    },
-    "answer": "C",
-    "explanation": "Let original salaries be 2x and 3x. After increase, they are (2x+4000) and (3x+4000). The ratio is (2x+4000)/(3x+4000) = 40/57. Cross-multiply: 57(2x+4000) = 40(3x+4000) => 114x + 228000 = 120x + 160000 => 6x = 68000 => x = 34000/3. B's original salary was 3x = 3*(34000/3) = ₹34,000. B's salary now is 34000 + 4000 = ₹38,000."
-  },
-  {
-    "id": 71,
     "category": "Verbal Reasoning",
     "question_text": "Which of the following is the same as 'SKEPTIC'?",
     "options": {
@@ -961,7 +920,7 @@ export const iqQuestions = [
     "explanation": "A skeptic is a person inclined to question or doubt accepted opinions. A doubter shares this characteristic."
   },
   {
-    "id": 72,
+    "id": 71,
     "category": "Series",
     "question_text": "Find the missing term: BCD, FGH, JKL, ?",
     "options": {
@@ -974,20 +933,7 @@ export const iqQuestions = [
     "explanation": "Each group of letters is consecutive. There is a gap of 3 letters between the last letter of one group and the first letter of the next group (D->E->F is wrong. D->F is one letter gap E. H->J is one letter gap I. L->N is one letter gap M). B(2),C(3),D(4). F(6),G(7),H(8). J(10),K(11),L(12). The starting letter of each group is B(+4)F(+4)J(+4)N. The group would be NOP."
   },
   {
-    "id": 73,
-    "category": "Spatial Reasoning",
-    "question_text": "If a paper is folded in half vertically, and then folded in half again horizontally, and a circular hole is punched in the center, what will it look like when unfolded?",
-    "options": {
-      "A": "One hole in the center",
-      "B": "Two holes vertically aligned",
-      "C": "Two holes horizontally aligned",
-      "D": "Four holes in a square pattern"
-    },
-    "answer": "D",
-    "explanation": "Each fold doubles the number of layers. Two folds create four layers. A single punch goes through all four layers. When unfolded, there will be four holes symmetrically placed around the center."
-  },
-  {
-    "id": 74,
+    "id": 72,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: River, Lake, Pond, Brook.",
     "options": {
@@ -1000,7 +946,7 @@ export const iqQuestions = [
     "explanation": "A River and a Brook are bodies of flowing water. A Lake and a Pond are bodies of still water. However, River and Brook are defined by their flow. Lake and Pond are defined by being contained. The key difference is flowing vs still. River and Brook flow. Pond and Lake are still. This doesn't narrow it down. Let's try size. River > Brook. Lake > Pond. No. Let's reconsider flowing vs still. River and Brook are flowing. Lake and Pond are still. There are two of each. This is a bad question. Let's find a better distinction. A river and brook naturally flow towards a larger body of water. A lake and pond are self-contained. Let's try another approach. A Lake is a large body of still water, while Rivers, Ponds, and Brooks are generally smaller or defined by movement. This is weak. Let's change the options. River, Lake, Sea, Ocean. The odd one out is River, as it's freshwater while the others are saltwater. This is better. Let's use this."
   },
   {
-    "id": 74,
+    "id": 73,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: River, Lake, Sea, Ocean.",
     "options": {
@@ -1013,7 +959,7 @@ export const iqQuestions = [
     "explanation": "Sea and Ocean are large bodies of saltwater. Lakes can be salt or fresh, but are still. Rivers are bodies of flowing freshwater. The most distinct category is the flowing freshwater of a river compared to the large, still, and typically saline bodies of water."
   },
   {
-    "id": 75,
+    "id": 74,
     "category": "Quantitative Aptitude",
     "question_text": "What is 3/5 of 10/9 of 21/4?",
     "options": {
@@ -1026,7 +972,7 @@ export const iqQuestions = [
     "explanation": "The expression is (3/5) * (10/9) * (21/4). Simplify by canceling terms: (3*10*21) / (5*9*4) = (3/9) * (10/5) * (21/4) = (1/3) * (2) * (21/4) = (2/3) * (21/4) = 42/12 = 7/2 = 3.5."
   },
   {
-    "id": 76,
+    "id": 75,
     "category": "Verbal Reasoning",
     "question_text": "Which word is the most necessary part of the word 'DESERT'?",
     "options": {
@@ -1039,7 +985,7 @@ export const iqQuestions = [
     "explanation": "A desert is fundamentally defined by its lack of rainfall, which is aridity. While many deserts have sand and cacti, and some have oases, the essential characteristic is being arid."
   },
   {
-    "id": 77,
+    "id": 76,
     "category": "Series",
     "question_text": "Find the next term in the series: 80, 10, 70, 15, 60, ?",
     "options": {
@@ -1052,7 +998,7 @@ export const iqQuestions = [
     "explanation": "This is an alternating series. The first series is 80, 70, 60 (subtracting 10). The second series is 10, 15, ? (adding 5). The next term is 15 + 5 = 20."
   },
   {
-    "id": 78,
+    "id": 77,
     "category": "Logical Reasoning",
     "question_text": "Statements: All pens are pencils. No pencil is a marker. Conclusions: I. No pen is a marker. II. Some pens are markers.",
     "options": {
@@ -1065,7 +1011,7 @@ export const iqQuestions = [
     "explanation": "If all pens are pencils, and no pencils are markers, then it logically follows that nothing that is a pen can be a marker. Therefore, no pen is a marker. Conclusion I follows."
   },
   {
-    "id": 79,
+    "id": 78,
     "category": "Quantitative Aptitude",
     "question_text": "The price of a TV is increased by 25%. By what percentage must the new price be decreased to bring it back to the original price?",
     "options": {
@@ -1078,7 +1024,7 @@ export const iqQuestions = [
     "explanation": "Let the original price be 100. After a 25% increase, the new price is 125. To get back to 100, the price must be decreased by 25. The percentage decrease is (25/125) * 100 = 20%."
   },
   {
-    "id": 80,
+    "id": 79,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: January, May, July, November.",
     "options": {
@@ -1091,7 +1037,7 @@ export const iqQuestions = [
     "explanation": "January, May, and July all have 31 days. November has 30 days."
   },
   {
-    "id": 81,
+    "id": 80,
     "category": "Logical Reasoning",
     "question_text": "Arrange the words in a meaningful order: 1. Infection, 2. Consultation, 3. Doctor, 4. Treatment, 5. Recovery.",
     "options": {
@@ -1104,7 +1050,7 @@ export const iqQuestions = [
     "explanation": "The logical sequence of events is: First, there is an Infection (1). This leads one to seek a Doctor (3). One has a Consultation (2) with the doctor, who then prescribes a Treatment (4), leading to Recovery (5)."
   },
   {
-    "id": 82,
+    "id": 81,
     "category": "Series",
     "question_text": "Find the next term in the series: 2, 6, 12, 20, 30, ?",
     "options": {
@@ -1117,7 +1063,7 @@ export const iqQuestions = [
     "explanation": "The pattern is n^2 + n. 1^2+1=2; 2^2+2=6; 3^2+3=12; 4^2+4=20; 5^2+5=30; 6^2+6=42."
   },
   {
-    "id": 83,
+    "id": 82,
     "category": "Quantitative Aptitude",
     "question_text": "If 15 men can do a piece of work in 10 days, how many days will 25 men take to do the same work?",
     "options": {
@@ -1130,7 +1076,7 @@ export const iqQuestions = [
     "explanation": "This is an inverse proportion problem. The total work is 15 men * 10 days = 150 man-days. To find the days for 25 men: 150 man-days / 25 men = 6 days."
   },
   {
-    "id": 84,
+    "id": 83,
     "category": "Verbal Reasoning",
     "question_text": "Complete the analogy: Architect is to Building as Sculptor is to:",
     "options": {
@@ -1143,7 +1089,7 @@ export const iqQuestions = [
     "explanation": "An architect creates a building. A sculptor creates a statue. The relationship is creator to creation."
   },
   {
-    "id": 85,
+    "id": 84,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: 8, 27, 64, 100, 125.",
     "options": {
@@ -1156,7 +1102,7 @@ export const iqQuestions = [
     "explanation": "All numbers except 100 are perfect cubes (2^3, 3^3, 4^3, 5^3). 100 is a perfect square (10^2)."
   },
   {
-    "id": 86,
+    "id": 85,
     "category": "Logical Reasoning",
     "question_text": "Introducing a woman, a man said, 'Her mother's husband's sister is my aunt.' How is the man related to the woman?",
     "options": {
@@ -1169,7 +1115,7 @@ export const iqQuestions = [
     "explanation": "'The only daughter of my mother-in-law' is the man's wife. So, the woman's mother is the man's wife. This makes the man the woman's father."
   },
   {
-    "id": 87,
+    "id": 86,
     "category": "Quantitative Aptitude",
     "question_text": "A man's age is 125% of what it was 10 years ago, but 83 1/3% of what it will be after 10 years. What is his present age?",
     "options": {
@@ -1182,7 +1128,7 @@ export const iqQuestions = [
     "explanation": "Let present age be x. x = 1.25 * (x-10) => x = 1.25x - 12.5 => 0.25x = 12.5 => x = 50. Let's check with the second condition. 83 1/3% is 5/6. x = (5/6)*(x+10) => 6x = 5x + 50 => x=50. Both conditions hold. Present age is 50."
   },
   {
-    "id": 88,
+    "id": 87,
     "category": "Series",
     "question_text": "Find the next term in the alphabet series: Z, W, S, P, L, I, E, ?",
     "options": {
@@ -1195,20 +1141,7 @@ export const iqQuestions = [
     "explanation": "The pattern is subtracting a decreasing number of positions. Z(-3)W(-4)S(-3)P(-4)L(-3)I(-4)E(-3)B."
   },
   {
-    "id": 89,
-    "category": "Spatial Reasoning",
-    "question_text": "Which of the following figures is the mirror image of the word 'LATERAL'?",
-    "options": {
-      "A": "LATERAL",
-      "B": "LARUTAL",
-      "C": "LARETAL",
-      "D": "˥AЯƎTA˥"
-    },
-    "answer": "D",
-    "explanation": "The mirror image reverses the order of the letters and flips each letter horizontally. The representation in option D shows this horizontal flipping and reversal."
-  },
-  {
-    "id": 90,
+    "id": 88,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Trilogy, Trio, Trivial, Tripod.",
     "options": {
@@ -1221,7 +1154,7 @@ export const iqQuestions = [
     "explanation": "Trilogy, Trio, and Tripod are all words related to the number three (a series of three, a group of three, a stand with three legs). Trivial means of little importance."
   },
   {
-    "id": 91,
+    "id": 89,
     "category": "Quantitative Aptitude",
     "question_text": "A container contains 40 litres of milk. From this container, 4 litres of milk was taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container?",
     "options": {
@@ -1234,7 +1167,7 @@ export const iqQuestions = [
     "explanation": "Each time, 4/40 = 1/10 of the liquid is removed. The fraction of milk remaining is 9/10. After 3 repetitions, the amount of milk left is 40 * (9/10)^3 = 40 * (729/1000) = 29.16 litres."
   },
   {
-    "id": 92,
+    "id": 90,
     "category": "Verbal Reasoning",
     "question_text": "A conclusion is:",
     "options": {
@@ -1247,7 +1180,7 @@ export const iqQuestions = [
     "explanation": "A conclusion is a judgment or decision reached by reasoning, based on premises or evidence."
   },
   {
-    "id": 93,
+    "id": 91,
     "category": "Series",
     "question_text": "Find the next term in the series: 1, 1, 2, 3, 5, 8, 13, ?",
     "options": {
@@ -1260,7 +1193,7 @@ export const iqQuestions = [
     "explanation": "This is the Fibonacci sequence, where each number is the sum of the two preceding ones. 8 + 13 = 21."
   },
   {
-    "id": 94,
+    "id": 92,
     "category": "Logical Reasoning",
     "question_text": "If 'Cloud' is called 'White', 'White' is called 'Rain', 'Rain' is called 'Green', 'Green' is called 'Air', 'Air' is called 'Blue' and 'Blue' is called 'Water', where will the birds fly?",
     "options": {
@@ -1273,7 +1206,7 @@ export const iqQuestions = [
     "explanation": "Birds fly in the 'Air'. In this coded language, 'Air' is called 'Blue'. Therefore, the birds will fly in the 'Blue'."
   },
   {
-    "id": 95,
+    "id": 93,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Heart, Lungs, Kidney, Nose.",
     "options": {
@@ -1286,7 +1219,7 @@ export const iqQuestions = [
     "explanation": "The Heart, Lungs, and Kidney are all internal organs. The Nose is an external sense organ."
   },
   {
-    "id": 96,
+    "id": 94,
     "category": "Quantitative Aptitude",
     "question_text": "The sum of the digits of a two-digit number is 9. If 27 is added to it, the digits of the number get reversed. The number is:",
     "options": {
@@ -1299,7 +1232,7 @@ export const iqQuestions = [
     "explanation": "Let the number be 10x + y. Given x+y=9. Also, 10x+y+27 = 10y+x. This simplifies to 9y - 9x = 27, or y-x=3. Solving x+y=9 and y-x=3, we get 2y=12 -> y=6. Then x=3. The number is 36."
   },
   {
-    "id": 97,
+    "id": 95,
     "category": "Logical Reasoning",
     "question_text": "Select the alternative which represents three out of the five alternatives which are alike.",
     "options": {
@@ -1313,7 +1246,7 @@ export const iqQuestions = [
     "explanation": "Dog, Cat, and Horse are commonly domesticated animals. Lion and Tiger are wild animals."
   },
   {
-    "id": 98,
+    "id": 96,
     "category": "Series",
     "question_text": "Find the next fraction in the sequence: 1/2, 3/4, 5/8, 7/16, ?",
     "options": {
@@ -1326,7 +1259,7 @@ export const iqQuestions = [
     "explanation": "The numerator is a series of consecutive odd numbers (1, 3, 5, 7, 9). The denominator is a geometric progression, multiplying by 2 each time (2, 4, 8, 16, 32)."
   },
   {
-    "id": 99,
+    "id": 97,
     "category": "Verbal Reasoning",
     "question_text": "A 'cacophony' refers to:",
     "options": {
@@ -1339,7 +1272,7 @@ export const iqQuestions = [
     "explanation": "Cacophony comes from Greek roots meaning 'bad sound'. It refers to a harsh, unpleasant mixture of noises."
   },
   {
-    "id": 100,
+    "id": 98,
     "category": "Quantitative Aptitude",
     "question_text": "If A's salary is 20% less than B's salary, by how much percent is B's salary more than A's?",
     "options": {
@@ -1352,7 +1285,7 @@ export const iqQuestions = [
     "explanation": "Let B's salary be 100. Then A's salary is 80. The difference is 20. The percentage by which B's salary is more than A's is (20/80) * 100 = 25%."
   },
   {
-    "id": 101,
+    "id": 99,
     "category": "Logical Reasoning",
     "question_text": "If P is the brother of Q; R is the father of P; S is the brother of T and T is the daughter of Q. Who is the uncle of S?",
     "options": {
@@ -1365,7 +1298,7 @@ export const iqQuestions = [
     "explanation": "T is the daughter of Q, and S is the brother of T. So, S is the son of Q. P is the brother of Q. Therefore, P is the uncle of S."
   },
   {
-    "id": 102,
+    "id": 100,
     "category": "Odd One Out",
     "question_text": "Which word does not belong with the others? Meter, Kilometer, Decimeter, Ammeter.",
     "options": {
@@ -1378,7 +1311,7 @@ export const iqQuestions = [
     "explanation": "Meter, Kilometer, and Decimeter are all units of length. An Ammeter is an instrument used to measure electric current."
   },
   {
-    "id": 103,
+    "id": 101,
     "category": "Series",
     "question_text": "Find the next term in the series: 6, 11, 21, 36, 56, ?",
     "options": {
@@ -1391,7 +1324,7 @@ export const iqQuestions = [
     "explanation": "The differences between the numbers are increasing: +5, +10, +15, +20. The next difference will be +25. So, 56 + 25 = 81."
   },
   {
-    "id": 104,
+    "id": 102,
     "category": "Quantitative Aptitude",
     "question_text": "The average of five consecutive odd numbers is 61. What is the difference between the highest and lowest numbers?",
     "options": {
@@ -1404,7 +1337,7 @@ export const iqQuestions = [
     "explanation": "For any set of consecutive numbers (even or odd), the average is the middle number. So the numbers are 57, 59, 61, 63, 65. The difference between the highest (65) and lowest (57) is 8."
   },
   {
-    "id": 105,
+    "id": 103,
     "category": "Verbal Reasoning",
     "question_text": "To 'expedite' something means to:",
     "options": {
@@ -1417,33 +1350,20 @@ export const iqQuestions = [
     "explanation": "To expedite a process means to make it happen more quickly or to speed up its progress."
   },
   {
-    "id": 106,
-    "category": "Spatial Reasoning",
-    "question_text": "A cube is made by folding a given sheet. In the cube, which letter is opposite to 'B'?",
-    "options": {
-      "A": "C",
-      "B": "D",
-      "C": "E",
-      "D": "F"
-    },
-    "answer": "D",
-    "explanation": "This question requires a visual of the unfolded net. In a standard '1x4 with two wings' net (like A-B-C-D with E below B and F below C), faces in alternate positions in the main strip are opposite (A is opp C, B is opp D). And the two wings are opposite (E is opp F). Let's assume a common net: [A][B][C][D] with [E] below B. In this net, A is opposite C, B is opposite D, and E is opposite the face to the right of D (if there was one). Another common net is the cross shape. If the vertical is A-B-C and the horizontal is D-B-E, then A is opp C, D is opp E. Without a visual, let's assume a standard 1-2-3-4 horizontal strip, with 5 below 2 and 6 below 3. Then 1 opposes 3, 2 opposes 4, and 5 opposes 6. Given the letters B and F, and common net layouts, they are often placed on opposite wings, making them opposite each other."
-  },
-  {
-    "id": 107,
+    "id": 104,
     "category": "Logical Reasoning",
     "question_text": "An accurate clock shows 8 o'clock in the morning. Through how many degrees will the hour hand rotate when the clock shows 2 o'clock in the afternoon?",
     "options": {
-      "A": "144°",
-      "B": "150°",
-      "C": "168°",
-      "D": "180°"
+      "A": "144\u00b0",
+      "B": "150\u00b0",
+      "C": "168\u00b0",
+      "D": "180\u00b0"
     },
     "answer": "D",
-    "explanation": "The time difference is from 8 AM to 2 PM, which is 6 hours. The hour hand completes a full 360° rotation in 12 hours. Therefore, its speed is 360/12 = 30° per hour. In 6 hours, it will rotate 6 * 30° = 180°."
+    "explanation": "The time difference is from 8 AM to 2 PM, which is 6 hours. The hour hand completes a full 360\u00b0 rotation in 12 hours. Therefore, its speed is 360/12 = 30\u00b0 per hour. In 6 hours, it will rotate 6 * 30\u00b0 = 180\u00b0."
   },
   {
-    "id": 108,
+    "id": 105,
     "category": "Series",
     "question_text": "Find the next term in the series: 1, 8, 27, 64, 125, ?",
     "options": {
@@ -1456,7 +1376,7 @@ export const iqQuestions = [
     "explanation": "The series consists of the cubes of consecutive natural numbers. 1^3, 2^3, 3^3, 4^3, 5^3. The next term is 6^3 = 216."
   },
   {
-    "id": 109,
+    "id": 106,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Hypothesis, Assumption, Observation, Guess.",
     "options": {
@@ -1469,7 +1389,7 @@ export const iqQuestions = [
     "explanation": "A hypothesis, assumption, and guess are all ideas or propositions made before having complete information. An observation is the act of gathering information or data directly."
   },
   {
-    "id": 110,
+    "id": 107,
     "category": "Quantitative Aptitude",
     "question_text": "A student has to obtain 33% of the total marks to pass. He got 125 marks and failed by 40 marks. The maximum marks are:",
     "options": {
@@ -1482,7 +1402,7 @@ export const iqQuestions = [
     "explanation": "The marks required to pass are 125 + 40 = 165. These passing marks are 33% of the maximum marks. Let the maximum marks be x. 0.33 * x = 165. x = 165 / 0.33 = 500."
   },
   {
-    "id": 111,
+    "id": 108,
     "category": "Verbal Reasoning",
     "question_text": "What is the most suitable antonym for GREGARIOUS?",
     "options": {
@@ -1495,20 +1415,20 @@ export const iqQuestions = [
     "explanation": "Gregarious means fond of company; sociable. Aloof means not friendly or forthcoming; cool and distant, making it the best antonym."
   },
   {
-    "id": 112,
+    "id": 109,
     "category": "Quantitative Aptitude",
-    "question_text": "A and B invest in a business in the ratio 3:2. If 5% of the total profit goes to charity and A's share is ₹855, the total profit is:",
+    "question_text": "A and B invest in a business in the ratio 3:2. If 5% of the total profit goes to charity and A's share is \u20b9855, the total profit is:",
     "options": {
-      "A": "₹1425",
-      "B": "₹1500",
-      "C": "₹1539",
-      "D": "₹1575"
+      "A": "\u20b91425",
+      "B": "\u20b91500",
+      "C": "\u20b91539",
+      "D": "\u20b91575"
     },
     "answer": "B",
     "explanation": "Let the total profit be P. After charity, 95% of P is distributed. A's share is 3/5 of the distributed profit. So, (3/5) * (0.95 * P) = 855. This means 0.57 * P = 855. P = 855 / 0.57 = 1500."
   },
   {
-    "id": 113,
+    "id": 110,
     "category": "Logical Reasoning",
     "question_text": "Five friends are sitting in a row facing North. C is sitting between A and E. D is not at the end. B is sitting to the immediate right of E. Who is at the far left?",
     "options": {
@@ -1521,7 +1441,7 @@ export const iqQuestions = [
     "explanation": "The arrangement must be A, C, E, B, D. C is between A and E (A C E). B is to the right of E (A C E B). D is not at the end, so it must be placed before A, resulting in D A C E B. But B is to the immediate right of E, so the block is 'E B'. C is between A and E, so 'A C E'. Combining these gives 'A C E B'. Since D cannot be at the end, the only spot left is the first one, which gives D, A, C, E, B. Let's re-read. 'D is not at the end'. In 'D,A,C,E,B', D is at an end. So this arrangement is wrong. Let's try starting with A on the left. Arrangement is A, C, E, B. The only spot for D is at the beginning or end. Since D cannot be at the end, D must be at the beginning: D, A, C, E, B. This contradicts 'D is not at the end'. The only other arrangement for 'C is between A and E' is E C A. Let's try this. E C A. B is to the right of E. This is impossible. So the block must be A C E B. The only place for D is not at the end, which is impossible with 5 spots. Let me re-read. 'B is sitting to the immediate right of E' (EB). 'C is between A and E' (ACE). This gives the block ACEB. Since D is not at an end, it must be somewhere inside, which is impossible. Let's re-examine C between A and E. It can be ACE or ECA. Case 1: ACE. With EB, we have ACEB. To place D not at the end, D would have to be in a middle position, but all 4 are taken. Case 2: ECA. With EB, we get ECAB. Now D can be placed in the middle: E, D, C, A, B. Let's check: C is between A and E (No). B is right of E (No). The arrangement must be linear. A,C,E,B,D or D,A,C,E,B. In D,A,C,E,B, D is at the end. In A,C,E,B,D, D is at the end. This is a flawed question. I'll fix it. Let's make it 'D is to the left of C'. Now try: ACEB. D is to the left of C => D,A,C,E,B. Who is at the far left? D. Okay, let's try a different question entirely. Five people P, Q, R, S and T are sitting in a row facing north. Q is at one of the ends. P is the neighbor of Q and is third to the left of T. Who is in the middle? Let Q be on the left end. Q P _ _ _. P is 3rd to left of T -> P _ _ T. So Q P _ T _. The person left is R and S. The order could be Q P R T S or Q P S T R. What if Q is on the right end? _ _ _ _ Q. P is neighbor -> _ _ _ P Q. P is 3rd to left of T -> T _ _ P. This is impossible. So Q is at the left end. Q P _ T _. R and S are in the blanks. Q P R T S or Q P S T R. In both cases, R or S is in the middle. The question is still ambiguous. I need a definitive one. Let's try again. Five girls are sitting in a row facing south. M is to the left of R and to the right of N. P is to the right of R and O is to the right of P. Who is at the extreme right end? Facing south, so left/right is reversed. M is left of R (R M). M is right of N (N M). So N M R. P is right of R (P R). O is right of P (O P). The order is N, M, R, P, O. Extreme right is O."
   },
   {
-    "id": 113,
+    "id": 111,
     "category": "Logical Reasoning",
     "question_text": "Five girls are sitting in a row facing South. M is to the left of R and to the right of N. P is to the right of R, and O is to the right of P. Who is at the extreme right end?",
     "options": {
@@ -1534,7 +1454,7 @@ export const iqQuestions = [
     "explanation": "Facing South, 'left' and 'right' are from the girls' perspective (opposite of ours). 'M is to the left of R' means the order is R M. 'M is to the right of N' means N M. Combining gives N M R. 'P is to the right of R' means N M R P. 'O is to the right of P' means N M R P O. The person at the extreme right is O."
   },
   {
-    "id": 114,
+    "id": 112,
     "category": "Series",
     "question_text": "Find the next number in the series: 3, 7, 16, 35, ?",
     "options": {
@@ -1547,7 +1467,7 @@ export const iqQuestions = [
     "explanation": "The pattern is to multiply by 2 and add an increasing number. 3 * 2 + 1 = 7.  7 * 2 + 2 = 16.  16 * 2 + 3 = 35.  The next term is 35 * 2 + 4 = 74."
   },
   {
-    "id": 115,
+    "id": 113,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Rishikesh, Varanasi, Haridwar, Bodh Gaya.",
     "options": {
@@ -1560,9 +1480,9 @@ export const iqQuestions = [
     "explanation": "Rishikesh, Varanasi, and Haridwar are all major Hindu pilgrimage sites located on the banks of the river Ganga. Bodh Gaya is a major Buddhist pilgrimage site."
   },
   {
-    "id": 116,
+    "id": 114,
     "category": "Quantitative Aptitude",
-    "question_text": "The compound interest on ₹30,000 at 7% per annum for a certain time is ₹4,347. The time period is:",
+    "question_text": "The compound interest on \u20b930,000 at 7% per annum for a certain time is \u20b94,347. The time period is:",
     "options": {
       "A": "1 year",
       "B": "2 years",
@@ -1573,7 +1493,7 @@ export const iqQuestions = [
     "explanation": "Amount = Principal + CI = 30000 + 4347 = 34347. Using the formula A = P(1 + R/100)^t, we have 34347 = 30000(1 + 7/100)^t.  34347/30000 = (1.07)^t.  1.1449 = (1.07)^t. Since 1.07^2 = 1.1449, the time t is 2 years."
   },
   {
-    "id": 117,
+    "id": 115,
     "category": "Logical Reasoning",
     "question_text": "Complete the analogy: Eye is to Myopia as Teeth is to:",
     "options": {
@@ -1586,7 +1506,7 @@ export const iqQuestions = [
     "explanation": "Myopia is a disease or defect of the eye. Pyorrhea is a disease of the gums/teeth. Cataract and Trachoma are eye diseases, and Eczema is a skin disease."
   },
   {
-    "id": 118,
+    "id": 116,
     "category": "Series",
     "question_text": "Find the next term in the series: 5, 6, 9, 14, 21, 34, ?",
     "options": {
@@ -1599,7 +1519,7 @@ export const iqQuestions = [
     "explanation": "This is a Fibonacci-like sequence where each term is the sum of the two preceding ones. 21 + 34 = 55."
   },
   {
-    "id": 119,
+    "id": 117,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: 24, 60, 120, 210.",
     "options": {
@@ -1612,7 +1532,7 @@ export const iqQuestions = [
     "explanation": "The pattern is n^3 - n. 3^3-3 = 24. 4^3-4 = 60. 5^3-5 = 120. 6^3-6 = 210. 7^3-7 = 336. Wait, all of them fit the n^3-n pattern. Let's try another logic. Divisibility. All are divisible by 2, 3, 4, 5, 6. Let's re-examine. 24, 60, 120, 210. 210 is not divisible by 4. 24, 60, 120 are all divisible by 12. 210 is not. So 210 is the odd one out."
   },
   {
-    "id": 120,
+    "id": 118,
     "category": "Quantitative Aptitude",
     "question_text": "A milkman mixes 20 litres of water with 80 litres of milk. After selling one-fourth of this mixture, he adds water to replenish the quantity that he has sold. What is the current proportion of water to milk?",
     "options": {
@@ -1625,7 +1545,7 @@ export const iqQuestions = [
     "explanation": "Total mixture = 100L, with 80L milk and 20L water. He sells 1/4th (25L). The sold part contains milk and water in a 4:1 ratio, so 20L milk and 5L water are sold. Remaining: 60L milk, 15L water. He adds 25L water. New water = 15+25 = 40L. New milk = 60L. The proportion of water to milk is 40:60 or 2:3."
   },
   {
-    "id": 121,
+    "id": 119,
     "category": "Verbal Reasoning",
     "question_text": "A 'panacea' is a:",
     "options": {
@@ -1638,7 +1558,7 @@ export const iqQuestions = [
     "explanation": "A panacea is a solution or remedy for all difficulties or diseases."
   },
   {
-    "id": 122,
+    "id": 120,
     "category": "Logical Reasoning",
     "question_text": "If Sunday was the day before yesterday, what day will it be three days after tomorrow?",
     "options": {
@@ -1651,7 +1571,7 @@ export const iqQuestions = [
     "explanation": "If the day before yesterday was Sunday, then today is Tuesday. Tomorrow will be Wednesday. Three days after Wednesday is Saturday."
   },
   {
-    "id": 123,
+    "id": 121,
     "category": "Series",
     "question_text": "Find the next term in the series: 1, 2, 5, 26, ?",
     "options": {
@@ -1664,20 +1584,7 @@ export const iqQuestions = [
     "explanation": "Each term is the square of the previous term plus one. 1^2+1=2. 2^2+1=5. 5^2+1=26. 26^2+1 = 676+1 = 677."
   },
   {
-    "id": 124,
-    "category": "Spatial Reasoning",
-    "question_text": "Count the number of triangles in the given figure (A star of David - a hexagram formed by two overlapping equilateral triangles).",
-    "options": {
-      "A": "6",
-      "B": "7",
-      "C": "8",
-      "D": "10"
-    },
-    "answer": "C",
-    "explanation": "A Star of David has 6 small triangles forming the points, and 2 large triangles that make up the star itself. Total triangles = 6 + 2 = 8."
-  },
-  {
-    "id": 125,
+    "id": 122,
     "category": "Quantitative Aptitude",
     "question_text": "The average weight of 8 persons increases by 2.5 kg when a new person comes in place of one of them weighing 65 kg. What might be the weight of the new person?",
     "options": {
@@ -1690,7 +1597,7 @@ export const iqQuestions = [
     "explanation": "The total increase in weight is 8 * 2.5 = 20 kg. The new person must weigh 20 kg more than the person who left. So, the new person's weight is 65 + 20 = 85 kg."
   },
   {
-    "id": 126,
+    "id": 123,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Iron, Mercury, Silver, Gold.",
     "options": {
@@ -1703,7 +1610,7 @@ export const iqQuestions = [
     "explanation": "All are metallic elements, but Mercury is the only one that is liquid at standard room temperature."
   },
   {
-    "id": 127,
+    "id": 124,
     "category": "Verbal Reasoning",
     "question_text": "Complete the analogy: Grain is to Stock as Stick is to:",
     "options": {
@@ -1716,7 +1623,7 @@ export const iqQuestions = [
     "explanation": "A 'stock' is a collective noun for grain. A 'bundle' is a collective noun for sticks."
   },
   {
-    "id": 128,
+    "id": 125,
     "category": "Series",
     "question_text": "Find the next term in the series: 4, 9, 25, 49, 121, ?",
     "options": {
@@ -1729,7 +1636,7 @@ export const iqQuestions = [
     "explanation": "The series consists of the squares of consecutive prime numbers. 2^2=4, 3^2=9, 5^2=25, 7^2=49, 11^2=121. The next prime number is 13, so the next term is 13^2=169."
   },
   {
-    "id": 129,
+    "id": 126,
     "category": "Logical Reasoning",
     "question_text": "If a certain language, '943' is coded as 'BED' and '12448' is coded as 'SWEET', how is '492' coded in that language?",
     "options": {
@@ -1742,7 +1649,7 @@ export const iqQuestions = [
     "explanation": "By comparing the codes, we can deduce: 9=B, 4=E, 3=D, 1=S, 2=W, 8=T. Wait, 12448 -> SWEET, W is 2, E is 4. So the code for 492 is E B W. Let me check the options. None match. This must mean a different mapping. Okay, there is no direct substitution. It is a direct mapping. 9->B, 4->E, 3->D, 1->S, 2->W, 4->E, 4->E, 8->T. So we have 4->E, 9->B, 2->W. The code is 'EBW'. This is also not in the options. Let's re-read the prompt. Maybe I made a mistake. '943' is 'BED'. '12448' is 'SWEET'. No, this is likely a flawed question. I'll write a new one. In a certain code, 'TIRED' is written as '56421', and 'BRAIN' is written as '78369'. How is 'BRAID' written? This is a direct substitution code. B=7, R=8, A=3, I=6, D=1. So BRAID = 78361."
   },
   {
-    "id": 129,
+    "id": 127,
     "category": "Logical Reasoning",
     "question_text": "In a certain code, 'TIRED' is written as '56421', and 'BRAIN' is written as '78369'. How is 'BRAID' written in that code?",
     "options": {
@@ -1755,7 +1662,7 @@ export const iqQuestions = [
     "explanation": "This is a direct substitution code. From the given words, we can find the code for each letter: B=7, R=8, A=3, I=6, D=1. Therefore, BRAID is coded as 78361."
   },
   {
-    "id": 130,
+    "id": 128,
     "category": "Quantitative Aptitude",
     "question_text": "A boat can travel at a speed of 13 km/hr in still water. If the speed of the stream is 4 km/hr, find the time taken by the boat to go 68 km downstream.",
     "options": {
@@ -1768,7 +1675,7 @@ export const iqQuestions = [
     "explanation": "Downstream speed = Speed in still water + Speed of stream = 13 + 4 = 17 km/hr. Time taken = Distance / Speed = 68 km / 17 km/hr = 4 hours."
   },
   {
-    "id": 131,
+    "id": 129,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Circle, Ellipse, Parabola, Rhombus.",
     "options": {
@@ -1781,7 +1688,7 @@ export const iqQuestions = [
     "explanation": "Circle, Ellipse, and Parabola are all conic sections (curves obtained by intersecting a cone with a plane). A Rhombus is a polygon."
   },
   {
-    "id": 132,
+    "id": 130,
     "category": "Verbal Reasoning",
     "question_text": "To 'corroborate' a story means to:",
     "options": {
@@ -1794,7 +1701,7 @@ export const iqQuestions = [
     "explanation": "To corroborate means to confirm or give support to a statement, theory, or finding."
   },
   {
-    "id": 133,
+    "id": 131,
     "category": "Series",
     "question_text": "Find the next term in the series: 3, 10, 29, 66, 127, ?",
     "options": {
@@ -1807,7 +1714,7 @@ export const iqQuestions = [
     "explanation": "The pattern is n^3 + 2. 1^3+2 = 3. 2^3+2 = 10. 3^3+2 = 29. 4^3+2 = 66. 5^3+2 = 127. The next term is 6^3+2 = 216+2 = 218."
   },
   {
-    "id": 134,
+    "id": 132,
     "category": "Quantitative Aptitude",
     "question_text": "The length of a rectangle is increased by 20% and its width is decreased by 20%. The area of the rectangle:",
     "options": {
@@ -1820,7 +1727,7 @@ export const iqQuestions = [
     "explanation": "Let original length be L and width be W. Area = L*W. New length = 1.2L. New width = 0.8W. New Area = (1.2L) * (0.8W) = 0.96 * L*W. The new area is 96% of the original, which is a decrease of 4%."
   },
   {
-    "id": 135,
+    "id": 133,
     "category": "Logical Reasoning",
     "question_text": "Statement: Some papers are pens. All the erasers are pens. Conclusion: I. Some pens are erasers. II. Some pens are papers.",
     "options": {
@@ -1833,7 +1740,7 @@ export const iqQuestions = [
     "explanation": "From 'All the erasers are pens', we can conclude that its conversion 'Some pens are erasers' is true. From 'Some papers are pens', its conversion 'Some pens are papers' is also true. Both conclusions follow."
   },
   {
-    "id": 136,
+    "id": 134,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: 121, 144, 169, 180.",
     "options": {
@@ -1846,7 +1753,7 @@ export const iqQuestions = [
     "explanation": "121, 144, and 169 are perfect squares (11^2, 12^2, 13^2). 180 is not a perfect square."
   },
   {
-    "id": 137,
+    "id": 135,
     "category": "Series",
     "question_text": "Find the next term in the series: R, U, X, A, D, ?",
     "options": {
@@ -1859,7 +1766,7 @@ export const iqQuestions = [
     "explanation": "The letters are moving forward by 3 positions in the alphabet, wrapping around from Z to A. R(+3)U(+3)X(+3)A(+3)D(+3)G."
   },
   {
-    "id": 138,
+    "id": 136,
     "category": "Quantitative Aptitude",
     "question_text": "A tap can fill a cistern in 8 hours and another can empty it in 16 hours. If both the taps are opened simultaneously, the time taken to fill the tank is:",
     "options": {
@@ -1872,7 +1779,7 @@ export const iqQuestions = [
     "explanation": "The filling tap's 1-hour work is 1/8. The emptying tap's 1-hour work is -1/16. Combined work in 1 hour = 1/8 - 1/16 = 1/16. So, the tank will be filled in 16 hours."
   },
   {
-    "id": 139,
+    "id": 137,
     "category": "Verbal Reasoning",
     "question_text": "Which word does not belong? 'Abundant', 'Plentiful', 'Copious', 'Scarce'",
     "options": {
@@ -1885,20 +1792,20 @@ export const iqQuestions = [
     "explanation": "Abundant, Plentiful, and Copious are all synonyms meaning 'in large quantities'. Scarce is an antonym, meaning 'in short supply'."
   },
   {
-    "id": 140,
+    "id": 138,
     "category": "Logical Reasoning",
     "question_text": "Find the angle between the hour hand and the minute hand of a clock when the time is 3:30.",
     "options": {
-      "A": "75°",
-      "B": "85°",
-      "C": "90°",
-      "D": "105°"
+      "A": "75\u00b0",
+      "B": "85\u00b0",
+      "C": "90\u00b0",
+      "D": "105\u00b0"
     },
     "answer": "A",
-    "explanation": "At 3:30, the minute hand is at 180°. The hour hand is halfway between 3 and 4. Position of hour hand = 3 * 30° + 30 * 0.5° = 90° + 15° = 105°. The difference is 180° - 105° = 75°."
+    "explanation": "At 3:30, the minute hand is at 180\u00b0. The hour hand is halfway between 3 and 4. Position of hour hand = 3 * 30\u00b0 + 30 * 0.5\u00b0 = 90\u00b0 + 15\u00b0 = 105\u00b0. The difference is 180\u00b0 - 105\u00b0 = 75\u00b0."
   },
   {
-    "id": 141,
+    "id": 139,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: (5, 15), (6, 18), (7, 21), (8, 30)",
     "options": {
@@ -1911,7 +1818,7 @@ export const iqQuestions = [
     "explanation": "In the first three pairs, the second number is exactly 3 times the first number (5*3=15, 6*3=18, 7*3=21). In the last pair, 8*3=24, not 30."
   },
   {
-    "id": 142,
+    "id": 140,
     "category": "Series",
     "question_text": "Find the missing number: 1, 9, 25, 49, ?, 121",
     "options": {
@@ -1924,9 +1831,9 @@ export const iqQuestions = [
     "explanation": "The series consists of the squares of consecutive odd numbers: 1^2, 3^2, 5^2, 7^2. The missing term is 9^2 = 81. The next is 11^2 = 121."
   },
   {
-    "id": 143,
+    "id": 141,
     "category": "Quantitative Aptitude",
-    "question_text": "A man buys an article for ₹27.50 and sells it for ₹28.60. Find his gain percent.",
+    "question_text": "A man buys an article for \u20b927.50 and sells it for \u20b928.60. Find his gain percent.",
     "options": {
       "A": "2.5%",
       "B": "3%",
@@ -1937,7 +1844,7 @@ export const iqQuestions = [
     "explanation": "Gain = Selling Price - Cost Price = 28.60 - 27.50 = 1.10. Gain Percent = (Gain / Cost Price) * 100 = (1.10 / 27.50) * 100 = 4%."
   },
   {
-    "id": 144,
+    "id": 142,
     "category": "Logical Reasoning",
     "question_text": "If day after tomorrow is Saturday, what day was three days before yesterday?",
     "options": {
@@ -1950,7 +1857,7 @@ export const iqQuestions = [
     "explanation": "If the day after tomorrow is Saturday, then today is Thursday. Yesterday was Wednesday. Three days before Wednesday was Sunday."
   },
   {
-    "id": 145,
+    "id": 143,
     "category": "Verbal Reasoning",
     "question_text": "Which word is the most essential part of 'School'?",
     "options": {
@@ -1963,7 +1870,7 @@ export const iqQuestions = [
     "explanation": "A school cannot exist without students to teach. While it usually has a building, books, and a principal, it can function without them (e.g., homeschooling, remote learning), but not without students."
   },
   {
-    "id": 146,
+    "id": 144,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Geology, Botany, Zoology, Cardiology",
     "options": {
@@ -1976,7 +1883,7 @@ export const iqQuestions = [
     "explanation": "Botany, Zoology, and Cardiology are all branches of biology (study of plants, animals, and the heart, respectively). Geology is the study of the Earth."
   },
   {
-    "id": 147,
+    "id": 145,
     "category": "Series",
     "question_text": "Find the next term in the series: 2, 5, 11, 23, 47, ?",
     "options": {
@@ -1989,7 +1896,7 @@ export const iqQuestions = [
     "explanation": "The pattern is either *2+1, or the difference doubles. 5-2=3. 11-5=6. 23-11=12. 47-23=24. The next difference will be 48. So, 47+48 = 95. Alternatively, using the *2+1 logic: 2*2+1=5, 5*2+1=11, 11*2+1=23, 23*2+1=47, 47*2+1=95."
   },
   {
-    "id": 148,
+    "id": 146,
     "category": "Quantitative Aptitude",
     "question_text": "The sum of ages of 5 children born at the intervals of 3 years each is 50 years. What is the age of the youngest child?",
     "options": {
@@ -2002,7 +1909,7 @@ export const iqQuestions = [
     "explanation": "Let the ages be x, x+3, x+6, x+9, and x+12. Their sum is 5x + 30. Given 5x + 30 = 50. 5x = 20, so x = 4. The youngest child is 4 years old."
   },
   {
-    "id": 149,
+    "id": 147,
     "category": "Logical Reasoning",
     "question_text": "If 'light' is 'morning', 'morning' is 'dark', 'dark' is 'night', 'night' is 'sunshine', when do we sleep?",
     "options": {
@@ -2015,7 +1922,7 @@ export const iqQuestions = [
     "explanation": "We typically sleep at 'night'. In this coded language, 'night' is 'sunshine'. Therefore, we sleep in the 'sunshine'."
   },
   {
-    "id": 150,
+    "id": 148,
     "category": "Verbal Reasoning",
     "question_text": "Complete the analogy: Kilometer is to Distance as Pound is to:",
     "options": {
@@ -2028,7 +1935,7 @@ export const iqQuestions = [
     "explanation": "A kilometer is a unit of measurement for distance. A pound is a unit of measurement for weight."
   },
   {
-    "id": 151,
+    "id": 149,
     "category": "Quantitative Aptitude",
     "question_text": "At what rate percent per annum will a sum of money double in 8 years?",
     "options": {
@@ -2041,7 +1948,7 @@ export const iqQuestions = [
     "explanation": "Let the principal be P. To double, the amount becomes 2P. The Simple Interest (SI) is 2P - P = P. Using SI = (P*R*T)/100, we have P = (P*R*8)/100. R = 100/8 = 12.5%."
   },
   {
-    "id": 152,
+    "id": 150,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: C, G, K, N.",
     "options": {
@@ -2054,7 +1961,7 @@ export const iqQuestions = [
     "explanation": "The positions in the alphabet are C(3), G(7), K(11). The difference is +4. The next should be 11+4=15, which is O. N is at position 14, breaking the pattern."
   },
   {
-    "id": 153,
+    "id": 151,
     "category": "Logical Reasoning",
     "question_text": "A man is facing west. He turns 45 degrees in the clockwise direction and then another 180 degrees in the same direction and then 270 degrees in the anti-clockwise direction. Which direction is he facing now?",
     "options": {
@@ -2064,10 +1971,10 @@ export const iqQuestions = [
       "D": "West"
     },
     "answer": "B",
-    "explanation": "Starting at West. Total clockwise rotation = 45 + 180 = 225°. Total anti-clockwise rotation = 270°. Net rotation = 270° anti-clockwise - 225° clockwise = 45° anti-clockwise. Turning 45° anti-clockwise from West leads to South-West."
+    "explanation": "Starting at West. Total clockwise rotation = 45 + 180 = 225\u00b0. Total anti-clockwise rotation = 270\u00b0. Net rotation = 270\u00b0 anti-clockwise - 225\u00b0 clockwise = 45\u00b0 anti-clockwise. Turning 45\u00b0 anti-clockwise from West leads to South-West."
   },
   {
-    "id": 154,
+    "id": 152,
     "category": "Series",
     "question_text": "Find the missing number in the series: 4, 18, 48, 100, ?",
     "options": {
@@ -2080,7 +1987,7 @@ export const iqQuestions = [
     "explanation": "The pattern is 2*n^2. Wait no. The pattern is n^3 + n^2. No. Let's try 2^3-2^2 = 4. 3^3-3^2 = 18. 4^3-4^2 = 48. 5^3-5^2 = 100. The next term is 6^3-6^2 = 216-36 = 180."
   },
   {
-    "id": 155,
+    "id": 153,
     "category": "Verbal Reasoning",
     "question_text": "Which word is the most suitable synonym for 'Ephemeral'?",
     "options": {
@@ -2093,7 +2000,7 @@ export const iqQuestions = [
     "explanation": "Ephemeral means lasting for a very short time. Transient also means lasting only for a short time; impermanent."
   },
   {
-    "id": 156,
+    "id": 154,
     "category": "Quantitative Aptitude",
     "question_text": "A can finish a work in 18 days and B can do the same work in half the time taken by A. Then, working together, what part of the same work they can finish in a day?",
     "options": {
@@ -2106,7 +2013,7 @@ export const iqQuestions = [
     "explanation": "A takes 18 days. B takes half of A's time, so B takes 9 days. A's 1-day work = 1/18. B's 1-day work = 1/9. Together, their 1-day work is 1/18 + 1/9 = 1/18 + 2/18 = 3/18 = 1/6."
   },
   {
-    "id": 157,
+    "id": 155,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Minute, Hour, Second, Time.",
     "options": {
@@ -2119,7 +2026,7 @@ export const iqQuestions = [
     "explanation": "Minute, Hour, and Second are all specific units used to measure time. Time is the general concept being measured."
   },
   {
-    "id": 158,
+    "id": 156,
     "category": "Logical Reasoning",
     "question_text": "If A + B means A is the brother of B; A - B means A is the sister of B; and A x B means A is the father of B. Which of the following means that C is the son of M?",
     "options": {
@@ -2132,7 +2039,7 @@ export const iqQuestions = [
     "explanation": "Let's check option D: M x N means M is the father of N. N - C means N is the sister of C. C + F means C is the brother of F. From M being the father of N and N being the sister of C, it follows that M is the father of C. Since C is the brother of F, C is male. Therefore, C is the son of M."
   },
   {
-    "id": 159,
+    "id": 157,
     "category": "Series",
     "question_text": "Find the next term in the series: 1, 4, 27, 256, ?",
     "options": {
@@ -2145,7 +2052,7 @@ export const iqQuestions = [
     "explanation": "The pattern is n raised to the power of n. 1^1 = 1. 2^2 = 4. 3^3 = 27. 4^4 = 256. The next term is 5^5 = 3125."
   },
   {
-    "id": 160,
+    "id": 158,
     "category": "Quantitative Aptitude",
     "question_text": "A hall is 15 m long and 12 m broad. If the sum of the areas of the floor and the ceiling is equal to the sum of the areas of the four walls, the volume of the hall is:",
     "options": {
@@ -2158,20 +2065,20 @@ export const iqQuestions = [
     "explanation": "Area of floor = 15*12 = 180. Area of ceiling = 180. Sum = 360. Let height be h. Area of 4 walls = 2(l+b)h = 2(15+12)h = 54h. Given 54h = 360. h = 360/54 = 20/3 m. Volume = l*b*h = 15 * 12 * (20/3) = 15 * 4 * 20 = 1200 m^3."
   },
   {
-    "id": 161,
+    "id": 159,
     "category": "Quantitative Aptitude",
-    "question_text": "A, B, and C enter into a partnership. A invests 3 times as much as B invests and B invests two-thirds of what C invests. At the end of the year, the profit earned is ₹6600. What is B's share in the profit?",
+    "question_text": "A, B, and C enter into a partnership. A invests 3 times as much as B invests and B invests two-thirds of what C invests. At the end of the year, the profit earned is \u20b96600. What is B's share in the profit?",
     "options": {
-      "A": "₹1200",
-      "B": "₹1500",
-      "C": "₹1800",
-      "D": "₹2000"
+      "A": "\u20b91200",
+      "B": "\u20b91500",
+      "C": "\u20b91800",
+      "D": "\u20b92000"
     },
     "answer": "A",
-    "explanation": "Let C's investment be x. Then B's investment is (2/3)x. A's investment is 3 * (2/3)x = 2x. The ratio of investments A:B:C is 2x : (2/3)x : x, which simplifies to 6:2:3. B's share = (2 / (6+2+3)) * 6600 = (2/11) * 6600 = ₹1200."
+    "explanation": "Let C's investment be x. Then B's investment is (2/3)x. A's investment is 3 * (2/3)x = 2x. The ratio of investments A:B:C is 2x : (2/3)x : x, which simplifies to 6:2:3. B's share = (2 / (6+2+3)) * 6600 = (2/11) * 6600 = \u20b91200."
   },
   {
-    "id": 162,
+    "id": 160,
     "category": "Logical Reasoning",
     "question_text": "If in a certain code, 'MONKEY' is written as 'XDJMNL', how is 'TIGER' written in that code?",
     "options": {
@@ -2184,7 +2091,7 @@ export const iqQuestions = [
     "explanation": "The letters of the word are written in reverse order and then each letter is moved one step backward. MONKEY -> YEK NOM -> XDJMNL. Similarly, TIGER -> REGIT -> QDFHS."
   },
   {
-    "id": 163,
+    "id": 161,
     "category": "Series",
     "question_text": "Find the next term in the series: 2, 3, 6, 15, 42, ?",
     "options": {
@@ -2197,7 +2104,7 @@ export const iqQuestions = [
     "explanation": "The difference between consecutive terms are powers of 3. 3-2=1 (3^0). 6-3=3 (3^1). 15-6=9 (3^2). 42-15=27 (3^3). The next difference will be 3^4 = 81. So, 42 + 81 = 123."
   },
   {
-    "id": 164,
+    "id": 162,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Piano, Guitar, Violin, Cello.",
     "options": {
@@ -2210,7 +2117,7 @@ export const iqQuestions = [
     "explanation": "While all have strings, the Guitar, Violin, and Cello are string instruments where strings are typically plucked or bowed. The Piano is a keyboard instrument where strings are struck by hammers, often classifying it as a percussion instrument in a different family."
   },
   {
-    "id": 165,
+    "id": 163,
     "category": "Verbal Reasoning",
     "question_text": "What is the most suitable antonym for 'TACITURN'?",
     "options": {
@@ -2223,7 +2130,7 @@ export const iqQuestions = [
     "explanation": "Taciturn means reserved or saying little. Loquacious means talkative, making it the best antonym."
   },
   {
-    "id": 166,
+    "id": 164,
     "category": "Quantitative Aptitude",
     "question_text": "A bag contains 2 red, 3 green and 2 blue balls. Two balls are drawn at random. What is the probability that none of the balls drawn is blue?",
     "options": {
@@ -2236,7 +2143,7 @@ export const iqQuestions = [
     "explanation": "Total balls = 2+3+2 = 7. Number of non-blue balls = 2+3 = 5. Total ways to draw 2 balls from 7 is 7C2 = (7*6)/(2*1) = 21. Ways to draw 2 non-blue balls from 5 is 5C2 = (5*4)/(2*1) = 10. Probability = 10/21."
   },
   {
-    "id": 167,
+    "id": 165,
     "category": "Logical Reasoning",
     "question_text": "Six people (A, B, C, D, E, F) are sitting around a circular table. A is between D and F. C is opposite to D. D and E are not on adjacent chairs. Who is opposite to B?",
     "options": {
@@ -2249,7 +2156,7 @@ export const iqQuestions = [
     "explanation": "C is opposite D. A is between D and F. This gives a sequence F-A-D. Since C is opposite D, the arrangement must be F-A-D-?-?-C. Since D and E are not adjacent, E cannot be next to D. The only spot left for E is between F and C. The remaining person, B, must sit between D and C. The final arrangement is A opposite B, C opposite D, and E opposite F."
   },
   {
-    "id": 168,
+    "id": 166,
     "category": "Series",
     "question_text": "Find the next term in the series: 1, 5, 14, 30, 55, ?",
     "options": {
@@ -2262,7 +2169,7 @@ export const iqQuestions = [
     "explanation": "The terms are the sum of squares of first 'n' natural numbers. 1 (1^2), 5 (1^2+2^2), 14 (1^2+2^2+3^2), 30 (1^2+2^2+3^2+4^2), 55 (1^2+2^2+3^2+4^2+5^2). The next term is 55 + 6^2 = 55 + 36 = 91."
   },
   {
-    "id": 169,
+    "id": 167,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: 13, 17, 23, 63, 71.",
     "options": {
@@ -2275,7 +2182,7 @@ export const iqQuestions = [
     "explanation": "All numbers except 63 are prime numbers. 63 is a composite number (divisible by 1, 3, 7, 9, 21, 63)."
   },
   {
-    "id": 170,
+    "id": 168,
     "category": "Quantitative Aptitude",
     "question_text": "A man rows to a place 48 km distant and comes back in 14 hours. He finds that he can row 4 km with the stream in the same time as 3 km against the stream. The rate of the stream is:",
     "options": {
@@ -2288,7 +2195,7 @@ export const iqQuestions = [
     "explanation": "Let boat speed be 'b' and stream speed be 's'. Downstream speed = b+s, upstream speed = b-s. Time is same, so Distance/Speed is same -> 4/(b+s) = 3/(b-s) -> 4b-4s = 3b+3s -> b=7s. Total time: 48/(b+s) + 48/(b-s) = 14. Substitute b=7s: 48/(8s) + 48/(6s) = 14 -> 6/s + 8/s = 14 -> 14/s = 14 -> s = 1 km/hr."
   },
   {
-    "id": 171,
+    "id": 169,
     "category": "Verbal Reasoning",
     "question_text": "Complete the analogy: Usury is to Loan as Gourmand is to:",
     "options": {
@@ -2301,7 +2208,7 @@ export const iqQuestions = [
     "explanation": "Usury is the practice of lending money at an excessively high interest rate. A gourmand is a person who takes excessive pleasure in eating food. The relationship is excessive practice to the object involved."
   },
   {
-    "id": 172,
+    "id": 170,
     "category": "Logical Reasoning",
     "question_text": "Statements: All buildings are houses. No house is an apartment. All apartments are flats. Conclusions: I. No building is an apartment. II. All buildings being flats is a possibility.",
     "options": {
@@ -2314,7 +2221,7 @@ export const iqQuestions = [
     "explanation": "Conclusion I: Since all buildings are houses and no house is an apartment, it's certain that no building can be an apartment. So I follows. Conclusion II: There is no negative relation between building and flat. A possible Venn diagram can be drawn where the circle for 'Building' is inside 'House', and 'Apartment' is separate from 'House', and 'Apartment' is inside 'Flat'. We can draw the 'Flat' circle to encompass the 'Building' circle without violating any rules. So II is a possibility."
   },
   {
-    "id": 173,
+    "id": 171,
     "category": "Series",
     "question_text": "Find the next term in the series: 9, 18, 72, 576, ?",
     "options": {
@@ -2327,7 +2234,7 @@ export const iqQuestions = [
     "explanation": "The pattern is to multiply by an increasing even number. 9 * 2 = 18. 18 * 4 = 72. 72 * 8 = 576. The next multiplier is 10. 576 * 10 = 5760."
   },
   {
-    "id": 174,
+    "id": 172,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Arrow, Axe, Knife, Sword.",
     "options": {
@@ -2340,7 +2247,7 @@ export const iqQuestions = [
     "explanation": "An axe, knife, and sword are all handheld melee weapons/tools. An arrow is a projectile fired from a bow."
   },
   {
-    "id": 175,
+    "id": 173,
     "category": "Quantitative Aptitude",
     "question_text": "A clock is set right at 5 a.m. The clock loses 16 minutes in 24 hours. What will be the true time when the clock indicates 10 p.m. on the 4th day?",
     "options": {
@@ -2353,7 +2260,7 @@ export const iqQuestions = [
     "explanation": "From 5 a.m. on day 1 to 10 p.m. on day 4 is 3 days and 17 hours = 72 + 17 = 89 hours. In 24 hrs, the clock shows (24 hrs - 16 min) = 23 hrs 44 min = 23 11/15 hrs. So, 356/15 hrs of the wrong clock = 24 hrs of the correct clock. When the wrong clock shows 89 hrs, the correct time is (24 * 15/356) * 89 = 90 hrs. 90 hours from 5 a.m. is 3 days and 18 hours. This means 5 a.m. + 18 hours = 11 p.m. on the 4th day."
   },
   {
-    "id": 176,
+    "id": 174,
     "category": "Verbal Reasoning",
     "question_text": "An 'enigma' is something that is:",
     "options": {
@@ -2366,7 +2273,7 @@ export const iqQuestions = [
     "explanation": "An enigma is a person or thing that is mysterious, puzzling, or difficult to understand."
   },
   {
-    "id": 177,
+    "id": 175,
     "category": "Logical Reasoning",
     "question_text": "If January 1, 2008, was a Tuesday, what day of the week was January 1, 2009?",
     "options": {
@@ -2379,7 +2286,7 @@ export const iqQuestions = [
     "explanation": "The year 2008 was a leap year, so it had 366 days. The number of odd days is 366 mod 7 = 2. Therefore, January 1, 2009, will be two days after Tuesday, which is Thursday."
   },
   {
-    "id": 178,
+    "id": 176,
     "category": "Series",
     "question_text": "Find the next term in the series: 3, 5, 8, 13, 21, 34, ?",
     "options": {
@@ -2392,20 +2299,7 @@ export const iqQuestions = [
     "explanation": "This is a Fibonacci-like sequence where each term is the sum of the two preceding ones. 21 + 34 = 55."
   },
   {
-    "id": 179,
-    "category": "Spatial Reasoning",
-    "question_text": "A transparent sheet with a pattern is folded along a dotted line. Which option figure shows how the pattern will appear after folding?",
-    "options": {
-      "A": "Figure A",
-      "B": "Figure B",
-      "C": "Figure C",
-      "D": "Figure D"
-    },
-    "answer": "B",
-    "explanation": "This question requires a visual. The explanation would describe how the pattern on one side of the fold line superimposes or aligns with the pattern on the other side. For a typical problem, the right side folds over the left, and its pattern is mirrored and placed onto the left side's pattern."
-  },
-  {
-    "id": 180,
+    "id": 177,
     "category": "Quantitative Aptitude",
     "question_text": "The ratio of the number of boys and girls in a college is 7 : 8. If the percentage increase in the number of boys and girls be 20% and 10% respectively, what will be the new ratio?",
     "options": {
@@ -2418,7 +2312,7 @@ export const iqQuestions = [
     "explanation": "Let the original number of boys be 7x and girls be 8x. After the increase, boys = 7x * 1.20 = 8.4x. Girls = 8x * 1.10 = 8.8x. The new ratio is 8.4x : 8.8x, which simplifies to 84:88, and further simplifies to 21:22."
   },
   {
-    "id": 181,
+    "id": 178,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Venus, Mars, Jupiter, Pluto.",
     "options": {
@@ -2431,7 +2325,7 @@ export const iqQuestions = [
     "explanation": "Venus, Mars, and Jupiter are all classified as planets. Pluto is classified as a dwarf planet."
   },
   {
-    "id": 182,
+    "id": 179,
     "category": "Verbal Reasoning",
     "question_text": "Complete the analogy: Franc is to France as Lira is to:",
     "options": {
@@ -2444,7 +2338,7 @@ export const iqQuestions = [
     "explanation": "The Franc was the former currency of France. The Lira is the currency of Turkey."
   },
   {
-    "id": 183,
+    "id": 180,
     "category": "Logical Reasoning",
     "question_text": "A watch which gains 5 seconds in 3 minutes was set right at 7 a.m. In the afternoon of the same day, when the watch indicated a quarter past 4 o'clock, the true time is:",
     "options": {
@@ -2457,7 +2351,7 @@ export const iqQuestions = [
     "explanation": "The watch gains 5 seconds in 3 minutes, which means it gains 100 seconds (1 min 40s) in 1 hour. From 7 a.m. to 4:15 p.m. is 9 hours and 15 minutes = 555 minutes. The watch shows 3 minutes 5 seconds for every true 3 minutes. Or, 37 seconds on the watch is 36 true seconds. The time shown is 9 hours 15 mins = 33300 seconds. True time = 33300 * (36/37) ... this is too complex. Let's simplify. 5s gain in 3 min = 100s gain in 60 min (1 hr). Time from 7am to 4:15pm = 9.25 hours. Time gained = 9.25 * (100 sec) is wrong.  Let's use ratios. 3 min of correct time = 3 min 5 sec of watch time. 1 hour correct = 1 hour 100 sec watch time. Time elapsed on watch = 9 hrs 15 mins = 555 mins. Let T be true time in minutes. T + T*(5/180) = 555. T(1+1/36) = 555. T(37/36)=555. T = 555*36/37 = 15*36 = 540 minutes. 540 minutes is exactly 9 hours. True time = 7 a.m. + 9 hours = 4:00 p.m."
   },
   {
-    "id": 184,
+    "id": 181,
     "category": "Series",
     "question_text": "Find the next term in the series: 1, 2, 4, 8, 16, 32, ?",
     "options": {
@@ -2470,20 +2364,20 @@ export const iqQuestions = [
     "explanation": "This is a simple geometric progression where each term is multiplied by 2. 32 * 2 = 64."
   },
   {
-    "id": 185,
+    "id": 182,
     "category": "Quantitative Aptitude",
-    "question_text": "The difference between the compound interest and simple interest on a certain sum at 10% per annum for 2 years is ₹631. Find the sum.",
+    "question_text": "The difference between the compound interest and simple interest on a certain sum at 10% per annum for 2 years is \u20b9631. Find the sum.",
     "options": {
-      "A": "₹62,500",
-      "B": "₹63,100",
-      "C": "₹65,000",
-      "D": "₹60,000"
+      "A": "\u20b962,500",
+      "B": "\u20b963,100",
+      "C": "\u20b965,000",
+      "D": "\u20b960,000"
     },
     "answer": "B",
     "explanation": "The formula for the difference between CI and SI for 2 years is P(R/100)^2. So, 631 = P(10/100)^2 = P(0.01). P = 631 / 0.01 = 63,100."
   },
   {
-    "id": 186,
+    "id": 183,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Potassium, Silicon, Zirconium, Gallium.",
     "options": {
@@ -2496,7 +2390,7 @@ export const iqQuestions = [
     "explanation": "Potassium, Zirconium, and Gallium are metals. Silicon is a metalloid."
   },
   {
-    "id": 187,
+    "id": 184,
     "category": "Verbal Reasoning",
     "question_text": "What is the relationship between 'Osteology' and 'Bones'?",
     "options": {
@@ -2509,7 +2403,7 @@ export const iqQuestions = [
     "explanation": "Osteology is the scientific study of bones."
   },
   {
-    "id": 188,
+    "id": 185,
     "category": "Logical Reasoning",
     "question_text": "Data Sufficiency: Who is the tallest among P, Q, R, S, and T? I. P is taller than R and T. II. Q is shorter than P but taller than S.",
     "options": {
@@ -2522,7 +2416,7 @@ export const iqQuestions = [
     "explanation": "From I, we know P > R and P > T. From II, we know P > Q > S. Combining both, we know P is taller than R, T, Q, and S. However, we have no information about the relative heights of R and T compared to Q and S, nor any information to definitively place P as the tallest overall. We still don't know who is the tallest among all five. For instance, T could be taller than P. The question is flawed. Let me fix it. 'P is taller than R and T' is not enough. Let's change it. I: P is taller than Q and S. II: T is the shortest. R is taller than P. This makes R the tallest. So both are needed. This is a good DS question. Let's re-write."
   },
   {
-    "id": 188,
+    "id": 186,
     "category": "Logical Reasoning",
     "question_text": "Data Sufficiency: Who is the tallest among P, Q, R, S, and T? I. R is taller than P. II. P is taller than Q, S, and T.",
     "options": {
@@ -2535,7 +2429,7 @@ export const iqQuestions = [
     "explanation": "Statement I alone tells us R > P, but nothing about the others. Statement II alone tells us P > Q, S, T, but nothing about R. By combining both, we get R > P > (Q, S, T). This clearly establishes R as the tallest among the five. Therefore, both statements are needed."
   },
   {
-    "id": 189,
+    "id": 187,
     "category": "Series",
     "question_text": "Find the next term in the series: 3, 12, 27, 48, 75, 108, ?",
     "options": {
@@ -2548,7 +2442,7 @@ export const iqQuestions = [
     "explanation": "The series is 3 times the square of consecutive natural numbers. 3 * 1^2 = 3. 3 * 2^2 = 12. 3 * 3^2 = 27. 3 * 4^2 = 48. 3 * 5^2 = 75. 3 * 6^2 = 108. The next term is 3 * 7^2 = 3 * 49 = 147."
   },
   {
-    "id": 190,
+    "id": 188,
     "category": "Quantitative Aptitude",
     "question_text": "A dishonest dealer professes to sell his goods at cost price but uses a weight of 960 gm for a 1 kg weight. Find his gain percent.",
     "options": {
@@ -2561,7 +2455,7 @@ export const iqQuestions = [
     "explanation": "The dealer makes a profit on the amount of goods he saves. He saves 1000 - 960 = 40 gm. His profit percentage is (Error / (True Value - Error)) * 100 or (Gain / Cost). The cost corresponds to what he gives (960gm). Gain % = (40 / 960) * 100 = 4.166...% or 4.17%."
   },
   {
-    "id": 191,
+    "id": 189,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Srinagar, Shimla, Dehradun, Bhopal.",
     "options": {
@@ -2574,7 +2468,7 @@ export const iqQuestions = [
     "explanation": "Srinagar, Shimla, and Dehradun are all capital cities located in the Himalayan mountain region. Bhopal is the capital of Madhya Pradesh, located in the plains of central India."
   },
   {
-    "id": 192,
+    "id": 190,
     "category": "Verbal Reasoning",
     "question_text": "An action that is 'superfluous' is:",
     "options": {
@@ -2587,7 +2481,7 @@ export const iqQuestions = [
     "explanation": "Superfluous means unnecessary, especially through being more than enough."
   },
   {
-    "id": 193,
+    "id": 191,
     "category": "Logical Reasoning",
     "question_text": "If the 3rd day of a month is a Monday, which of the following will be the 5th day from the 21st of that month?",
     "options": {
@@ -2600,7 +2494,7 @@ export const iqQuestions = [
     "explanation": "The 5th day from the 21st is the 26th of the month. If the 3rd is Monday, then the 10th, 17th, and 24th are also Mondays. If the 24th is a Monday, then the 25th is Tuesday and the 26th is Wednesday."
   },
   {
-    "id": 194,
+    "id": 192,
     "category": "Series",
     "question_text": "Find the missing term: 11, 13, 17, 19, 23, 25, ?, ?",
     "options": {
@@ -2613,20 +2507,20 @@ export const iqQuestions = [
     "explanation": "This is a series of consecutive prime numbers, but it's not. 25 is not a prime. The pattern is +2, +4, +2, +4, +2... So, 25+4 = 29, 29+2=31. Wait, let me check again. 11+2=13, 13+4=17, 17+2=19, 19+4=23, 23+2=25. The next is 25+4=29, and then 29+2=31."
   },
   {
-    "id": 195,
+    "id": 193,
     "category": "Quantitative Aptitude",
-    "question_text": "The price of sugar having gone down by 10%, a consumer can buy 5 kg more sugar for ₹270. The difference between the original and reduced price per kg is:",
+    "question_text": "The price of sugar having gone down by 10%, a consumer can buy 5 kg more sugar for \u20b9270. The difference between the original and reduced price per kg is:",
     "options": {
-      "A": "₹0.50",
-      "B": "₹0.60",
-      "C": "₹0.75",
-      "D": "₹1.00"
+      "A": "\u20b90.50",
+      "B": "\u20b90.60",
+      "C": "\u20b90.75",
+      "D": "\u20b91.00"
     },
     "answer": "B",
-    "explanation": "Let original price be P. Reduced price is 0.9P. Original quantity = 270/P. Reduced quantity = 270/(0.9P). Given 270/(0.9P) - 270/P = 5.  (300/P) - (270/P) = 5. 30/P = 5. P = ₹6. Reduced price = 0.9 * 6 = ₹5.40. The difference is 6 - 5.40 = ₹0.60."
+    "explanation": "Let original price be P. Reduced price is 0.9P. Original quantity = 270/P. Reduced quantity = 270/(0.9P). Given 270/(0.9P) - 270/P = 5.  (300/P) - (270/P) = 5. 30/P = 5. P = \u20b96. Reduced price = 0.9 * 6 = \u20b95.40. The difference is 6 - 5.40 = \u20b90.60."
   },
   {
-    "id": 196,
+    "id": 194,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Decode, Encrypt, Encode, Cipher.",
     "options": {
@@ -2639,7 +2533,7 @@ export const iqQuestions = [
     "explanation": "Encrypt, Encode, and Cipher are all terms related to the process of concealing information. Decode is the process of revealing the concealed information."
   },
   {
-    "id": 197,
+    "id": 195,
     "category": "Verbal Reasoning",
     "question_text": "A 'myriad' of things means:",
     "options": {
@@ -2652,7 +2546,7 @@ export const iqQuestions = [
     "explanation": "Myriad refers to a countless or extremely great number of people or things."
   },
   {
-    "id": 198,
+    "id": 196,
     "category": "Logical Reasoning",
     "question_text": "A, B, C, D and E are five rivers. A is shorter than B but longer than E. C is the longest. D is a little shorter than B and a little longer than A. Which river is the shortest?",
     "options": {
@@ -2665,7 +2559,7 @@ export const iqQuestions = [
     "explanation": "From the statements: C is the longest (C > all). B > A > E. And B > D > A. Combining these, we get C > B > D > A > E. Therefore, E is the shortest river."
   },
   {
-    "id": 199,
+    "id": 197,
     "category": "Series",
     "question_text": "Find the next term in the series: 5, 16, 51, 158, ?",
     "options": {
@@ -2678,9 +2572,9 @@ export const iqQuestions = [
     "explanation": "The pattern is to multiply by 3 and add or subtract an increasing number. 5*3+1=16. 16*3+3=51. 51*3+5=158. The numbers being added are consecutive odd numbers. The next step is 158*3+7 = 474+7 = 481."
   },
   {
-    "id": 200,
+    "id": 198,
     "category": "Quantitative Aptitude",
-    "question_text": "A trader mixes 26 kg of rice at ₹20 per kg with 30 kg of rice of other variety at ₹36 per kg and sells the mixture at ₹30 per kg. His profit percent is:",
+    "question_text": "A trader mixes 26 kg of rice at \u20b920 per kg with 30 kg of rice of other variety at \u20b936 per kg and sells the mixture at \u20b930 per kg. His profit percent is:",
     "options": {
       "A": "No profit, no loss",
       "B": "5%",
@@ -2691,7 +2585,7 @@ export const iqQuestions = [
     "explanation": "Cost of first rice = 26 * 20 = 520. Cost of second rice = 30 * 36 = 1080. Total cost = 520 + 1080 = 1600. Total quantity = 26 + 30 = 56 kg. Selling price = 56 * 30 = 1680. Profit = 1680 - 1600 = 80. Profit % = (80 / 1600) * 100 = 5%."
   },
   {
-    "id": 201,
+    "id": 199,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Book, Chapter, Index, Glossary.",
     "options": {
@@ -2704,7 +2598,7 @@ export const iqQuestions = [
     "explanation": "Chapter, Index, and Glossary are all parts of a book. The Book is the whole entity."
   },
   {
-    "id": 202,
+    "id": 200,
     "category": "Verbal Reasoning",
     "question_text": "Complete the analogy: Tree is to Forest as Soldier is to:",
     "options": {
@@ -2717,7 +2611,7 @@ export const iqQuestions = [
     "explanation": "A forest is a large group of trees. An army is a large group of soldiers."
   },
   {
-    "id": 203,
+    "id": 201,
     "category": "Logical Reasoning",
     "question_text": "What was the day of the week on 15th August, 1947?",
     "options": {
@@ -2730,7 +2624,7 @@ export const iqQuestions = [
     "explanation": "Years up to 1946: 1600 years have 0 odd days. 300 years have 1 odd day. 46 years have 11 leap years and 35 normal years, giving (11*2 + 35*1) = 57 odd days, which is 57 mod 7 = 1 odd day. Total odd days up to Dec 31, 1946 = 0+1+1=2. Days in 1947: Jan(3)+Feb(0)+Mar(3)+Apr(2)+May(3)+Jun(2)+Jul(3)+Aug(15) = 31 odd days = 3 odd days. Total odd days = 2+3=5. Day 5 is Friday."
   },
   {
-    "id": 204,
+    "id": 202,
     "category": "Series",
     "question_text": "Find the next term in the series: 8, 15, 28, 53, ?",
     "options": {
@@ -2743,7 +2637,7 @@ export const iqQuestions = [
     "explanation": "The pattern is to multiply by 2 and subtract an increasing number. 8*2-1=15. 15*2-2=28. 28*2-3=53. The next term is 53*2-4 = 106-4 = 102."
   },
   {
-    "id": 205,
+    "id": 203,
     "category": "Quantitative Aptitude",
     "question_text": "The salaries of A, B, C are in the ratio 2:3:5. If the increments of 15%, 10% and 20% are allowed respectively in their salaries, then what will be the new ratio of their salaries?",
     "options": {
@@ -2756,7 +2650,7 @@ export const iqQuestions = [
     "explanation": "Let original salaries be 2x, 3x, 5x. New salaries: A = 2x*1.15 = 2.3x. B = 3x*1.10 = 3.3x. C = 5x*1.20 = 6.0x. New ratio is 2.3x : 3.3x : 6.0x, which is 23:33:60."
   },
   {
-    "id": 206,
+    "id": 204,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Retake, Redo, Review, Regain.",
     "options": {
@@ -2769,7 +2663,7 @@ export const iqQuestions = [
     "explanation": "Retake, Redo, and Regain all imply getting something back or doing something again to achieve the original purpose. Review means to look over something again, often for analysis, without necessarily re-doing the action itself."
   },
   {
-    "id": 207,
+    "id": 205,
     "category": "Verbal Reasoning",
     "question_text": "A 'paragon' is a model of:",
     "options": {
@@ -2782,7 +2676,7 @@ export const iqQuestions = [
     "explanation": "A paragon is a person or thing regarded as a perfect example of a particular quality; a model of excellence."
   },
   {
-    "id": 208,
+    "id": 206,
     "category": "Logical Reasoning",
     "question_text": "Sam ranked 9th from the top and 38th from the bottom in a class. How many students are there in the class?",
     "options": {
@@ -2795,7 +2689,7 @@ export const iqQuestions = [
     "explanation": "Total number of students = (Rank from top + Rank from bottom) - 1. Total = (9 + 38) - 1 = 47 - 1 = 46."
   },
   {
-    "id": 209,
+    "id": 207,
     "category": "Series",
     "question_text": "Find the next term in the series: 4, 6, 9, 13.5, ?",
     "options": {
@@ -2808,7 +2702,7 @@ export const iqQuestions = [
     "explanation": "This is a geometric progression where each term is multiplied by 1.5. 4 * 1.5 = 6. 6 * 1.5 = 9. 9 * 1.5 = 13.5. The next term is 13.5 * 1.5 = 20.25."
   },
   {
-    "id": 210,
+    "id": 208,
     "category": "Quantitative Aptitude",
     "question_text": "A father said to his son, 'I was as old as you are at present at the time of your birth.' If the father's age is 38 years now, the son's age five years back was:",
     "options": {
@@ -2821,7 +2715,7 @@ export const iqQuestions = [
     "explanation": "Let the father's present age be F and son's be S. F = 38. At the son's birth, the father's age was F-S. The father says F-S = S. So, F = 2S. 38 = 2S, which means the son's current age is 19. Five years back, the son's age was 19 - 5 = 14 years."
   },
   {
-    "id": 211,
+    "id": 209,
     "category": "Quantitative Aptitude",
     "question_text": "The length of a rectangular park is 4 meters more than its width. If the area of the park is 192 sq. meters, what is the perimeter of the park?",
     "options": {
@@ -2834,7 +2728,7 @@ export const iqQuestions = [
     "explanation": "Let the width be W. Then the length is L = W+4. Area = L*W = (W+4)*W = 192. This gives W^2 + 4W - 192 = 0. Factoring this, we get (W+16)(W-12) = 0. Since width cannot be negative, W = 12 m. Length L = 12+4 = 16 m. Perimeter = 2(L+W) = 2(16+12) = 2(28) = 56 m."
   },
   {
-    "id": 212,
+    "id": 210,
     "category": "Logical Reasoning",
     "question_text": "If 'E' = 5 and 'HOTEL' = 12, how will you code 'LAMB'?",
     "options": {
@@ -2847,7 +2741,7 @@ export const iqQuestions = [
     "explanation": "The code is the average of the alphabetical positions of the letters. E=5. HOTEL = (8+15+20+5+12)/5 = 60/5 = 12. LAMB = (12+1+13+2)/4 = 28/4 = 7."
   },
   {
-    "id": 213,
+    "id": 211,
     "category": "Series",
     "question_text": "Find the next term in the series: 1, 2, 6, 21, 88, ?",
     "options": {
@@ -2860,7 +2754,7 @@ export const iqQuestions = [
     "explanation": "The pattern is to multiply by an increasing number and add that same number. 1*1+1=2. 2*2+2=6. 6*3+3=21. 21*4+4=88. The next term is 88*5+5 = 440+5 = 445."
   },
   {
-    "id": 214,
+    "id": 212,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Pen, Pencil, Chalk, Brush.",
     "options": {
@@ -2873,7 +2767,7 @@ export const iqQuestions = [
     "explanation": "Pen, Pencil, and Chalk are all writing/drawing implements that use a solid medium (ink paste, graphite, compressed powder). A brush is designed to apply a liquid medium like paint or ink."
   },
   {
-    "id": 215,
+    "id": 213,
     "category": "Verbal Reasoning",
     "question_text": "What is the most suitable antonym for 'EBULLIENT'?",
     "options": {
@@ -2886,7 +2780,7 @@ export const iqQuestions = [
     "explanation": "Ebullient means cheerful and full of energy. Apathetic means showing or feeling no interest, enthusiasm, or concern, making it the best antonym."
   },
   {
-    "id": 216,
+    "id": 214,
     "category": "Quantitative Aptitude",
     "question_text": "A can do a certain work in the same time in which B and C together can do it. If A and B together could do it in 10 days and C alone in 50 days, then B alone could do the work in:",
     "options": {
@@ -2899,7 +2793,7 @@ export const iqQuestions = [
     "explanation": "Let 1-day work be a,b,c. Given a=b+c. Also, a+b=1/10 and c=1/50. Substitute c in the first equation: a=b+1/50 -> a-b=1/50. We have two equations: a+b=1/10 and a-b=1/50. Adding them gives 2a = 1/10 + 1/50 = 6/50 = 3/25. So, a=3/50. Substitute 'a' back into a+b=1/10: 3/50+b=1/10 -> b = 1/10 - 3/50 = (5-3)/50 = 2/50 = 1/25. So B alone can do it in 25 days."
   },
   {
-    "id": 217,
+    "id": 215,
     "category": "Logical Reasoning",
     "question_text": "Six lectures are scheduled in a week from Monday to Saturday. History is not on Tuesday or Saturday. Geography is immediately after History. Economics is not on Friday and is just before Civics. Political Science is on Monday. Which lecture is on Tuesday?",
     "options": {
@@ -2912,7 +2806,7 @@ export const iqQuestions = [
     "explanation": "Pol Sci is on Mon. The pair (Econ, Civics) must be together. The pair (Hist, Geo) must be together. Hist cannot be on Tue or Sat. So (Hist, Geo) can be (Wed, Thu) or (Thu, Fri). (Econ, Civics) cannot have Econ on Fri. If (Hist, Geo) is (Thu, Fri), then (Econ, Civics) must be (Tue, Wed). This works. The schedule is: Mon-PolSci, Tue-Econ, Wed-Civics, Thu-Hist, Fri-Geo. So, Economics is on Tuesday."
   },
   {
-    "id": 218,
+    "id": 216,
     "category": "Series",
     "question_text": "Find the next term in the series: 3, 4.5, 9, 22.5, 67.5, ?",
     "options": {
@@ -2925,7 +2819,7 @@ export const iqQuestions = [
     "explanation": "The multiplier between terms is increasing. 3 * 1.5 = 4.5. 4.5 * 2 = 9. 9 * 2.5 = 22.5. 22.5 * 3 = 67.5. The next multiplier is 3.5. So, 67.5 * 3.5 = 236.25."
   },
   {
-    "id": 219,
+    "id": 217,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: 48, 96, 50, 24, 12",
     "options": {
@@ -2938,7 +2832,7 @@ export const iqQuestions = [
     "explanation": "All numbers except 50 are multiples of 12 (or 24)."
   },
   {
-    "id": 220,
+    "id": 218,
     "category": "Quantitative Aptitude",
     "question_text": "Data Interpretation: In a class of 50 students, a survey on favorite sports shows: Cricket-40%, Football-30%, Basketball-20%, Other-10%. How many more students prefer Cricket to Basketball?",
     "options": {
@@ -2951,7 +2845,7 @@ export const iqQuestions = [
     "explanation": "Number of students who prefer Cricket = 40% of 50 = 0.40 * 50 = 20. Number of students who prefer Basketball = 20% of 50 = 0.20 * 50 = 10. The difference is 20 - 10 = 10 students."
   },
   {
-    "id": 221,
+    "id": 219,
     "category": "Verbal Reasoning",
     "question_text": "Complete the analogy: Symphony is to Composer as Fresco is to:",
     "options": {
@@ -2964,7 +2858,7 @@ export const iqQuestions = [
     "explanation": "A composer is the creator of a symphony. A painter is the creator of a fresco (a type of wall painting). The relationship is Creation to Creator."
   },
   {
-    "id": 222,
+    "id": 220,
     "category": "Logical Reasoning",
     "question_text": "If the day before yesterday was Thursday, when will Sunday be?",
     "options": {
@@ -2977,7 +2871,7 @@ export const iqQuestions = [
     "explanation": "If the day before yesterday was Thursday, then yesterday was Friday, and today is Saturday. Therefore, Sunday will be tomorrow."
   },
   {
-    "id": 223,
+    "id": 221,
     "category": "Series",
     "question_text": "Find the next term in the series: 2, 8, 4, 16, 8, 32, 16, ?",
     "options": {
@@ -2990,7 +2884,7 @@ export const iqQuestions = [
     "explanation": "This is an alternating series. The first operation is *4 (2*4=8), the second is /2 (8/2=4). The pattern repeats: 4*4=16, 16/2=8, 8*4=32, 32/2=16. The next operation is *4. So, 16 * 4 = 64."
   },
   {
-    "id": 224,
+    "id": 222,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Plotter, Printer, Monitor, Scanner.",
     "options": {
@@ -3003,7 +2897,7 @@ export const iqQuestions = [
     "explanation": "Plotter, Printer, and Monitor are all output devices used to present information from a computer. A Scanner is an input device used to send information to a computer."
   },
   {
-    "id": 225,
+    "id": 223,
     "category": "Quantitative Aptitude",
     "question_text": "In an election between two candidates, one got 55% of the total valid votes, and 20% of the votes were invalid. If the total number of votes was 7500, the number of valid votes that the other candidate got was:",
     "options": {
@@ -3016,7 +2910,7 @@ export const iqQuestions = [
     "explanation": "Total votes = 7500. Invalid votes = 20% of 7500 = 1500. Total valid votes = 7500 - 1500 = 6000. The winning candidate got 55% of valid votes. The other candidate got 100% - 55% = 45% of valid votes. So, the number of votes for the other candidate = 45% of 6000 = 0.45 * 6000 = 2700."
   },
   {
-    "id": 226,
+    "id": 224,
     "category": "Verbal Reasoning",
     "question_text": "The word 'Clandestine' describes an action that is:",
     "options": {
@@ -3029,7 +2923,7 @@ export const iqQuestions = [
     "explanation": "Clandestine means kept secret or done secretively, especially because it is illicit."
   },
   {
-    "id": 227,
+    "id": 225,
     "category": "Logical Reasoning",
     "question_text": "P, Q, R, S, T, and U are six members of a family. R is the spouse of Q. U is the mother of T and S is the daughter of U. P is the sister of T and T is the brother of R. How many male members are there in the family?",
     "options": {
@@ -3042,7 +2936,7 @@ export const iqQuestions = [
     "explanation": "T is male (brother of R). P is female (sister of T). S is female (daughter of U). U is female (mother of T). R and Q are a couple. T is R's brother, so R is male. Since R is male, his spouse Q must be female. So far we have: T(M), P(F), S(F), U(F), R(M), Q(F). This gives 2 males. But wait, T is the brother of R, and U is the mother of T. This makes U also the mother of R. And S is the daughter of U. So S, P, T, R are all siblings. This contradicts T being the brother of R. Let's re-read. 'T is the brother of R'. 'P is the sister of T'. So P, T, R are siblings. R is the spouse of Q. 'U is the mother of T'. So U is the mother of P, T, and R. 'S is the daughter of U'. This makes S also a sibling. We have T(Male), P(Female), S(Female). We don't know the gender of R, only that T is R's brother. R could be male or female. If R is male, Q is female, giving 2 males (T, R). If R is female, Q is male, giving 2 males (T, Q). Wait, if T is the brother of R, R's gender is unknown. T is definitely male. Let's assume R is male, then Q is female. Males: T, R. Let's assume R is female, then Q is male. Males: T, Q. In either case, there are 2 males. Why would it be cannot be determined? Let me check again. Ah, T is the brother of R. R is spouse of Q. If R is male, Q is female. If R is female, Q is male. The question doesn't state R's gender. Wait, if T is the brother of R, it implies R could be male or female. So the gender of R and Q cannot be determined. Let's try to find a contradiction. U is mother of T, and T and R are siblings. So U is mother of R. Q is spouse of R. S is daughter of U. P is sister of T. P, T, S, R are all children of U. T is male. P, S are female. We don't know the gender of R. If R is male, Q is female. Total males = T, R. If R is female, Q is male. Total males = T, Q. In both scenarios, there are exactly 2 male members. This means the answer is 2. The provided solution says 'Cannot be determined'. Why? Perhaps the gender of some members is truly unknown and cannot be inferred. Let's reconsider. T(M), P(F), S(F), U(F). R and Q are a married couple. T is the brother of R. So R's gender is unknown. R could be male or female. The number of male members depends on the gender of R and Q. If R is male, Q is female. Total males: T, R (2). If R is female, Q is male. Total males: T, Q (2). So in all valid scenarios, the number of males is 2. The question is solvable. Maybe there is a trick. What if R and Q is a same-sex couple? The problem doesn't specify. Traditional logic puzzles assume opposite-sex couples unless stated otherwise. If we adhere to that, the answer is 2. If we don't, then R could be male and Q could be male. Then total males = T,R,Q (3). Or R could be female and Q could be female. Total males = T (1). So the answer can be 1, 2, or 3. In this case, it is 'Cannot be determined'. This is a more modern and robust interpretation of the ambiguity."
   },
   {
-    "id": 228,
+    "id": 226,
     "category": "Series",
     "question_text": "Find the next term in the series: 2A11, 4D13, 12G17, ?",
     "options": {
@@ -3055,7 +2949,7 @@ export const iqQuestions = [
     "explanation": "The series has three parts. First number: 2, 4, 12, ? -> The pattern is *2, *3, *4. So, 12*4 = 48. Letter: A, D, G, ? -> The pattern is +3 letters. A(+3)D(+3)G(+3)J. Last number: 11, 13, 17, ? -> This is a series of consecutive prime numbers. The next prime after 17 is 19. No wait, 11,13,17,19,23. The question options have 21, 23. Let's assume the last numbers are primes. Then the next is 19. So 48J19. This is not an option. Let's try another pattern for the last number. 11(+2)13(+4)17(+6)23. In this case the answer would be 48J23, which is an option."
   },
   {
-    "id": 229,
+    "id": 227,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Giraffe, Zebra, Deer, Bear.",
     "options": {
@@ -3068,7 +2962,7 @@ export const iqQuestions = [
     "explanation": "Giraffe, Zebra, and Deer are all herbivores (plant-eaters). Bears are omnivores (eat both plants and animals)."
   },
   {
-    "id": 230,
+    "id": 228,
     "category": "Quantitative Aptitude",
     "question_text": "Two pipes A and B can fill a tank in 15 minutes and 20 minutes respectively. Both pipes are opened together but after 4 minutes, pipe A is turned off. What is the total time required to fill the tank?",
     "options": {
@@ -3081,7 +2975,7 @@ export const iqQuestions = [
     "explanation": "A's 1-min work=1/15. B's 1-min work=1/20. Together, 1-min work = 1/15+1/20 = 7/60. In 4 mins, they fill 4 * (7/60) = 7/15. Remaining work = 1 - 7/15 = 8/15. This is filled by B alone. Time taken by B = (8/15) / (1/20) = (8/15) * 20 = 32/3 minutes = 10 minutes and 2/3 * 60 = 40 seconds. Total time = 4 mins + 10 mins 40 sec = 14 mins 40 sec."
   },
   {
-    "id": 231,
+    "id": 229,
     "category": "Verbal Reasoning",
     "question_text": "Something that is 'inevitable' is:",
     "options": {
@@ -3094,7 +2988,7 @@ export const iqQuestions = [
     "explanation": "Inevitable means certain to happen and unable to be avoided or prevented."
   },
   {
-    "id": 232,
+    "id": 230,
     "category": "Logical Reasoning",
     "question_text": "In a row of boys, if A who is 10th from the left and B who is 9th from the right interchange their positions, A becomes 15th from the left. How many boys are there in the row?",
     "options": {
@@ -3107,7 +3001,7 @@ export const iqQuestions = [
     "explanation": "When A and B interchange, A's new position is 15th from the left. This position was previously occupied by B. So, the position is 15th from the left and also 9th from the right. Total number of boys = (15 + 9) - 1 = 23."
   },
   {
-    "id": 233,
+    "id": 231,
     "category": "Series",
     "question_text": "Find the next term in the series: 1, 10, 28, 91, 370, ?",
     "options": {
@@ -3120,7 +3014,7 @@ export const iqQuestions = [
     "explanation": "The pattern is (*n)+n^2. 1*2+2^2=6 (No). Let's try (*n)+n. 1*1+1=2 (No). Let's try (*n)+m. 1*3+7=10. 10*2+8=28. This is too complex. Let's try a different approach. 1*1 + 9 = 10. 10*2 + 8 = 28. 28*3 + 7 = 91. 91*4 + 6 = 370. The next term is 370*5 + 5 = 1855."
   },
   {
-    "id": 234,
+    "id": 232,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Novel, Poem, Essay, Dictionary.",
     "options": {
@@ -3133,7 +3027,7 @@ export const iqQuestions = [
     "explanation": "A novel, poem, and essay are all forms of literary composition or creative writing. A dictionary is a reference book that lists words and their definitions."
   },
   {
-    "id": 235,
+    "id": 233,
     "category": "Quantitative Aptitude",
     "question_text": "Fresh fruit contains 68% water and dry fruit contains 20% water. How much dry fruit can be obtained from 100 kg of fresh fruits?",
     "options": {
@@ -3146,7 +3040,7 @@ export const iqQuestions = [
     "explanation": "100 kg of fresh fruit contains 32 kg of pulp (100 - 68). Let the amount of dry fruit be x kg. Dry fruit contains 20% water, so it has 80% pulp. The amount of pulp remains the same. So, 80% of x = 32 kg. 0.80 * x = 32. x = 32 / 0.8 = 40 kg."
   },
   {
-    "id": 236,
+    "id": 234,
     "category": "Verbal Reasoning",
     "question_text": "Complete the analogy: Canvas is to Painter as Marble is to:",
     "options": {
@@ -3159,7 +3053,7 @@ export const iqQuestions = [
     "explanation": "A painter uses canvas as their medium or material. A sculptor uses marble as their medium or material."
   },
   {
-    "id": 237,
+    "id": 235,
     "category": "Logical Reasoning",
     "question_text": "Statements: All politicians are honest. All honest people are fair. Conclusions: I. Some honest people are politicians. II. No honest person is a politician. III. Some fair people are politicians.",
     "options": {
@@ -3172,7 +3066,7 @@ export const iqQuestions = [
     "explanation": "From 'All politicians are honest', the conversion is 'Some honest people are politicians'. So I follows. Since II contradicts I, it cannot follow. From 'All politicians are honest' and 'All honest people are fair', we can deduce 'All politicians are fair'. The conversion of this is 'Some fair people are politicians'. So III follows. Therefore, only I and III follow."
   },
   {
-    "id": 238,
+    "id": 236,
     "category": "Series",
     "question_text": "Find the next term in the series: 0, 6, 24, 60, 120, 210, ?",
     "options": {
@@ -3185,7 +3079,7 @@ export const iqQuestions = [
     "explanation": "The pattern is n^3 - n. 1^3-1=0. 2^3-2=6. 3^3-3=24. 4^3-4=60. 5^3-5=120. 6^3-6=210. The next term is 7^3-7 = 343-7 = 336."
   },
   {
-    "id": 239,
+    "id": 237,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Biology, Chemistry, Physics, Theology.",
     "options": {
@@ -3198,7 +3092,7 @@ export const iqQuestions = [
     "explanation": "Biology, Chemistry, and Physics are all branches of natural science. Theology is the study of religion and religious belief."
   },
   {
-    "id": 240,
+    "id": 238,
     "category": "Quantitative Aptitude",
     "question_text": "A car covers a certain distance at a speed of 60 km/hr in 7 hours. To cover the same distance in 5 hours, it must travel at a speed of:",
     "options": {
@@ -3211,7 +3105,7 @@ export const iqQuestions = [
     "explanation": "Distance = Speed * Time = 60 * 7 = 420 km. To cover 420 km in 5 hours, the required speed is Distance / Time = 420 / 5 = 84 km/hr."
   },
   {
-    "id": 241,
+    "id": 239,
     "category": "Verbal Reasoning",
     "question_text": "To be 'ubiquitous' means to be:",
     "options": {
@@ -3224,7 +3118,7 @@ export const iqQuestions = [
     "explanation": "Ubiquitous means present, appearing, or found everywhere at the same time."
   },
   {
-    "id": 242,
+    "id": 240,
     "category": "Logical Reasoning",
     "question_text": "A monkey climbs 30 feet at the beginning of each hour and rests for a while when he slips back 20 feet before he again starts climbing in the beginning of the next hour. If he begins his ascent at 8.00 a.m., at what time will he first touch a flag at 120 feet from the ground?",
     "options": {
@@ -3237,7 +3131,7 @@ export const iqQuestions = [
     "explanation": "The monkey's effective climb per hour is 30 - 20 = 10 feet. In 9 hours, he will have climbed 9 * 10 = 90 feet. This will be at 5:00 p.m. At the start of the next hour (5:00 p.m. to 6:00 p.m.), he climbs another 30 feet. 90 + 30 = 120 feet. He will reach the flag at this point, so he won't slip back. This happens at 5:00 p.m. plus the time to climb 30 feet. No wait, the climb happens at the *beginning* of the hour. At 8am he is at 10ft. At 9am he is at 20ft... At 4pm (after 8 hours), he is at 80ft. At 5pm (after 9 hours) he is at 90ft. At the beginning of the next hour, at 5:00 p.m., he starts to climb. He climbs 30 feet, reaching 90+30=120 feet. He touches the flag at 5:00 p.m. Let me recheck. Oh, the question asks when he will first touch the flag. He starts climbing at 8 am. He reaches 90 feet by the end of the 9th hour (at 5 pm). At the beginning of the 10th hour, which is 5:00 p.m., he climbs 30 feet and reaches 120 feet. So he reaches at 5 p.m. Let's re-read the options and my logic.  After 9 hours (at 5 p.m.), he has climbed a net of 90 feet. At the beginning of the 10th hour (i.e., at 5 p.m.), he climbs 30 feet. So, he reaches 120 feet at 5 p.m. Why is the provided answer C (6pm)? Let's trace it hour by hour. 8am: climbs to 30, slips to 10. 9am: climbs to 40, slips to 20. ... After 'n' hours, his position before the final climb is 10n. We want his position to be >= 90 so the final 30ft climb reaches the top. So after 9 hours (at 5pm), he's at 90ft. At 5pm, he starts climbing. He will cover 30ft and reach the top. So he touches the flag at 5pm. The provided answer 'C' (6pm) must be a common mistake where people calculate 10 feet per hour for 12 hours. Or maybe the interpretation is that the rest happens within the hour. Let's re-read: 'climbs 30 feet at the beginning of each hour and rests for a while when he slips back 20 feet before he again starts climbing in the beginning of the next hour'. This means the net progress in one full hour cycle is 10 feet.  At 5pm, he has completed 9 hours and is at 90 feet. At the start of the next hour (5pm), he climbs 30 feet and touches the flag. The time is 5pm. The answer C (6pm) seems incorrect based on the wording. Let me try to find a reason for 6pm. Maybe the slip happens at the end of the hour? No, 'before he again starts climbing'.  The only way to get 6pm is if the final climb also has a slip, which is not logical. Let's assume the question is flawed and stick to the logical 5pm. But since this is a known puzzle type, let me search for the standard interpretation. The standard interpretation is that he will reach the top during the climb and won't slip back. So the 5pm answer is correct. I will create a new question that is less ambiguous."
   },
   {
-    "id": 242,
+    "id": 241,
     "category": "Logical Reasoning",
     "question_text": "Six books are labelled A, B, C, D, E, F and are placed side by side. Books B, C, E and F have green covers while others have yellow covers. Books A, B, D are new while the rest are old. Books A, B, C are law reports while the rest are of physics. Which two books are old physics reports and have green covers?",
     "options": {
@@ -3250,7 +3144,7 @@ export const iqQuestions = [
     "explanation": "Let's list the properties. Green Covers: B, C, E, F. Yellow Covers: A, D. New: A, B, D. Old: C, E, F. Law Reports: A, B, C. Physics Reports: D, E, F. We need books that are: Old (C,E,F), Physics (D,E,F), AND Green (B,C,E,F). The books that satisfy all three conditions are E and F."
   },
   {
-    "id": 243,
+    "id": 242,
     "category": "Series",
     "question_text": "Find the next term in the series: 1, 1, 2, 4, 3, 9, 4, 16, 5, ?",
     "options": {
@@ -3263,7 +3157,7 @@ export const iqQuestions = [
     "explanation": "This is an alternating series. The first series is natural numbers: 1, 2, 3, 4, 5. The second series is the square of the preceding number: 1^2=1, 2^2=4, 3^2=9, 4^2=16. The next term is the square of 5, which is 25."
   },
   {
-    "id": 244,
+    "id": 243,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Lenin, Stalin, Churchill, Mao.",
     "options": {
@@ -3276,7 +3170,7 @@ export const iqQuestions = [
     "explanation": "Lenin, Stalin, and Mao were all prominent Communist leaders. Winston Churchill was a British statesman and a key figure in the opposition to communism during the Cold War."
   },
   {
-    "id": 245,
+    "id": 244,
     "category": "Quantitative Aptitude",
     "question_text": "A man covers half of his journey at 6 km/hr and the remaining half at 3 km/hr. His average speed is:",
     "options": {
@@ -3289,7 +3183,7 @@ export const iqQuestions = [
     "explanation": "The formula for average speed when distances are equal is 2xy/(x+y). So, Average Speed = (2 * 6 * 3) / (6 + 3) = 36 / 9 = 4 km/hr."
   },
   {
-    "id": 246,
+    "id": 245,
     "category": "Verbal Reasoning",
     "question_text": "Which word is the most essential part of 'Atmosphere'?",
     "options": {
@@ -3302,7 +3196,7 @@ export const iqQuestions = [
     "explanation": "The atmosphere is fundamentally a layer of gases surrounding a planet. While it contains oxygen, clouds, and exerts pressure, the defining characteristic is that it is composed of gases."
   },
   {
-    "id": 247,
+    "id": 246,
     "category": "Logical Reasoning",
     "question_text": "Count the number of cubes in the given figure (A 3x3x3 cube with the central cube on each face and the absolute center cube removed).",
     "options": {
@@ -3315,7 +3209,7 @@ export const iqQuestions = [
     "explanation": "A full 3x3x3 cube has 27 smaller cubes. The question describes removing the cube in the center of each of the 6 faces, plus the one in the absolute middle. Total removed = 6 + 1 = 7. Total remaining cubes = 27 - 7 = 20."
   },
   {
-    "id": 248,
+    "id": 247,
     "category": "Series",
     "question_text": "Find the next term in the series: 2, 10, 30, 68, 130, ?",
     "options": {
@@ -3328,7 +3222,7 @@ export const iqQuestions = [
     "explanation": "The pattern is n^3 + n. 1^3+1 = 2. 2^3+2 = 10. 3^3+3 = 30. 4^3+4 = 68. 5^3+5 = 130. The next term is 6^3+6 = 216+6 = 222."
   },
   {
-    "id": 249,
+    "id": 248,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Circle, Square, Rectangle, Triangle",
     "options": {
@@ -3341,7 +3235,7 @@ export const iqQuestions = [
     "explanation": "Square, Rectangle, and Triangle are all polygons (figures made of straight lines). A circle is a curve."
   },
   {
-    "id": 250,
+    "id": 249,
     "category": "Quantitative Aptitude",
     "question_text": "The population of a town was 1,60,000 three years ago. If it increased by 3%, 2.5% and 5% respectively in the last three years, then the present population is:",
     "options": {
@@ -3354,7 +3248,7 @@ export const iqQuestions = [
     "explanation": "Present Population = 160000 * (1 + 3/100) * (1 + 2.5/100) * (1 + 5/100) = 160000 * 1.03 * 1.025 * 1.05 = 177,366."
   },
   {
-    "id": 251,
+    "id": 250,
     "category": "Verbal Reasoning",
     "question_text": "Something 'archaic' is:",
     "options": {
@@ -3367,7 +3261,7 @@ export const iqQuestions = [
     "explanation": "Archaic means very old or old-fashioned, often belonging to an earlier period."
   },
   {
-    "id": 252,
+    "id": 251,
     "category": "Logical Reasoning",
     "question_text": "Roshan is taller than Hardik who is shorter than Sushil. Niza is taller than Harry but shorter than Hardik. Sushil is shorter than Roshan. Who is the tallest?",
     "options": {
@@ -3380,7 +3274,7 @@ export const iqQuestions = [
     "explanation": "From the statements: Roshan > Hardik. Sushil > Hardik. Hardik > Niza > Harry. Roshan > Sushil. Combining these gives Roshan > Sushil > Hardik > Niza > Harry. Therefore, Roshan is the tallest."
   },
   {
-    "id": 253,
+    "id": 252,
     "category": "Series",
     "question_text": "Find the next term in the series: 61, 52, 63, 94, 46, ?",
     "options": {
@@ -3393,7 +3287,7 @@ export const iqQuestions = [
     "explanation": "The terms are squares of consecutive numbers, but with the digits reversed. 4^2=16 (reversed is 61). 5^2=25 (reversed is 52). 6^2=36 (reversed is 63). 7^2=49 (reversed is 94). 8^2=64 (reversed is 46). The next term is 9^2=81 (reversed is 18)."
   },
   {
-    "id": 254,
+    "id": 253,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: T-shirt, Shirt, Trousers, Sweater.",
     "options": {
@@ -3406,7 +3300,7 @@ export const iqQuestions = [
     "explanation": "T-shirt, Shirt, and Sweater are all garments worn on the upper part of the body. Trousers are worn on the lower part."
   },
   {
-    "id": 255,
+    "id": 254,
     "category": "Quantitative Aptitude",
     "question_text": "A man on tour travels first 160 km at 64 km/hr and the next 160 km at 80 km/hr. The average speed for the first 320 km of the tour is:",
     "options": {
@@ -3419,7 +3313,7 @@ export const iqQuestions = [
     "explanation": "Since the distances are equal, we can use the formula 2xy/(x+y). Average speed = (2 * 64 * 80) / (64 + 80) = 10240 / 144 = 71.11 km/hr."
   },
   {
-    "id": 256,
+    "id": 255,
     "category": "Verbal Reasoning",
     "question_text": "Complete the analogy: Authenticity is to Genuine as Mirage is to:",
     "options": {
@@ -3432,7 +3326,7 @@ export const iqQuestions = [
     "explanation": "Authenticity is the quality of being genuine. A mirage is a type of illusion."
   },
   {
-    "id": 257,
+    "id": 256,
     "category": "Logical Reasoning",
     "question_text": "At a party, every person shakes hands with every other person. If there were a total of 66 handshakes, how many people were at the party?",
     "options": {
@@ -3445,7 +3339,7 @@ export const iqQuestions = [
     "explanation": "The formula for the number of handshakes for 'n' people is n(n-1)/2. We are given n(n-1)/2 = 66. So, n(n-1) = 132. By checking the options, we find that 12 * 11 = 132. So, there were 12 people at the party."
   },
   {
-    "id": 258,
+    "id": 257,
     "category": "Series",
     "question_text": "Find the next term in the series: 4, 5, 7, 11, 19, 35, ?",
     "options": {
@@ -3458,7 +3352,7 @@ export const iqQuestions = [
     "explanation": "The difference between terms is doubling. 5-4=1. 7-5=2. 11-7=4. 19-11=8. 35-19=16. The next difference will be 32. So, 35 + 32 = 67."
   },
   {
-    "id": 259,
+    "id": 258,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Mumbai, Chennai, Kolkata, Delhi.",
     "options": {
@@ -3471,33 +3365,33 @@ export const iqQuestions = [
     "explanation": "Mumbai, Chennai, and Kolkata are all major port cities located on the coast of India. Delhi is a landlocked city."
   },
   {
-    "id": 260,
+    "id": 259,
     "category": "Quantitative Aptitude",
-    "question_text": "A grocer has a sale of ₹6435, ₹6927, ₹6855, ₹7230 and ₹6562 for 5 consecutive months. How much sale must he have in the sixth month so that he gets an average sale of ₹6500?",
+    "question_text": "A grocer has a sale of \u20b96435, \u20b96927, \u20b96855, \u20b97230 and \u20b96562 for 5 consecutive months. How much sale must he have in the sixth month so that he gets an average sale of \u20b96500?",
     "options": {
-      "A": "₹4991",
-      "B": "₹5991",
-      "C": "₹6001",
-      "D": "₹6991"
+      "A": "\u20b94991",
+      "B": "\u20b95991",
+      "C": "\u20b96001",
+      "D": "\u20b96991"
     },
     "answer": "A",
-    "explanation": "The total sale required for 6 months is 6500 * 6 = 39000. The total sale for the first 5 months is 6435 + 6927 + 6855 + 7230 + 6562 = 34009. The required sale in the sixth month is 39000 - 34009 = ₹4991."
+    "explanation": "The total sale required for 6 months is 6500 * 6 = 39000. The total sale for the first 5 months is 6435 + 6927 + 6855 + 7230 + 6562 = 34009. The required sale in the sixth month is 39000 - 34009 = \u20b94991."
   },
   {
-    "id": 261,
+    "id": 260,
     "category": "Quantitative Aptitude",
     "question_text": "A wire, when bent in the form of a square, encloses an area of 484 sq cm. What will be the enclosed area when the same wire is bent into the form of a circle?",
     "options": {
-      "A": "125 cm²",
-      "B": "250 cm²",
-      "C": "616 cm²",
-      "D": "650 cm²"
+      "A": "125 cm\u00b2",
+      "B": "250 cm\u00b2",
+      "C": "616 cm\u00b2",
+      "D": "650 cm\u00b2"
     },
     "answer": "C",
     "explanation": "Area of the square = 484, so side 'a' = sqrt(484) = 22 cm. The length of the wire is the perimeter of the square = 4 * 22 = 88 cm. When bent into a circle, the circumference is 88 cm. 2 * (22/7) * r = 88. So, r = (88 * 7) / 44 = 14 cm. Area of the circle = (22/7) * 14 * 14 = 616 sq cm."
   },
   {
-    "id": 262,
+    "id": 261,
     "category": "Logical Reasoning",
     "question_text": "Assertion (A): We prefer to wear white clothes in summer. Reason (R): White clothes are good reflectors of heat.",
     "options": {
@@ -3510,7 +3404,7 @@ export const iqQuestions = [
     "explanation": "It is true that white clothes are preferred in summer (Assertion A). It is also true that white surfaces are good reflectors of light and heat (Reason R). The reason we wear them is because they reflect heat, keeping us cooler. Therefore, R is the correct explanation for A."
   },
   {
-    "id": 263,
+    "id": 262,
     "category": "Series",
     "question_text": "Find the next term in the series: 2, 12, 36, 80, 150, ?",
     "options": {
@@ -3520,10 +3414,10 @@ export const iqQuestions = [
       "D": "300"
     },
     "answer": "B",
-    "explanation": "The pattern is the sum of the cube and the square of consecutive natural numbers. 1³+1² = 2. 2³+2² = 12. 3³+3² = 36. 4³+4² = 80. 5³+5² = 150. The next term is 6³+6² = 216 + 36 = 252."
+    "explanation": "The pattern is the sum of the cube and the square of consecutive natural numbers. 1\u00b3+1\u00b2 = 2. 2\u00b3+2\u00b2 = 12. 3\u00b3+3\u00b2 = 36. 4\u00b3+4\u00b2 = 80. 5\u00b3+5\u00b2 = 150. The next term is 6\u00b3+6\u00b2 = 216 + 36 = 252."
   },
   {
-    "id": 264,
+    "id": 263,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Hydrogen, Oxygen, Nitrogen, Mercury.",
     "options": {
@@ -3536,7 +3430,7 @@ export const iqQuestions = [
     "explanation": "Hydrogen, Oxygen, and Nitrogen are all non-metallic elements that are gases at standard temperature and pressure. Mercury is a metal that is liquid at standard temperature and pressure."
   },
   {
-    "id": 265,
+    "id": 264,
     "category": "Verbal Reasoning",
     "question_text": "Complete the analogy: Pasteur is to Pasteurization as Curie is to:",
     "options": {
@@ -3549,7 +3443,7 @@ export const iqQuestions = [
     "explanation": "Louis Pasteur developed the process of pasteurization. Marie Curie's pioneering research led to the discovery and understanding of radioactivity."
   },
   {
-    "id": 266,
+    "id": 265,
     "category": "Quantitative Aptitude",
     "question_text": "How many times in 24 hours are the hands of a clock in a straight line but opposite in direction?",
     "options": {
@@ -3562,7 +3456,7 @@ export const iqQuestions = [
     "explanation": "The hands of a clock are opposite once in every hour, but in a 12-hour period, this happens only 11 times (the event between 5-6 and 6-7 happens exactly at 6). Therefore, in 24 hours, it happens 11 * 2 = 22 times."
   },
   {
-    "id": 267,
+    "id": 266,
     "category": "Logical Reasoning",
     "question_text": "A man said to a lady, 'Your mother's husband's sister is my aunt.' How is the lady related to the man?",
     "options": {
@@ -3575,7 +3469,7 @@ export const iqQuestions = [
     "explanation": "'Your mother's husband' is the lady's father. 'The lady's father's sister' is the lady's aunt. The man says this person is also his aunt. If they share the same aunt, they are siblings or cousins. Since the relationship is direct (aunt), they are most likely siblings. Thus, the lady is the man's sister."
   },
   {
-    "id": 268,
+    "id": 267,
     "category": "Series",
     "question_text": "Find the next term in the series: 7, 26, 63, 124, 215, 342, ?",
     "options": {
@@ -3588,7 +3482,7 @@ export const iqQuestions = [
     "explanation": "The pattern is n^3 - 1. 2^3-1=7. 3^3-1=26. 4^3-1=63. 5^3-1=124. 6^3-1=215. 7^3-1=342. The next term is 8^3-1 = 512-1 = 511."
   },
   {
-    "id": 269,
+    "id": 268,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Sailing, Driving, Diving, Surfing.",
     "options": {
@@ -3601,7 +3495,7 @@ export const iqQuestions = [
     "explanation": "Sailing, Diving, and Surfing are all water sports or activities. Driving is a land-based activity."
   },
   {
-    "id": 270,
+    "id": 269,
     "category": "Quantitative Aptitude",
     "question_text": "In a mixture of 60 litres, the ratio of milk and water is 2:1. If this ratio is to be 1:2, then the quantity of water to be further added is:",
     "options": {
@@ -3614,7 +3508,7 @@ export const iqQuestions = [
     "explanation": "Initial mixture is 60L. Milk = (2/3)*60 = 40L. Water = (1/3)*60 = 20L. Let 'x' litres of water be added. The amount of milk remains 40L. New water amount is 20+x. The new ratio is 40 / (20+x) = 1/2. Cross-multiplying gives 80 = 20+x. So, x = 60 litres."
   },
   {
-    "id": 271,
+    "id": 270,
     "category": "Verbal Reasoning",
     "question_text": "Something done with 'alacrity' is done:",
     "options": {
@@ -3627,7 +3521,7 @@ export const iqQuestions = [
     "explanation": "Alacrity means brisk and cheerful readiness or eagerness."
   },
   {
-    "id": 272,
+    "id": 271,
     "category": "Logical Reasoning",
     "question_text": "At what time between 4 and 5 o'clock will the hands of a clock be at right angles for the first time?",
     "options": {
@@ -3640,7 +3534,7 @@ export const iqQuestions = [
     "explanation": "At 4 o'clock, the hands are 20 minute spaces apart. To be at right angles (15 minute spaces apart), the minute hand must gain 20-15=5 minute spaces on the hour hand. The minute hand gains 55 minute spaces in 60 minutes. Time to gain 5 spaces = (60/55) * 5 = 60/11 = 5 and 5/11 minutes. This happens at 5 and 5/11 minutes past 4."
   },
   {
-    "id": 273,
+    "id": 272,
     "category": "Series",
     "question_text": "Find the next term in the series: 3, 7, 15, 31, 63, ?",
     "options": {
@@ -3653,7 +3547,7 @@ export const iqQuestions = [
     "explanation": "The pattern is to multiply by 2 and add 1, or simply 2^n - 1. 2^2-1=3. 2^3-1=7. 2^4-1=15. 2^5-1=31. 2^6-1=63. The next term is 2^7-1 = 128-1 = 127."
   },
   {
-    "id": 274,
+    "id": 273,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Calendar, Date, Month, Year.",
     "options": {
@@ -3666,9 +3560,9 @@ export const iqQuestions = [
     "explanation": "Date, Month, and Year are all specific components or units of time. A Calendar is the system or tool used to display and organize these units."
   },
   {
-    "id": 275,
+    "id": 274,
     "category": "Quantitative Aptitude",
-    "question_text": "The angle of elevation of a ladder leaning against a wall is 60° and the foot of the ladder is 4.6 m away from the wall. What is the length of the ladder?",
+    "question_text": "The angle of elevation of a ladder leaning against a wall is 60\u00b0 and the foot of the ladder is 4.6 m away from the wall. What is the length of the ladder?",
     "options": {
       "A": "2.3 m",
       "B": "4.6 m",
@@ -3676,10 +3570,10 @@ export const iqQuestions = [
       "D": "9.2 m"
     },
     "answer": "D",
-    "explanation": "Let the length of the ladder be L. The setup forms a right-angled triangle. The distance from the wall is the adjacent side, and the ladder is the hypotenuse. cos(angle) = Adjacent/Hypotenuse. cos(60°) = 4.6 / L. Since cos(60°) = 0.5, we have 0.5 = 4.6 / L. L = 4.6 / 0.5 = 9.2 m."
+    "explanation": "Let the length of the ladder be L. The setup forms a right-angled triangle. The distance from the wall is the adjacent side, and the ladder is the hypotenuse. cos(angle) = Adjacent/Hypotenuse. cos(60\u00b0) = 4.6 / L. Since cos(60\u00b0) = 0.5, we have 0.5 = 4.6 / L. L = 4.6 / 0.5 = 9.2 m."
   },
   {
-    "id": 276,
+    "id": 275,
     "category": "Verbal Reasoning",
     "question_text": "A 'plethora' of something means:",
     "options": {
@@ -3692,7 +3586,7 @@ export const iqQuestions = [
     "explanation": "A plethora means a large or excessive amount of something."
   },
   {
-    "id": 277,
+    "id": 276,
     "category": "Logical Reasoning",
     "question_text": "If '+' means '/', '/' means '-', '-' means 'x', and 'x' means '+', what will be the value of the expression: 8 / 6 + 3 - 4 x 2?",
     "options": {
@@ -3705,7 +3599,7 @@ export const iqQuestions = [
     "explanation": "Substitute the operators: The expression becomes 8 - 6 / 3 x 4 + 2. Following BODMAS/PEMDAS: 8 - (6/3) * 4 + 2 = 8 - 2 * 4 + 2 = 8 - 8 + 2 = 2."
   },
   {
-    "id": 278,
+    "id": 277,
     "category": "Series",
     "question_text": "Find the next term in the series: F, L, P, R, T, ?",
     "options": {
@@ -3718,20 +3612,7 @@ export const iqQuestions = [
     "explanation": "This is a tricky series. These are the letters that do not contain any closed loops in their uppercase form. Another logic: The position of the letters in the alphabet are 6, 12, 16, 18, 20. The difference is +6, +4, +2, +2. This doesn't seem right. Let's try another logic. Maybe it's related to a keyboard? No. What if the pattern is based on some other property? F, L, P, R, T. All these letters can be written using only straight lines. The next letter in the alphabet that fits this is V."
   },
   {
-    "id": 279,
-    "category": "Spatial Reasoning",
-    "question_text": "Which of the following words cannot be formed from the letters of the word 'ENVIRONMENT'?",
-    "options": {
-      "A": "ENTER",
-      "B": "METEOR",
-      "C": "ROVE",
-      "D": "TREMOR"
-    },
-    "answer": "D",
-    "explanation": "The word ENVIRONMENT contains only one 'R'. The word TREMOR requires two 'R's to be formed, so it cannot be made from the given letters."
-  },
-  {
-    "id": 280,
+    "id": 278,
     "category": "Quantitative Aptitude",
     "question_text": "A student multiplied a number by 3/5 instead of 5/3. What is the percentage error in the calculation?",
     "options": {
@@ -3744,7 +3625,7 @@ export const iqQuestions = [
     "explanation": "Let the number be x. Correct answer = (5/3)x. Incorrect answer = (3/5)x. The error is (5/3)x - (3/5)x = (25-9)/15 * x = (16/15)x. The percentage error is (Error / Correct Answer) * 100 = ((16/15)x / (5/3)x) * 100 = (16/15 * 3/5) * 100 = (16/25) * 100 = 64%."
   },
   {
-    "id": 281,
+    "id": 279,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Alps, Andes, Rockies, Sahara.",
     "options": {
@@ -3757,7 +3638,7 @@ export const iqQuestions = [
     "explanation": "The Alps, Andes, and Rockies are all major mountain ranges. The Sahara is a major desert."
   },
   {
-    "id": 282,
+    "id": 280,
     "category": "Verbal Reasoning",
     "question_text": "Complete the analogy: Plaintiff is to Defendant as Complainant is to:",
     "options": {
@@ -3770,7 +3651,7 @@ export const iqQuestions = [
     "explanation": "A Plaintiff and Defendant are the two opposing parties in a civil lawsuit. A Complainant and an Accused (or Respondent) are the opposing parties in a criminal case. The relationship is that of opposing sides in a legal matter."
   },
   {
-    "id": 283,
+    "id": 281,
     "category": "Logical Reasoning",
     "question_text": "The calendar for the year 2007 will be the same for the year:",
     "options": {
@@ -3783,7 +3664,7 @@ export const iqQuestions = [
     "explanation": "For a calendar to repeat, the total number of odd days must be a multiple of 7. 2007 is a normal year (1 odd day). 2008 is a leap year (2). 2009(1), 2010(1), 2011(1), 2012(2), 2013(1), 2014(1), 2015(1), 2016(2), 2017(1). Let's sum odd days from 2007: 1(07)+2(08)+1(09)+1(10)+1(11)+2(12)+1(13) = 9. Not a multiple of 7. Let's try again from 2007. Odd days: 2007(1), 2008(2), 2009(1), 2010(1), 2011(1), 2012(2). Total sum = 1+2+1+1+1+2=8. Still no. Let's restart. Sum of odd days from the end of 2007: 2008(2), 2009(1), 2010(1), 2011(1), 2012(2), 2013(1), 2014(1), 2015(1), 2016(2), 2017(1). The sum of odd days must be 0 mod 7. 2007(1)+2008(2)+2009(1)+2010(1)+2011(1) = 6. 2012 is leap year, so no. 2013 is not it. We need the sum of odd days to be 7. 2007(1), 2008(2), 2009(1), 2010(1), 2011(1), 2012(2), 2013(1), 2014(1), 2015(1), 2016(2), 2017(1). The sum of odd days from 2007 to 2017 is 1+2+1+1+1+2+1+1+1+2+1 = 14. Since 14 is a multiple of 7, the calendar for 2018 will be the same as 2007."
   },
   {
-    "id": 284,
+    "id": 282,
     "category": "Series",
     "question_text": "Find the next term in the series: 3, 8, 18, 38, 78, ?",
     "options": {
@@ -3796,7 +3677,7 @@ export const iqQuestions = [
     "explanation": "The pattern is to multiply by 2 and add 2. 3*2+2=8. 8*2+2=18. 18*2+2=38. 38*2+2=78. The next term is 78*2+2 = 156+2 = 158."
   },
   {
-    "id": 285,
+    "id": 283,
     "category": "Quantitative Aptitude",
     "question_text": "In a class, the average age of 24 students and their teacher is 16 years. If the teacher's age is excluded, the average age of the students reduces by 1 year. What is the age of the teacher?",
     "options": {
@@ -3809,7 +3690,7 @@ export const iqQuestions = [
     "explanation": "Total age of 24 students + 1 teacher (25 people) = 25 * 16 = 400 years. If the teacher is excluded, there are 24 students and the average age is 15. Total age of 24 students = 24 * 15 = 360 years. The teacher's age is the difference: 400 - 360 = 40 years."
   },
   {
-    "id": 286,
+    "id": 284,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: 25, 36, 49, 64, 81.",
     "options": {
@@ -3822,7 +3703,7 @@ export const iqQuestions = [
     "explanation": "All the numbers are perfect squares. However, 25, 49, and 81 are squares of odd numbers (5, 7, 9). 36 and 64 are squares of even numbers (6, 8). This gives two groups. Let's try another logic. All numbers are squares. 49 is the only one that's a square of a prime number. No, 25 is also a square of a prime. Let's check the sum of digits. 2+5=7, 3+6=9, 4+9=13, 6+4=10, 8+1=9. This doesn't show a clear pattern. Let's reconsider odd/even squares. 36 and 64 are even squares. The others are odd squares. This means there's more than one odd one out. The question might be flawed. Let's find a better logic. Maybe there's a property of the numbers themselves. 49 is the only one whose digits are both prime numbers (4 is not). This is weak. Let's rewrite the question to be unambiguous. Example: 2, 4, 8, 10, 16. 10 is the odd one out as others are powers of 2."
   },
   {
-    "id": 286,
+    "id": 285,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: 16, 32, 56, 64, 128.",
     "options": {
@@ -3835,7 +3716,7 @@ export const iqQuestions = [
     "explanation": "All numbers except 56 are powers of 2 (2^4, 2^5, 2^6, 2^7). 56 is not a power of 2."
   },
   {
-    "id": 287,
+    "id": 286,
     "category": "Verbal Reasoning",
     "question_text": "A person who is 'garrulous' is:",
     "options": {
@@ -3848,7 +3729,7 @@ export const iqQuestions = [
     "explanation": "Garrulous means excessively talkative, especially on trivial matters."
   },
   {
-    "id": 288,
+    "id": 287,
     "category": "Logical Reasoning",
     "question_text": "Five friends (A, B, C, D, E) are sitting in a circle facing the center. C is to the immediate left of A. D is between B and E. Who is to the immediate left of D?",
     "options": {
@@ -3861,7 +3742,7 @@ export const iqQuestions = [
     "explanation": "Let's place A. C is to the immediate left of A. So we have (C, A, ...). D is between B and E, so we have the block (B, D, E) or (E, D, B). We need to fit this block into the remaining three spots. If we place (B, D, E), the arrangement is C, A, B, D, E. Let's check. D is between B and E (Yes). C is left of A (Yes). In this arrangement, B is to the immediate left of D. If we try (E, D, B), we get C, A, E, D, B. D is between E and B (Yes). B is to the left of D. So in both valid arrangements, B is to the immediate left of D."
   },
   {
-    "id": 289,
+    "id": 288,
     "category": "Series",
     "question_text": "Find the next term in the series: 1, 8, 9, 64, 25, 216, ?",
     "options": {
@@ -3874,7 +3755,7 @@ export const iqQuestions = [
     "explanation": "This is an alternating series of squares and cubes. 1^2, 2^3, 3^2, 4^3, 5^2, 6^3. The next term is the square of the next number, 7^2 = 49."
   },
   {
-    "id": 290,
+    "id": 289,
     "category": "Quantitative Aptitude",
     "question_text": "The ratio of the ages of a father and son is 7:3. The product of their ages is 756. The ratio of their ages after 6 years will be:",
     "options": {
@@ -3887,7 +3768,7 @@ export const iqQuestions = [
     "explanation": "Let their ages be 7x and 3x. The product is (7x)(3x) = 21x^2 = 756. x^2 = 756/21 = 36. So, x=6. Their present ages are 7*6=42 and 3*6=18. After 6 years, their ages will be 42+6=48 and 18+6=24. The new ratio is 48:24, which is 2:1."
   },
   {
-    "id": 291,
+    "id": 290,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Rocking Chair, Recliner, Stool, Sofa.",
     "options": {
@@ -3900,7 +3781,7 @@ export const iqQuestions = [
     "explanation": "A rocking chair, recliner, and sofa are all types of seating that have a backrest. A stool is a type of seating that typically does not have a backrest."
   },
   {
-    "id": 292,
+    "id": 291,
     "category": "Verbal Reasoning",
     "question_text": "A 'maverick' is someone who is:",
     "options": {
@@ -3913,7 +3794,7 @@ export const iqQuestions = [
     "explanation": "A maverick is an independent-minded person who does not conform to the accepted views or practices of a group."
   },
   {
-    "id": 293,
+    "id": 292,
     "category": "Logical Reasoning",
     "question_text": "How many 4's are there in the following number series which are immediately preceded by a 7 but not immediately followed by a 3? 5 9 3 2 1 7 4 2 6 9 7 4 6 1 3 2 8 7 4 1 3 8 3 2 5 6 7 4 3 9 5 8 2 0 1 8 7 4 6 3",
     "options": {
@@ -3926,7 +3807,7 @@ export const iqQuestions = [
     "explanation": "We are looking for the pattern '7-4-X' where X is not 3. Let's scan the series: 1) '7 4 2' - Yes. 2) '7 4 6' - Yes. 3) '7 4 1' - Yes. 4) '7 4 3' - No. 5) '7 4 6' - Yes. Oh wait, I double counted the last one. Let's re-scan carefully. '...7 4 2...' (1). '...7 4 6...' (2). '...7 4 1...' (3). '...7 4 3...' (No). '...7 4 6...' (4). So there are four such instances. Let me double check my scan. 5 9 3 2 1 **7 4 2** 6 9 **7 4 6** 1 3 2 8 **7 4 1** 3 8 3 2 5 6 **7 4 3** 9 5 8 2 0 1 8 **7 4 6** 3.  The instances are '742', '746', '741', and '746'. The sequence '743' is excluded. So there are four. The answer is C."
   },
   {
-    "id": 294,
+    "id": 293,
     "category": "Series",
     "question_text": "Find the next term in the series: 2, 2, 3, 6, 15, 45, ?",
     "options": {
@@ -3939,7 +3820,7 @@ export const iqQuestions = [
     "explanation": "The pattern is to multiply by a sequence of increasing numbers: 1, 1.5, 2, 2.5, 3...  2 * 1 = 2. 2 * 1.5 = 3. 3 * 2 = 6. 6 * 2.5 = 15. 15 * 3 = 45. The next multiplier is 3.5. So, 45 * 3.5 = 157.5."
   },
   {
-    "id": 295,
+    "id": 294,
     "category": "Quantitative Aptitude",
     "question_text": "Two trains of equal length are running on parallel lines in the same direction at 46 km/hr and 36 km/hr. The faster train passes the slower train in 36 seconds. The length of each train is:",
     "options": {
@@ -3952,7 +3833,7 @@ export const iqQuestions = [
     "explanation": "Relative speed = 46 - 36 = 10 km/hr. Convert to m/s: 10 * (5/18) = 25/9 m/s. The total distance covered is the sum of the lengths of the two trains (L+L = 2L). Distance = Speed * Time. 2L = (25/9) * 36 = 100 m. So, L = 50 m."
   },
   {
-    "id": 296,
+    "id": 295,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Architect, Mason, Carpenter, Blacksmith.",
     "options": {
@@ -3965,7 +3846,7 @@ export const iqQuestions = [
     "explanation": "A Mason, Carpenter, and Blacksmith are all skilled craftsmen or tradespeople who build or create things with their hands. An Architect is primarily involved in the design and planning process, not the physical construction."
   },
   {
-    "id": 297,
+    "id": 296,
     "category": "Verbal Reasoning",
     "question_text": "To 'placate' someone means to:",
     "options": {
@@ -3978,7 +3859,7 @@ export const iqQuestions = [
     "explanation": "To placate someone means to make them less angry or hostile, typically by making concessions."
   },
   {
-    "id": 298,
+    "id": 297,
     "category": "Logical Reasoning",
     "question_text": "At a conference, 12 members shook hands with each other before & after the meeting. How many handshakes were there in total?",
     "options": {
@@ -3991,7 +3872,7 @@ export const iqQuestions = [
     "explanation": "The number of handshakes for 12 people is n(n-1)/2 = 12(11)/2 = 66. Since this happens twice (before and after the meeting), the total number of handshakes is 66 * 2 = 132."
   },
   {
-    "id": 299,
+    "id": 298,
     "category": "Series",
     "question_text": "Find the next term in the series: 90, 84, 86, 80, 82, 76, 78, ?",
     "options": {
@@ -4004,7 +3885,7 @@ export const iqQuestions = [
     "explanation": "The pattern is an alternating series of operations: -6, +2, -6, +2, -6, +2... The last operation was 76+2=78. The next operation is -6. So, 78 - 6 = 72."
   },
   {
-    "id": 300,
+    "id": 299,
     "category": "Quantitative Aptitude",
     "question_text": "What is the probability of getting a sum of 9 from two throws of a dice?",
     "options": {
@@ -4017,7 +3898,7 @@ export const iqQuestions = [
     "explanation": "Total possible outcomes from two dice throws is 6 * 6 = 36. The combinations that sum to 9 are (3,6), (4,5), (5,4), and (6,3). There are 4 favorable outcomes. The probability is 4/36 = 1/9."
   },
   {
-    "id": 301,
+    "id": 300,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Eagle, Vulture, Hawk, Penguin.",
     "options": {
@@ -4030,7 +3911,7 @@ export const iqQuestions = [
     "explanation": "Eagle, Vulture, and Hawk are all birds of prey that can fly. A penguin is a flightless bird."
   },
   {
-    "id": 302,
+    "id": 301,
     "category": "Verbal Reasoning",
     "question_text": "A 'conundrum' is a:",
     "options": {
@@ -4043,7 +3924,7 @@ export const iqQuestions = [
     "explanation": "A conundrum is a confusing and difficult problem or question, often a riddle."
   },
   {
-    "id": 303,
+    "id": 302,
     "category": "Logical Reasoning",
     "question_text": "If A is the brother of B, C is the sister of A, D is the brother of E, and E is the daughter of B, who is the uncle of D?",
     "options": {
@@ -4056,7 +3937,7 @@ export const iqQuestions = [
     "explanation": "E is the daughter of B, and D is the brother of E. This makes D the son of B. A is the brother of B. Therefore, A is the uncle of D."
   },
   {
-    "id": 304,
+    "id": 303,
     "category": "Series",
     "question_text": "Find the next term in the series: 3, 6, 11, 20, 37, 70, ?",
     "options": {
@@ -4069,20 +3950,20 @@ export const iqQuestions = [
     "explanation": "The pattern is *2-0, *2-1, *2-2, *2-3, *2-4... 3*2-0=6(no). Let's try differences. 3, 5, 9, 17, 33. The differences are almost doubling. 3, 3+2=5, 5+4=9, 9+8=17, 17+16=33. The next difference is 33+32=65. So, 70+65 = 135."
   },
   {
-    "id": 305,
+    "id": 304,
     "category": "Quantitative Aptitude",
     "question_text": "An amount of money is to be distributed among P, Q and R in the ratio of 2:7:9. The total of P's and Q's share is equal to R's share. What is the difference between the shares of P and Q?",
     "options": {
-      "A": "₹ 500",
-      "B": "₹ 750",
-      "C": "₹ 900",
+      "A": "\u20b9 500",
+      "B": "\u20b9 750",
+      "C": "\u20b9 900",
       "D": "Cannot be determined"
     },
     "answer": "D",
     "explanation": "Let the shares be 2x, 7x, and 9x. The statement 'The total of P's and Q's share is equal to R's share' means 2x + 7x = 9x, which is 9x=9x. This statement is always true for this ratio and gives us no information about the value of x or the total amount of money. Without knowing the total amount, we cannot determine the actual value of the shares or their difference."
   },
   {
-    "id": 306,
+    "id": 305,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Producer, Director, Actor, Financier.",
     "options": {
@@ -4095,7 +3976,7 @@ export const iqQuestions = [
     "explanation": "Producer, Director, and Financier are all 'behind-the-scenes' roles in filmmaking, involved in management, creation, and funding. An Actor is an 'on-screen' role, performing in the film."
   },
   {
-    "id": 307,
+    "id": 306,
     "category": "Verbal Reasoning",
     "question_text": "To 'exacerbate' a situation means to:",
     "options": {
@@ -4108,7 +3989,7 @@ export const iqQuestions = [
     "explanation": "To exacerbate means to make a problem, bad situation, or negative feeling worse."
   },
   {
-    "id": 308,
+    "id": 307,
     "category": "Logical Reasoning",
     "question_text": "If the seventh day of a month is three days earlier than Friday, what day will it be on the nineteenth day of the month?",
     "options": {
@@ -4121,7 +4002,7 @@ export const iqQuestions = [
     "explanation": "Three days earlier than Friday is Tuesday. So, the 7th day is a Tuesday. The 14th day (7+7) will also be a Tuesday. The 19th day is 5 days after the 14th. Tuesday + 5 days = Sunday."
   },
   {
-    "id": 309,
+    "id": 308,
     "category": "Series",
     "question_text": "Find the next term in the series: 2, 4, 16, 96, 768, ?",
     "options": {
@@ -4134,7 +4015,7 @@ export const iqQuestions = [
     "explanation": "The pattern is to multiply by increasing even numbers. 2*2=4. 4*4=16. 16*6=96. 96*8=768. The next multiplier is 10. 768 * 10 = 7680. Wait, let me check that again. 2*2=4, 4*4=16, 16*6=96, 96*8=768. Next should be 768*10 = 7680. Let me check my options. It seems I made a mistake in the question's intended logic. Let's try another pattern. Maybe *2, *4, *6, *8... Let me check. 2*2=4. 4*4=16. 16*6=96. 96*8=768. The next multiplier is 10. The result is 7680. Option A. Let me re-read the options. Maybe there's a different pattern. Let's try multiplying by consecutive terms? No. How about multiplying by powers of 2? 2*2=4. 4*2^2=16. 16*? No. The *2, *4, *6, *8, *10 pattern seems the most logical. Option A should be correct."
   },
   {
-    "id": 310,
+    "id": 309,
     "category": "Quantitative Aptitude",
     "question_text": "The length and breadth of a square are increased by 30% and 20% respectively. The area of the rectangle so formed exceeds the area of the square by:",
     "options": {
@@ -4147,7 +4028,7 @@ export const iqQuestions = [
     "explanation": "Let the side of the square be 10. Area = 100. New length = 10 * 1.3 = 13. New breadth = 10 * 1.2 = 12. New area = 13 * 12 = 156. The increase in area is 156 - 100 = 56. The percentage increase is (56 / 100) * 100 = 56%."
   },
   {
-    "id": 311,
+    "id": 310,
     "category": "Odd One Out",
     "question_text": "Find the odd one out: Gandhi, Nehru, Patel, Jinnah.",
     "options": {

@@ -28,11 +28,10 @@ const PracticePage = ({ onStartPractice }) => {
         // Set fallback data if loading fails
         setPracticeData({
           totalQuestions: 0,
-          categories: ['Verbal-Logical Reasoning', 'Numerical & Abstract Reasoning', 'Spatial Reasoning', 'Pattern Recognition'],
+          categories: ['Verbal-Logical Reasoning', 'Numerical & Abstract Reasoning', 'Pattern Recognition'],
           questionsPerCategory: [
             { category: 'Verbal-Logical Reasoning', count: 25 },
             { category: 'Numerical & Abstract Reasoning', count: 25 },
-            { category: 'Spatial Reasoning', count: 25 },
             { category: 'Pattern Recognition', count: 25 }
           ]
         });
@@ -50,8 +49,6 @@ const PracticePage = ({ onStartPractice }) => {
         return '🧠';
       case 'Numerical & Abstract Reasoning':
         return '⚡';
-      case 'Spatial Reasoning':
-        return '🔮';
       case 'Pattern Recognition':
         return '💎';
       default:
